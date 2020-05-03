@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'remoteteam-icons';
+  src:  url(asset_path('remoteteam-icons.eot'));
+  src:  url(asset_path('remoteteam-icons.eot#iefix')) format('embedded-opentype'),
+  url(asset_path('remoteteam-icons.ttf')) format('truetype'),
+    url(asset_path('remoteteam-icons.woff')) format('woff'),
+    url(asset_path('remoteteam-icons.svg#remoteteam-icons')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'remoteteam-icons', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-deduction:before {
+  content: "\e908";
+}
+.icon-addition:before {
+  content: "\e909";
+}
+.icon-private-notes:before {
+  content: "\e90a";
+}
+.icon-granted-accounts:before {
+  content: "\e90b";
+}
+.icon-manual-payment:before {
+  content: "\e90c";
+}
+.icon-documents:before {
+  content: "\e900";
+}
+.icon-tax-comp:before {
+  content: "\e901";
+}
+.icon-check-in-app:before {
+  content: "\e902";
+}
+.icon-team-app:before {
+  content: "\e903";
+}
+.icon-payroll:before {
+  content: "\e904";
+}
+.icon-inventories:before {
+  content: "\e905";
+}
+.icon-reimbursements:before {
+  content: "\e906";
+}
+.icon-time-off:before {
+  content: "\e907";
+}
