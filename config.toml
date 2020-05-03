@@ -2,7 +2,7 @@
 baseURL = "https://remoteteam.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "clean"
+theme = "kross-hugo"
 title = "RemoteTeam"
 
 
@@ -36,6 +36,7 @@ weight = 4
 
 
 disableHugoGeneratorInject = true
+publishDir = "dist"
 
 # default parameters
 [params]
