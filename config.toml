@@ -23,17 +23,23 @@ URL = "pricing"
 name = "Pricing"
 weight = 2
 
+
+[[menu.main]]
+URL = "resources"
+name = "Posts"
+parent = "Resources"
+weight = 5
+
+[[menu.main]]
+URL = "virtual-zoom-backgrounds"
+name = "Zoom Backgrounds"
+parent = "Resources"
+weight = 5
+
 [[menu.main]]
 URL = "blog"
 name = "Blog"
-weight = 3
-
-
-[[menu.main]]
-URL = "press"
-name = "Press Kit"
-weight = 4
-
+weight = 5
 
 disableHugoGeneratorInject = true
 publishDir = "dist"
