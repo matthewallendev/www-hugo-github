@@ -1,0 +1,72 @@
+# default configuration
+baseURL = "https://remoteteam.com"
+languageCode = "en-us"
+summaryLength = "10"
+theme = "clean"
+title = "RemoteTeam"
+
+# css plugins
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+
+
+# js plugin
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+
+# menu
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 3
+
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+weight = 4
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 5
+
+
+# default parameters
+[params]
+home = "Home"
+logo = "https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,c_scale,w_119/v1579546392/www/logo-light_mijgnj.png"
+# theme color
+theme_color = "#2d46c1"
+# contact info
+phone = "+880 2544 658 256"
+email = "support@remoteteam.com"
+address = "156 2nd Street San Francisco, CA 94105"
+# meta description
+author = "Remote Team"
+description = "This is meta description"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "Copyright &copy; 2020"
+
+# social site
+[[params.social]]
+URL = "https://twitter.com/remoteteamcom"
+TITLE = "Twitter"
+
+[[params.social]]
+URL = "https://www.linkedin.com/company/remoteteam"
+TITLE = "Linkedin"
+
+[[params.social]]
+URL = "https://stackshare.io/companies/remoteteam"
+TITLE = "StackShare"
+
+
