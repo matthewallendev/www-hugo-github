@@ -28,15 +28,11 @@ URL = "blog"
 name = "Blog"
 weight = 3
 
-[[menu.main]]
-URL = "portfolio"
-name = "Portfolio"
-weight = 4
 
 [[menu.main]]
 URL = "press"
 name = "Press Kit"
-weight = 5
+weight = 4
 
 
 disableHugoGeneratorInject = true

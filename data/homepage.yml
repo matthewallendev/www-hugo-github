@@ -14,23 +14,19 @@ about:
 # skill
 skill:
   enable : true
-  title : "Skills"
+  title : "Products"
   item:
-    - title : "Web Design"
-      progress : "90%"
-      color : "#fdb157"
+    - title : "Payrolls"
+      description : "Automate Payrolls for your remote team"
 
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
+    - title : "Time Off"
+      description : "Easily manage time-off"
 
-    - title : "After Effects"
-      progress : "80%"
-      color : "#bdecf6"
+    - title : "HR Tools"
+      description : "Make your remote team feel closer to each other"
 
-    - title : "Web App"
-      progress : "70%"
-      color : "#ffbcaa"
+    - title : "Compliance"
+      description : "Tax Compliance for a Global Workforce"
 
 # experience
 experience:
@@ -55,27 +51,45 @@ experience:
 # education
 education:
   enable : true
-  title : "Education"
+  title : "HR Tools"
   item:
-    - title : "Marters in UX Design"
+    - title : "Birthdays"
       year : "2006"
       academy : "Masassusets Institute of Technology"
 
-    - title : "Honours in Fine Arts"
+    - title : "Local Holidays"
       year : "2004"
       academy : "Harvard University"
 
-    - title : "Higher Secondary Certificat"
+    - title : "Diversity Reports"
       year : "2000"
       academy : "Cardiff School"
 
-    - title : "Secondary School Certificate"
+    - title : "Burn Rates"
       year : "1998"
       academy : "Cardiff School"
 
+    - title : "Team Departments"
+      year : "2006"
+      academy : "Masassusets Institute of Technology"
+
+    - title : "Documents"
+      year : "2004"
+      academy : "Harvard University"
+
+    - title : "Onboarding"
+      year : "2000"
+      academy : "Cardiff School"
+
+    - title : "Inventory"
+      year : "1998"
+      academy : "Cardiff School"
+    
+
+
 # service
 service:
-  enable : true
+  enable : false
   title : "Services"
   item:
     - title : "UI Design"
@@ -93,16 +107,9 @@ service:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
       highlighted : false
 
-# portfolio
-portfolio:
-  enable : true
-  title : "Portfolio"
-  item_show : 5
-  # portfolio item comes from 'data/portfolio.yml' item.
-
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"
@@ -136,23 +143,6 @@ clients_logo_slider:
     - logo : "images/clients-logo/client-logo-4.png"
       URL : "#"
 
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
 
 # blog
 blog:
