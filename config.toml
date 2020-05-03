@@ -5,6 +5,7 @@ summaryLength = "10"
 theme = "clean"
 title = "RemoteTeam"
 
+
 # css plugins
 [[params.plugins.css]]
 URL = "plugins/bootstrap/bootstrap.min.css"
@@ -38,6 +39,8 @@ name = "Press Kit"
 weight = 5
 
 
+disableHugoGeneratorInject = true
+
 # default parameters
 [params]
 home = "Home"
@@ -55,6 +58,7 @@ description = "This is meta description"
 google_analytics_id = "" # Your ID
 # copyright
 copyright = "Copyright &copy; 2020"
+
 
 # social site
 [[params.social]]
