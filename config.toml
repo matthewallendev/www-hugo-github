@@ -2,7 +2,7 @@
 baseURL = "https://remoteteam.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "kross-hugo"
+theme = "remoteteam"
 title = "RemoteTeam"
 
 
@@ -18,10 +18,23 @@ URL = "plugins/jQuery/jquery.min.js"
 URL = "plugins/bootstrap/bootstrap.min.js"
 
 # menu
+
+[[menu.main]]
+URL = "payroll"
+name = "Payroll"
+parent = "Platform"
+weight = 2
+
+[[menu.main]]
+URL = "time-off"
+name = "Time Off"
+parent = "Platform"
+weight = 2
+
 [[menu.main]]
 URL = "pricing"
 name = "Pricing"
-weight = 2
+weight = 3
 
 
 [[menu.main]]
@@ -40,6 +53,8 @@ weight = 5
 URL = "blog"
 name = "Blog"
 weight = 5
+
+
 
 disableHugoGeneratorInject = true
 publishDir = "dist"
