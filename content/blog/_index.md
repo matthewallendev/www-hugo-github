@@ -1,5 +1,5 @@
 ---
 title: "Blog"
-description: "This is meta description."
+description: "Remote Team Blog Posts."
 draft: false
 ---
