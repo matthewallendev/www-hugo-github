@@ -18,8 +18,8 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 
 # menu
 [[menu.main]]
-URL = "about"
-name = "About"
+URL = "pricing"
+name = "Pricing"
 weight = 2
 
 [[menu.main]]
@@ -33,8 +33,8 @@ name = "Portfolio"
 weight = 4
 
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "press"
+name = "Press Kit"
 weight = 5
 
 
