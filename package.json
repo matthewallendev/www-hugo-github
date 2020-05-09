@@ -1,5 +1,5 @@
 {
-    "name": "hugo-starter-kit",
+    "name": "www-hugo",
     "version": "1.0.0",
     "scripts": {
         "assets:development": "cross-env NODE_ENV=development webpack --progress --hide-modules",
@@ -32,9 +32,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/donnyburnside/hugo-starter-kit.git"
+        "url": "git+https://gitlab.com/remoteteam/www-hugo.git"
     },
-    "author": "Donny Burnside <donnyburnside1@gmail.com>",
     "license": "UNLICENSED",
-    "homepage": "https://github.com/donnyburnside/hugo-starter-kit#readme"
+    "homepage": "https://gitlab.com/remoteteam/www-hugo#readme"
 }

@@ -1,0 +1,43 @@
+<!-- hero area -->
+<header
+  class="header text-white h-fullscreen pb-0 overflow-hidden text-center"
+  data-overlay="1"
+  style="background-color: #2d46c1 !important;"
+>
+  <div class="container">
+    <div class="row align-items-center h-100 align-self-end">
+      <div class="col-lg-12 text-center">
+        <h1 class="text-center container-text headline">
+            {{ .Site.Data.homepage.banner.title | safeHTML }}
+        </h1>
+
+        <p class="my-6" id="homeTryFree">
+          <a
+            class="btn btn-round btn-light btn-lg font-weight-bold"
+            style="
+              height: 55px;
+              background-color: #fff;
+              font-family: Montserrat, sans-serif;
+              color: #144fbc;
+              font-size: 19px;
+              font-weight: 700;
+            "
+            href="https://dashboard.remoteteam.com/auth/sign-up"
+          >
+            Free Up To 3 People
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row text-center">
+    <div class="col">
+      <a class="scroll-down-5 scroll-down-dark" href="#features">
+        <span></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- /hero area -->

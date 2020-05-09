@@ -1,17 +1,276 @@
 {{ define "main" }}
 
-  <!-- hero area -->
-  <section class="hero-area bg-primary overflow-hidden" id="parallax">
+  {{- partial "hero.html" . -}}
+
+
+<!-- original file content-->
+
+
+<main class="main-content">
+
+  <!-- CTA Slim 1 -->
+
+  <!-- {% include home/cta.html
+  ctaVersion=page.ctaVersionSlim1
+  ctaTitle=page.ctaTitleSlim1
+  ctaButtonTitle=page.ctaButtonTitleSlim1
+  ctaSmallText=page.ctaSmallTextSlim1
+  ctaButtonURL=page.ctaButtonURLSlim1
+  %} -->
+
+  <!-- Feature Section -->
+
+  <section class="section" id="features">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto text-center">
-          <h1 class="text-white font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+      <!-- {% include home/section.html
+      sectionTitle=page.sectionTitleFeature
+      sectionDescription=page.sectionDescriptionFeature
+      %} -->
+      <div class="row gap-y text-center">
+        <div class="col-md-6 col-xl-3 feature-1">
+          <h3>
+            <a href="#payrolls">Payrolls</a>
+          </h3>
+          <p class="text-muted">
+            Automate Payrolls for your remote team
+          </p>
+        </div>
+
+        <div class="col-md-6 col-xl-3 feature-2">
+          <h3><a href="#time-off">Time Off</a></h3>
+          <p class="text-muted">
+            Easily manage time-off
+          </p>
+        </div>
+
+        <div class="col-md-6 col-xl-3 feature-3">
+          <h3><a href="#hr-tools">HR Tools</a></h3>
+          <p class="text-muted">
+            Make your remote team feel closer to each other
+          </p>
+        </div>
+
+        <div class="col-md-6 col-xl-3 feature-4">
+          <h3><a href="#compliance">Compliance</a></h3>
+          <p class="text-muted">
+            Tax Compliance for a Global Workforce
+          </p>
+        </div>
+
+        <div class="col-md-11 mx-auto align-self-end">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579546388/www/main_general_ppakmj.jpg"
+            alt="Time Off" class="mt-4">
         </div>
       </div>
     </div>
-  </section>
-  <!-- /hero area -->
 
+
+    <!-- Payroll Section -->
+
+    <section id="payrolls" class="section bg-gray pb-0 overflow-hidden">
+      <div class="container">
+        <!-- {% include home/section.html
+        sectionTitle=page.sectionTitlePayroll
+        sectionDescription=page.sectionDescriptionPayroll
+        sectionUrl=page.sectionUrlPayroll
+        %} -->
+        <div class="row">
+          <div class="col-md-12 mx-auto text-center">
+            <img loading="lazy"
+              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579786684/www/main_payroll_jpg_wtgdb8.jpg"
+              data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
+          </div>
+        </div>
+        <div class="row mt-8">
+          <div class="col-md-8 text-center  mx-auto">
+            <h3 id="text-center" style="line-height: 1.5;">Global payments powered by
+              <span style="position: relative; bottom: 8px; margin: 8px; margin-top: 10px; margin-bottom: 10px;">
+                <img src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_192,c_scale/v1579546365/www/transferwiseLogo_wghp75.png" alt="TransferWise" style="width:12rem;">
+              </span>
+            </h3>
+            <p class="text-muted">
+              Banks and other providers often add a markup to their exchange rate while advertising low fees, which
+              means
+              you could be paying huge hidden charges. RemoteTeam.com selected TransferWise because it transparently
+              displays its fee upfront and deducts
+              it
+              before conversion. No nasty surprises. TransferWise then uses the mid-market rate.
+            </p>
+          </div>
+        </div>
+        <div class="mx-auto w-60 mt-2 mb-8">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_666,c_scale/v1579546394/www/bytransferwise_lrkgwi.png"
+            data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
+          <!-- <img src="bytransferwise.png" loading="lazy"  alt="TransferWise" /> -->
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </section>
+
+    <!-- Time Off Section -->
+
+    <section class="section" id="time-off">
+      <div class="container">
+        {% include home/section.html
+        sectionTitle=page.sectionTitleTimeOff
+        sectionDescription=page.sectionDescriptionTimeOff
+        sectionUrl=page.sectionUrlTimeOff
+        %}
+        <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1580744092/www/main_timeoff_okcfth.png"
+            data-aos="fade-up" data-aos-delay="200">
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Large -->
+
+    <!-- {% include home/cta.html
+    ctaVersion=page.ctaVersionLarge
+    ctaTitle=page.ctaTitleLarge
+    ctaButtonTitle=page.ctaButtonTitleLarge
+    ctaSmallText=page.ctaSmallTextLarge
+    ctaButtonURL=page.ctaButtonURLLarge
+    %} -->
+
+    <!-- HR Tools Section -->
+
+    <section id="hr-tools" class="section pb-0 bg-gray">
+      <div class="container">
+        <!-- {% include home/section.html
+        sectionTitle=page.sectionTitleHRTools
+        sectionDescription=page.sectionDescriptionHRTools
+        sectionUrl=page.sectionUrlHRTools
+        %} -->
+        <div class="row gap-y text-center mb-8">
+
+          <div class="col-md-6 col-xl-4 feature-1 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/gift.svg" loading="lazy"  alt="Birthdays" />
+            </p>
+            <h3 class="lead-1">Birthdays</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-2 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/global.svg" loading="lazy"  alt="Local Holidays" />
+            </p>
+            <h3 class="lead-1">Local Holidays</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-3 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/linegraph.svg" loading="lazy"  alt="Diversity" />
+            </p>
+            <h3 class="lead-1">Diversity Reports</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-4 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/dial.svg" loading="lazy"  alt="Burn" />
+            </p>
+            <h3 class="lead-1">Burn Rates</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-5 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/ribbon.svg" loading="lazy"  alt="Departments" />
+            </p>
+            <h3 class="lead-1">Team Departments</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-6 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/documents.svg" loading="lazy"  alt="Documents" />
+            </p>
+            <h3 class="lead-1">Documents</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-7 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/hotairballoon.svg" loading="lazy"  alt="Onboarding" />
+            </p>
+            <h3 class="lead-1">Onboarding</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-8 my-4">
+            <p class="feature-icon">
+              <img src="icons/line/piechart.svg" loading="lazy"  alt="Inventory" />
+            </p>
+            <h3 class="lead-1">Inventory</h3>
+          </div>
+
+          <div class="col-md-6 col-xl-4 feature-8 my-4 align-self-center">
+            <h3 class="lead-1">And More...</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Compliance Section -->
+
+    <section id="compliance" class="section">
+      <div class="container-fluid">
+        <!-- {% include home/section.html
+        sectionTitle=page.sectionTitleCompliance
+        sectionDescription=page.sectionDescriptionCompliance
+        sectionUrl=page.sectionUrlCompliance
+        %} -->
+        <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
+          <img 
+            loading="lazy"
+            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto/v1580292419/www/main_compliance_5_boqwg9.jpg"
+            data-aos-delay="200" class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Slim 2 -->
+
+    <!-- {% include home/cta.html
+    ctaVersion=page.ctaVersionSlim2
+    ctaTitle=page.ctaTitleSlim2
+    ctaButtonTitle=page.ctaButtonTitleSlim2
+    ctaSmallText=page.ctaSmallTextSlim2
+    ctaButtonURL=page.ctaButtonURLSlim2 -->
+    %}
+
+    <!-- Integrated Systems -->
+    <section class="section">
+      <div class="container-fluid">
+        <!-- {% include home/section.html
+        sectionTitle=page.sectionTitleIntegratedSystems
+        sectionDescription=page.sectionDescriptionIntegratedSystems
+        %} -->
+        <div class="integration">
+          <a href="/transferwise/">
+            <img src="integration/1.png" loading="lazy"  alt="TransferWise Integration" />
+          </a>
+          <a href="/desktime/">
+            <img src="integration/2.png" loading="lazy"  alt="Desktime Integration" />
+          </a>
+          <img src="integration/3.png" loading="lazy"  alt="Slack Integration" />
+          
+          <img src="integration/toggl-logo.svg" loading="lazy"  alt="Toggl Integration" />
+        </div>
+      </div>
+    </section>
+
+</main>
+
+
+<!-- original file content ends-->
+
+
+
+
+  
+  
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">
