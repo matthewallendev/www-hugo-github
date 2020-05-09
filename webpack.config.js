@@ -71,7 +71,7 @@ module.exports = {
         // Start BrowserSync (used during development only)
         new BrowserSyncPlugin({
             host: 'localhost',
-            port: 3000,
+            port: 8000,
             files: ['public'],
             proxy: 'http://localhost:1313/'
         })
