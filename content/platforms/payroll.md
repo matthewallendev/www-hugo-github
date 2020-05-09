@@ -1,6 +1,6 @@
 ---
 type: platforms
-layout: feature
+layout: payroll
 url: payroll
 title: Payroll
 ---
