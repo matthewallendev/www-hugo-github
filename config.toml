@@ -6,16 +6,16 @@ theme = "remoteteam"
 title = "Remote Team | Remote Team is an HR platform for “Remote First” teams. Our fully-integrated platform automates payroll, payments and HR tasks."
 
 
-# css plugins
-[[params.plugins.css]]
-URL = "plugins/bootstrap/bootstrap.min.css"
+[outputs]
+home = [ "RSS", "HTML"]
 
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "feed"
 
-# js plugin
-[[params.plugins.js]]
-URL = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-URL = "plugins/bootstrap/bootstrap.min.js"
+enableRobotsTXT = true
+
 
 # menu
 
@@ -90,5 +90,4 @@ TITLE = "Linkedin"
 [[params.social]]
 URL = "https://stackshare.io/companies/remoteteam"
 TITLE = "StackShare"
-
 

@@ -12,6 +12,8 @@
   <link rel="preconnect" href="{{ .Site.BaseURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
+  <link href="{{ .Site.BaseURL }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
   <meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/images/site-logo.png{{ end }}">
