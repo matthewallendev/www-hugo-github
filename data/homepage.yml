@@ -131,16 +131,20 @@ testimonial:
 clients_logo_slider:
   enable : true
   item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "http://examplesite.com"
+    - logo : "/images/remote-integration/transferwise-remoteteam-integration.png"
+      title: "TransferWise Integration"
+      URL : "/transferwise/"
 
-    - logo : "images/clients-logo/client-logo-2.png"
+    - logo : "/images/remote-integration/desktime-remoteteam-integration.png"
+      title: "Desktime Integration"
+      URL : "/desktime/"
+
+    - logo : "/images/remote-integration/slack-remoteteam-integration.png"
+      title: "Slack Integration"
       URL : "#"
 
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "http://examplesite.com"
-
-    - logo : "images/clients-logo/client-logo-4.png"
+    - logo : "/images/remote-integration/toggl-remoteteam-integration.png"
+      title: "Toggl Integration"
       URL : "#"
 
 

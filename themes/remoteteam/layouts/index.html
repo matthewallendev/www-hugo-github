@@ -8,24 +8,17 @@
 
 <main class="main-content">
 
-  <!-- CTA Slim 1 -->
-
-  <!-- {% include home/cta.html
-  ctaVersion=page.ctaVersionSlim1
-  ctaTitle=page.ctaTitleSlim1
-  ctaButtonTitle=page.ctaButtonTitleSlim1
-  ctaSmallText=page.ctaSmallTextSlim1
-  ctaButtonURL=page.ctaButtonURLSlim1
-  %} -->
+  {{ partial "cta-slim.html" . }}
 
   <!-- Feature Section -->
 
   <section class="section" id="features">
     <div class="container">
-      <!-- {% include home/section.html
-      sectionTitle=page.sectionTitleFeature
-      sectionDescription=page.sectionDescriptionFeature
-      %} -->
+      <header class="section-header">
+        <h2>Products</h2>
+        <hr>
+        <p class="lead-p">Automated Payrolls, Time Off, HR Tools, and Compliance Made Simple for Remote Teams</p>
+      </header>
       <div class="row gap-y text-center">
         <div class="col-md-6 col-xl-3 feature-1">
           <h3>
@@ -70,11 +63,24 @@
 
     <section id="payrolls" class="section bg-gray pb-0 overflow-hidden">
       <div class="container">
-        <!-- {% include home/section.html
-        sectionTitle=page.sectionTitlePayroll
-        sectionDescription=page.sectionDescriptionPayroll
-        sectionUrl=page.sectionUrlPayroll
-        %} -->
+        <header class="section-header">
+          <h2>Automated Payroll</h2>
+          <hr />
+          <p class="lead-p">
+            Paying your remote team can be very complex and time consuming. We partnered
+            with TransferWise and a few others to make payrolls more seamless. Also, 👋
+            goodbye to manual 🏦 bank transfers with expensive fees. 🤑
+          </p>
+          <a
+            class="color-primary font-weight-600"
+            href="/payroll/"
+            style="font-size: 22px;"
+          >
+            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </header>
+        
+
         <div class="row">
           <div class="col-md-12 mx-auto text-center">
             <img loading="lazy"
@@ -115,11 +121,22 @@
 
     <section class="section" id="time-off">
       <div class="container">
-        {% include home/section.html
-        sectionTitle=page.sectionTitleTimeOff
-        sectionDescription=page.sectionDescriptionTimeOff
-        sectionUrl=page.sectionUrlTimeOff
-        %}
+        <header class="section-header">
+          <h2>Easily manage time-off</h2>
+          <hr />
+          <p class="lead-p">
+            Seamlessly synced with payrolls. Also supports local holidays, one-click
+            approvals, quick balances and customized / prepackaged policies.
+          </p>
+          <a
+            class="color-primary font-weight-600"
+            href="/time-off/"
+            style="font-size: 22px;"
+          >
+            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </header>
+        
         <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
           <img loading="lazy"
             src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1580744092/www/main_timeoff_okcfth.png"
@@ -128,25 +145,31 @@
       </div>
     </section>
 
-    <!-- CTA Large -->
 
-    <!-- {% include home/cta.html
-    ctaVersion=page.ctaVersionLarge
-    ctaTitle=page.ctaTitleLarge
-    ctaButtonTitle=page.ctaButtonTitleLarge
-    ctaSmallText=page.ctaSmallTextLarge
-    ctaButtonURL=page.ctaButtonURLLarge
-    %} -->
+    {{ partial "cta-bold.html" . }}
+
+
 
     <!-- HR Tools Section -->
 
     <section id="hr-tools" class="section pb-0 bg-gray">
       <div class="container">
-        <!-- {% include home/section.html
-        sectionTitle=page.sectionTitleHRTools
-        sectionDescription=page.sectionDescriptionHRTools
-        sectionUrl=page.sectionUrlHRTools
-        %} -->
+        <header class="section-header">
+          <h2>Easily manage time-off</h2>
+          <hr />
+          <p class="lead-p">
+            Seamlessly synced with payrolls. Also supports local holidays, one-click
+            approvals, quick balances and customized / prepackaged policies.
+          </p>
+          <a
+            class="color-primary font-weight-600"
+            href="/time-off/"
+            style="font-size: 22px;"
+          >
+            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </header>
+        
         <div class="row gap-y text-center mb-8">
 
           <div class="col-md-6 col-xl-4 feature-1 my-4">
@@ -216,11 +239,22 @@
 
     <section id="compliance" class="section">
       <div class="container-fluid">
-        <!-- {% include home/section.html
-        sectionTitle=page.sectionTitleCompliance
-        sectionDescription=page.sectionDescriptionCompliance
-        sectionUrl=page.sectionUrlCompliance
-        %} -->
+        <header class="section-header">
+          <h2>Compliance</h2>
+          <hr />
+          <p class="lead-p">
+            Remote Team tax compliance platform streamlines the entire W-8BEN process
+            with digital tax form collection, validation, and payouts.
+          </p>
+          <a
+            class="color-primary font-weight-600"
+            href="/tax-compliance/"
+            style="font-size: 22px;"
+          >
+            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </header>
+        
         <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
           <img 
             loading="lazy"
@@ -232,34 +266,36 @@
 
     <!-- CTA Slim 2 -->
 
-    <!-- {% include home/cta.html
-    ctaVersion=page.ctaVersionSlim2
-    ctaTitle=page.ctaTitleSlim2
-    ctaButtonTitle=page.ctaButtonTitleSlim2
-    ctaSmallText=page.ctaSmallTextSlim2
-    ctaButtonURL=page.ctaButtonURLSlim2 -->
-    %}
+    {{ partial "cta-slim.html" . }}
 
     <!-- Integrated Systems -->
     <section class="section">
       <div class="container-fluid">
-        <!-- {% include home/section.html
-        sectionTitle=page.sectionTitleIntegratedSystems
-        sectionDescription=page.sectionDescriptionIntegratedSystems
-        %} -->
-        <div class="integration">
-          <a href="/transferwise/">
-            <img src="integration/1.png" loading="lazy"  alt="TransferWise Integration" />
-          </a>
-          <a href="/desktime/">
-            <img src="integration/2.png" loading="lazy"  alt="Desktime Integration" />
-          </a>
-          <img src="integration/3.png" loading="lazy"  alt="Slack Integration" />
-          
-          <img src="integration/toggl-logo.svg" loading="lazy"  alt="Toggl Integration" />
-        </div>
+        <header class="section-header">
+          <h2>Integrate with your favourite apps</h2>
+          <hr />
+          <p class="lead-p">
+            Your business runs on various applications. Remote Team seamlessly connects
+            with the apps you use everyday.
+          </p>
+        </header>
+        
+        
+
+        
+
+        {{ if .Site.Data.homepage.clients_logo_slider.enable }}
+        <!-- client logo slider -->
+        {{ partial "client-slider.html" . }}
+        <!-- /client logo slider -->
+        {{ end }}
       </div>
+
+
+
     </section>
+
+
 
 </main>
 
@@ -434,30 +470,11 @@
   {{ end }}
 
 
-  {{ if .Site.Data.homepage.clients_logo_slider.enable }}
-  <!-- client logo slider -->
-  <section class="section pb-0">
-    <div class="container">
-      {{ partial "client-slider.html" . }}
-    </div>
-  </section>
-  <!-- /client logo slider -->
-  {{ end }}
+
 
   {{ if .Site.Data.homepage.blog.enable }}
   <!-- blog -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">{{.Site.Data.homepage.blog.title | markdownify }}</h2>
-        </div>
-        {{ range first 3 .Site.RegularPages }}
-        {{ .Render "post" }}
-        {{ end }}
-      </div>
-    </div>
-  </section>
+  {{ partial "latest-blog-posts.html" . }}
   <!-- /blog -->
   {{ end }}
 
