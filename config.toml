@@ -73,7 +73,7 @@ address = "156 2nd Street San Francisco, CA 94105"
 author = "Remote Team"
 description = "This is meta description"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "UA-114129024-1"
 # copyright
 copyright = "Copyright &copy; 2020"
 
