@@ -2,48 +2,123 @@
 
 {{ partial "page-title.html" . }}
 
-<!-- about -->
-<section class="section pt-5">
+<section class="section bg-gray">
   <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        {{ .Content }}
-      </div>
-      <!-- <div class="col-md-4 text-center">
-        <div class="mb-4">
-          <img src="{{.Params.author_image | absURL }}" alt="author"
-            class="img-fluid w-100 rounded-lg border-white">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-md-left text-center">
+        <p class="text-uppercase text-lighter fw-400 ls-2">Pricing plans</p>
+        <h3 class="mb-3 mt-2">
+          Choose the plan that’s right for your business!
+        </h3>
+        <p class="m-0">Plans for teams and businesses of every stage, shape and size.</p>
+        <p class="m-0">
+          <small class="text-uppercase text-lighter fw-400"
+            >Free up to 3 people!</small
+          >
+        </p>
+        <div class="btn-group btn-group-toggle mt-7" data-toggle="buttons">
+          <label class="btn btn-round btn-outline-dark w-150 active">
+            <input
+              type="radio"
+              name="pricing-5"
+              value="monthly"
+              autocomplete="off"
+              checked
+            />
+            Monthly
+          </label>
+          <label class="btn btn-round btn-outline-dark w-150">
+            <input
+              type="radio"
+              name="pricing-5"
+              value="yearly"
+              autocomplete="off"
+            />
+            Yearly
+          </label>
         </div>
-        <img src="{{.Params.author_signature | absURL }}" alt="signature" class="img-fluid">
-        <h4>{{ .Site.Params.Author }}</h4>
-      </div> -->
+      </div>
+
+      <div class="col-md-1"></div>
+
+      <div class="col-md-5 mx-auto mt-7 mt-md-0" style="position: relative;">
+        <div class="card card-body text-center shadow-2 hover-shadow-8 py-6">
+          <p
+            class="text-dark fw-800 mb-0 f-montserrat"
+            style="color: #323d47 !important"
+          >
+            <span
+              data-bind-radio="pricing-5"
+              data-monthly="Monthly"
+              data-yearly="Yearly"
+              >Monthly</span
+            >
+            Package
+          </p>
+          <div>
+            <p
+              class="fw-700 f-montserrat line-height-2 mb-0 mt-2"
+              style="color: #323d47 !important"
+            >
+              <span class="font-size-12">Per user</span>
+            </p>
+            <p
+              class="fw-700 f-montserrat line-height-2 mb-0"
+              style="color: #323d47 !important"
+            >
+              <span
+                class="font-size-12"
+                data-bind-radio="pricing-5"
+                data-monthly="Per month"
+                data-yearly="Per month billed annually"
+                >per month billed annually</span
+              >
+            </p>
+            <p class="fw-600 line-height-2 mb-0 mt-0 text-primary">
+              <span
+                class="font-size-12"
+                data-bind-radio="pricing-5"
+                data-monthly=" "
+                data-yearly="(Save up to 20%)"
+                >(Save up to 20%)</span
+              >
+            </p>
+          </div>
+          <p class="lead-7 fw-600 text-dark">
+            <span
+              data-bind-radio="pricing-5"
+              data-monthly="$14."
+              data-yearly="$11."
+              >$14.</span
+            ><span class="lead-4 align-text-top">99</span>
+          </p>
+          <p>
+            Automated Payments<br />
+            Time off<br />
+            Employee Management<br />
+            HR Tools<br />
+            Inventories<br />
+            Documents<br />
+            Tax Compliance<br />
+          </p>
+          <br />
+          <div>
+            <a
+              class="btn btn-round btn-primary w-200"
+              href="https://dashboard.remoteteam.com/auth/sign-up"
+              >Try it FREE</a
+            >
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!-- /about -->
+</main>
 
-<!-- Work Process -->
-{{ if .Site.Data.about.work_process.enable }}
-{{ with .Site.Data.about.work_process }}
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-around">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-      </div>
-      {{ range .item }}
-      <div class="col-lg-3 col-md-4 text-center hover-shadow pt-3">
-        <img src="{{ .icon | absURL }}" class="mb-4" alt="icon">
-        <h4 class="mb-4">{{ .title }}</h4>
-        <p>{{ .content | markdownify }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- ./Work Process -->
-
+<script>
+// Intercom('trackEvent', 'pricing-page-viewed');
+analytics.track("viewed-pricing-page");
+</script>
 
 {{ end }}

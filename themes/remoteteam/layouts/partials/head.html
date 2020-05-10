@@ -2,10 +2,13 @@
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
 
-  {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
+
 
   <style>
     :root{
@@ -13,13 +16,8 @@
     }
   </style>
 
-  {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ with resources.Get "scss/main.scss" | toCSS | minify }}
   <style>{{ .Content | safeCSS }}</style>
   {{ end }}
-
-  {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
 
 </head>
