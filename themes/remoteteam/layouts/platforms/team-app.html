@@ -1,0 +1,98 @@
+{{ define "main" }}
+  {{ partial "page-title.html" . }}
+
+  <section
+    class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
+  >
+    <div class="container">
+      <div class="row ">
+        <div
+          class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+        >
+          <h3 class="mb-3 mt-2">
+            One dashboard - for all of your remote team
+          </h3>
+          <p>
+            Visualize your entire remote team on our dashboard. The dashboard
+            lets you view the status of each remote employee, including
+            contractors, part-time employees, full-time remote workers, and
+            freelancers. You also get to see their time zones in real-time.
+          </p>
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div
+          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
+        >
+         <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580453610/www/features/dashboard-tools_bphwou.png"
+           loading="lazy"  alt="Pay your remote employees for work-related expenditure" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
+  >
+    <div class="container">
+      <div class="row ">
+        <div
+          class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
+        >
+          <h3 class="mb-3 mt-2">Access to team reports</h3>
+
+          <p>
+            View a comprehensive report of each employee, including their work
+            hours for a month, week, or day. Use this dashboard to also check
+            the total hours each employee has worked in a particular period.
+          </p>
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div
+          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
+        >
+         <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580453610/www/features/team-report_dv3hva.png"
+           loading="lazy"  alt="Access to team reports" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
+  >
+    <div class="container">
+      <div class="row ">
+        <div
+          class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+        >
+          <h3 class="mb-3 mt-2">
+            Check local holidays and time offs
+          </h3>
+          <p>
+            This dashboard lets you check the time offs of your employees. How
+            many times have they taken time offs in a year? Was it paid time off
+            or unpaid? You get to see all the details in your team’s dashboard.
+          </p>
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div
+          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
+        >
+          <div class="img-container">
+           <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580740274/www/features/local-holidays_yafaoo.jpg"
+             loading="lazy"  alt="Great flexibility in spend management" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{{ partial "cta-bold.html" . }}
+</main>
+
+
+  
+  {{ end }}
