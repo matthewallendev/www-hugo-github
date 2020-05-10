@@ -128,7 +128,7 @@ testimonial:
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
 
 # client logo slider
-clients_logo_slider:
+integration_images:
   enable : true
   item:
     - logo : "/images/remote-integration/transferwise-remoteteam-integration.png"

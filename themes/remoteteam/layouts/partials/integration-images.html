@@ -1,5 +1,5 @@
 <div class="integration">
-  {{ range .Site.Data.homepage.clients_logo_slider.item }}
+  {{ range .Site.Data.homepage.integration_images.item }}
   {{ if and ( ne .URL "" ) ( ne .URL "#" ) }}
   <a href="{{ .URL | safeURL }}" >
     <img loading="lazy" src="{{.logo | absURL}}"  alt="{{.title}}" >
