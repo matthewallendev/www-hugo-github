@@ -1,6 +1,7 @@
 
 public/
 dist/
+resources/_gen
 
 .DS_Store
 node_modules
