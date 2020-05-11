@@ -1,0 +1,69 @@
+{{ define "main" }}
+  {{ partial "page-headline.html" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row gap-y">
+        <div class="col-md-8 mx-auto text-center">
+          <h3 class="lead mb-6">Let's make the world more remote together!</h3>
+          <p>
+            We want to teach the world remote work is the future. There are still %99
+            companies are remote, there is so much work to do together. Join our
+            program and change the world with us!  
+          </p>
+        </div>
+      </div>
+      <div class="row gap-y">
+        <div class="col-md-8 mx-auto text-center">
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="row gap-y text-center">
+          <div class="col-md-6 col-xl-4 my-4 text-left">
+            <div class="media p-1">
+              <div class="media-body">
+                <h3 class="lead-2"><a href="#"></a></h3>
+                <p class="text-muted">
+                  The Future is Remote Work
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 my-4 text-left feature-2">
+            <div class="media p-1">
+              <div class="media-body">
+                <h3 class="lead-2">
+                  <a href="#"></a>
+                </h3>
+                <p class="text-muted">
+                  %159 Increase in Remote Work in 12 Years 
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4 my-4 text-left feature-3">
+            <div class="media p-1">
+              <div class="media-body">
+                <h3 class="lead-2"><a href="#"></a></h3>
+                <p class="text-muted">
+                  %18 of employees work remotely full time 
+                </p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "cta-bold.html" . }}
+</main>
+
+
+  
+  {{ end }}

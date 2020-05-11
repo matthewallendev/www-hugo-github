@@ -1,0 +1,156 @@
+<div
+  class="hero-video-section"
+  style="
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1111;
+    background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/f_auto,q_auto/v1588459798/world/v2/Scene_1_s9h7qw.jpg);
+    background-size: cover;
+  "
+></div>
+
+<script>
+  document.body.style.cssText =
+    "background-color: rgb(207,230,232); background-image: radial-gradient(circle, rgba(207,230,232,1) 0%, rgba(227,231,232,1) 32%, rgba(205,232,231,1) 48%, rgba(226,232,232,1) 52%, rgba(167,209,208,1) 95%); background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/f_auto,q_auto/v1588459798/world/v2/Scene_1_s9h7qw.png); background-size: cover;";
+
+  function getURLforOptimizedWidth(path) {
+    var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
+
+    var cloudinaryRoot = "https://res.cloudinary.com/hzynudzjs/video/upload";
+
+    var browserSize = window.innerWidth;
+    
+    var dpr = 1;
+    if(window.devicePixelRatio !== undefined) dpr = window.devicePixelRatio;
+
+    var videoWidthForDisplay = 640;
+    if(browserSize && browserSize > 960){
+        videoWidthForDisplay = 1280;
+    } else if(browserSize && browserSize > 640){
+        videoWidthForDisplay = 960;
+    }else if(browserSize && browserSize > 320){
+        videoWidthForDisplay = 640;
+    }
+    var fullUrl =
+      cloudinaryRoot +
+      "/q_auto,vc_auto,w_" +
+      videoWidthForDisplay +
+      "/dpr_" +
+      dpr +
+      ".0" +
+      path + (isChrome ? ".webm" : ".mp4");
+    
+    return fullUrl;
+  }
+
+  var videoSourceList = [
+    getURLforOptimizedWidth("/v1588459798/world/v2/Scene_1_s9h7qw"),
+    getURLforOptimizedWidth("/v1588459769/world/v2/Scene_2_eqix2i"),
+    getURLforOptimizedWidth("/v1588460563/world/v2/Scene_3_afar2f"),
+    getURLforOptimizedWidth("/v1588459815/world/v2/Scene_4_thoxc5"),
+    getURLforOptimizedWidth("/v1588460742/world/v2/Scene_6_ymccg2"),
+    getURLforOptimizedWidth("/v1588459976/world/v2/Scene_22_gxsyl3"),
+    getURLforOptimizedWidth("/v1588460023/world/v2/Scene_7_ktp9x0"),
+    getURLforOptimizedWidth("/v1588460012/world/v2/Scene_23_onivil"),
+    getURLforOptimizedWidth("/v1588459988/world/v2/Scene_24_yyp3kf"),
+    getURLforOptimizedWidth("/v1588459976/world/v2/Scene_16_mwhsss"),
+    getURLforOptimizedWidth("/v1588459972/world/v2/Scene_20_vjtyxg"),
+    getURLforOptimizedWidth("/v1588459957/world/v2/Scene_15_ngckbr"),
+    getURLforOptimizedWidth("/v1588459936/world/v2/Scene_14_eme1vv"),
+    getURLforOptimizedWidth("/v1588459910/world/v2/Scene_11_zq5zrf"),
+    getURLforOptimizedWidth("/v1588459904/world/v2/Scene_10_tvbzlg"),
+    getURLforOptimizedWidth("/v1588459887/world/v2/Scene_9_egfjxl"),
+    getURLforOptimizedWidth("/v1588459875/world/v2/Scene_12_bgbz5o"),
+    getURLforOptimizedWidth("/v1588459870/world/v2/Scene_5_ktqdxk"),
+    getURLforOptimizedWidth("/v1588459845/world/v2/Scene_8_zwpscw"),
+    getURLforOptimizedWidth("/v1588459936/world/v2/Scene_13_yi4fdv"),
+  ];
+
+  if (window.innerWidth < 500) {
+    videoSourceList = [
+      videoSourceList[0],
+      videoSourceList[12],
+      videoSourceList[videoSourceList.length - 1],
+    ];
+  }
+
+  var getVideoTagName = function getVideoTagName(videoPosition) {
+    return "video" + videoPosition;
+  };
+
+
+  var nextActiveVideo = 0;
+
+  var nextVideo = 0;
+
+
+
+  var elementVideo = document.createElement("video");
+
+  elementVideo.style.cssText =
+    "position: fixed; right: 0; bottom: 0; min-width: 100vw; min-height: 100vh; object-fit: cover; width: auto; height: 100%; z-index: -1;";
+
+  var elementVideo1 = document.createElement("video");
+
+  elementVideo1.style.cssText =
+    "position: fixed; right: 0; bottom: 0; min-width: 100vw; min-height: 100vh; object-fit: cover; width: auto; height: 100%; z-index: -1;";
+
+  var videoObjects =
+    [
+      elementVideo,
+      elementVideo1,
+    ];
+
+  videoObjects[0].inx = 0; //set index
+  videoObjects[1].inx = 1;
+
+  var video = videoObjects[0];
+  document.addEventListener("DOMContentLoaded", function () {
+    initVideoElement(videoObjects[0]);
+    initVideoElement(videoObjects[1]);
+  
+    videoObjects[0].autoplay = false;
+    videoObjects[0].muted = true;
+    videoObjects[0].src = videoSourceList[nextActiveVideo];
+    document.body.appendChild(videoObjects[0]);
+
+    video.playbackRate = 0.8;
+    video.play();
+  });
+
+  videoObjects[1].style.display = 'none';
+  document.body.appendChild(videoObjects[1]);
+
+  function initVideoElement(video) {
+    video.playsinline = true;
+    video.autoplay = false;
+    video.muted = true;
+    video.preload = 'auto'; //but do not set autoplay, because it deletes preload
+
+    //loadedmetadata is wrong because if we use it then we get endless loop
+    video.onplaying = function () {
+      //select next index. If is equal vidSources.length then it is 0
+      nextActiveVideo = ++nextActiveVideo % videoSourceList.length;
+
+      //replace the video elements against each other:
+      if (this.inx === 0)
+        nextVideo = videoObjects[1];
+      else
+        nextVideo = videoObjects[0];
+
+      nextVideo.src = videoSourceList[nextActiveVideo];
+      nextVideo.pause();
+    };
+
+    video.onended = function (e) {
+      this.style.display = 'none';
+      nextVideo.style.display = 'block';
+      nextVideo.play();
+    };
+  }
+</script>

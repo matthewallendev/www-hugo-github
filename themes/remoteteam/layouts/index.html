@@ -12,7 +12,7 @@
 
   <!-- Feature Section -->
 
-  <section class="section" id="features">
+  <section class="section white-background" id="features">
     <div class="container">
       <header class="section-header">
         <h2>Products</h2>
@@ -74,10 +74,12 @@
           <a
             class="color-primary font-weight-600"
             href="/payroll/"
-            style="font-size: 22px;"
+            style="font-size: 22px;color: #093C8A;"
           >
-            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
-          ></a>
+            Learn More 
+            <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+          
+          </a>
         </header>
         
 
@@ -119,7 +121,7 @@
 
     <!-- Time Off Section -->
 
-    <section class="section" id="time-off">
+    <section class="section white-background" id="time-off">
       <div class="container">
         <header class="section-header">
           <h2>Easily manage time-off</h2>
@@ -131,10 +133,10 @@
           <a
             class="color-primary font-weight-600"
             href="/time-off/"
-            style="font-size: 22px;"
+            style="font-size: 22px;color: #093C8A;"
           >
-            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
-          ></a>
+            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+          </a>
         </header>
         
         <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
@@ -164,10 +166,10 @@
           <a
             class="color-primary font-weight-600"
             href="/time-off/"
-            style="font-size: 22px;"
+            style="font-size: 22px;color: #093C8A;"
           >
-            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
-          ></a>
+            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+          </a>
         </header>
         
 
@@ -205,7 +207,7 @@
 
     <!-- Compliance Section -->
 
-    <section id="compliance" class="section">
+    <section id="compliance" class="section white-background">
       <div class="container-fluid">
         <header class="section-header">
           <h2>Compliance</h2>
@@ -217,10 +219,10 @@
           <a
             class="color-primary font-weight-600"
             href="/tax-compliance/"
-            style="font-size: 22px;"
+            style="font-size: 22px;color: #093C8A;"
           >
-            Learn More <i class="fa fa-chevron-right" aria-hidden="true"></i
-          ></a>
+            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+          </a>
         </header>
         
         <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
@@ -266,9 +268,7 @@
 
 
     {{ if .Site.Data.homepage.blog.enable }}
-    <!-- blog -->
-    {{ partial "latest-blog-posts.html" . }}
-    <!-- /blog -->
+      {{ partial "latest-blog-posts.html" . }}
     {{ end }}
   
 
