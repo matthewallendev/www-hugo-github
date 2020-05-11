@@ -6,14 +6,6 @@ theme = "remoteteam"
 title = "Remote Team | Remote Team is an HR platform for “Remote First” teams. Our fully-integrated platform automates payroll, payments and HR tasks."
 
 
-[outputs]
-home = [ "RSS", "HTML"]
-
-[outputFormats]
-[outputFormats.RSS]
-mediatype = "application/rss"
-baseName = "feed"
-
 enableRobotsTXT = true
 
 
