@@ -1,7 +1,6 @@
 ---
-headline: this a headline
-summary: this is a summary
-title: "Press"
-description: "This is meta description."
+headline: RemoteTeam.com Brand Assets
+title: Press
+description: RemoteTeam.com branding &amp; media kit for press
 draft: false
 ---

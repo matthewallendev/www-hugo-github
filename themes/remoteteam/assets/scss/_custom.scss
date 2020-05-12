@@ -340,11 +340,12 @@ a.card:hover {
     word-spacing: unset;
     font-size: 1rem;
     margin-top: 0.5rem;
-    font-weight: 900;
+    font-weight: 500;
     border: 2px solid transparent;
-    border-radius: 12px;
+    border-radius: 5px;
     padding: 0.5rem 0.75rem !important;
     line-height: 16px;
+    
     .menu-icon {
       width: 32px;
       height: 32px;
@@ -378,7 +379,7 @@ a.card:hover {
       border-color: #428dff;
       color: #428dff;
       box-sizing: border-box;
-      box-shadow: 0px 2px 15px rgba(176, 192, 237, 0.423529);
+      // box-shadow: 0px 2px 15px rgba(176, 192, 237, 0.423529);
       // background: -webkit-linear-gradient(-20deg, #3365af 0%, #471e84 100%);
       // -webkit-background-clip: text;
       // -webkit-text-fill-color: transparent;
