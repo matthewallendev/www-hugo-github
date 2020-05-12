@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Remote Teams <br /> made simple."
+  title : "Remote Teams made simple."
 
 # hr_tools
 hr_tools:
@@ -8,28 +8,28 @@ hr_tools:
   title : "HR Tools"
   item:
     - title : "Birthdays"
-      image : "/img/icons/line/gift.svg"
+      image : "/assets/img/icons/line/gift.svg"
       
     - title : "Local Holidays"
-      image : "/img/icons/line/global.svg"
+      image : "/assets/img/icons/line/global.svg"
       
     - title : "Diversity Reports"
-      image : "/img/icons/line/linegraph.svg"
+      image : "/assets/img/icons/line/linegraph.svg"
       
     - title : "Burn Rates"
-      image : "/img/icons/line/dial.svg"
+      image : "/assets/img/icons/line/dial.svg"
       
     - title : "Team Departments"
-      image : "/img/icons/line/ribbon.svg"
+      image : "/assets/img/icons/line/ribbon.svg"
       
     - title : "Documents"
-      image : "/img/icons/line/documents.svg"
+      image : "/assets/img/icons/line/documents.svg"
       
     - title : "Onboarding"
-      image : "/img/icons/line/hotairballoon.svg"
+      image : "/assets/img/icons/line/hotairballoon.svg"
       
     - title : "Inventory"
-      image : "/img/icons/line/piechart.svg"
+      image : "/assets/img/icons/line/piechart.svg"
       
     - title : "And More..."
       image : ""
@@ -39,19 +39,19 @@ hr_tools:
 integration_images:
   enable : true
   item:
-    - logo : "/img/integration/transferwise-remoteteam-integration.png"
+    - logo : "/assets/img/integration/transferwise-remoteteam-integration.png"
       title: "TransferWise Integration"
       URL : "/transferwise/"
 
-    - logo : "/img/integration/desktime-remoteteam-integration.png"
+    - logo : "/assets/img/integration/desktime-remoteteam-integration.png"
       title: "Desktime Integration"
       URL : "/desktime/"
 
-    - logo : "/img/integration/slack-remoteteam-integration.png"
+    - logo : "/assets/img/integration/slack-remoteteam-integration.png"
       title: "Slack Integration"
       URL : "#"
 
-    - logo : "/img/integration/toggl-remoteteam-integration.png"
+    - logo : "/assets/img/integration/toggl-remoteteam-integration.png"
       title: "Toggl Integration"
       URL : "#"
 

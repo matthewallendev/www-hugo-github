@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 type: platforms
 layout: affiliate-program
 url: affiliate-program
