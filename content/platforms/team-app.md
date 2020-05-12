@@ -2,8 +2,9 @@
 type: platforms
 layout: team-app
 url: team-app
-title: Team App
 headline: Team App
 summary: One dashboard for all the remote employees in your organization and their status.
-description: Customize your paid-team-app policies that better fit your remote team. Either choose from the pre-packaged time off policies or create your own instantly.
+title: Team App
+description: Create teams & departments faster with team app. Assign who is responsible for reporting to who. Try the app for free now! 
+image: https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,c_scale,f_auto,q_auto,w_560/v1580451761/www/dashboard-tools_kdtmzu.png
 ---

@@ -2,9 +2,10 @@
 type: platforms
 layout: inventory-management
 url: inventory-management
-headline: this a headline
-summary: this is a summary
-title: Time Off Tools You Need, Combined With Your Payroll.
-headline: Simple inventory-management Policy Management 
-description: Customize your paid-inventory-management policies that better fit your remote team. Either choose from the pre-packaged time off policies or create your own instantly.
+title: Inventory Management App
+description: Easily create and manage both offline and online inventories for your company using our feature-packed dashboard. Try it now for free! 
+headline: Inventory management
+summary: Manage company inventory, movement, replenishment, and employee inventory handling - all in one dashboard.
+image: https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457453/www/inventory-list_k7glhl_1_xk7lno.png
+
 ---

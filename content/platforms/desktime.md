@@ -2,9 +2,7 @@
 type: platforms
 layout: desktime
 url: desktime
-headline: this a headline
-summary: this is a summary
-title: Time Off Tools You Need, Combined With Your Payroll.
-headline: Simple desktime Policy Management 
-description: Customize your paid-desktime policies that better fit your remote team. Either choose from the pre-packaged time off policies or create your own instantly.
+headline_img: /img/desktime-integration.png
+title: Desktime Integration
+description: Using Desktime with RemoteTeam helps you to see your remote workers’ dedicated time each day, week & month. Automate your payrolls now with desktime API!
 ---

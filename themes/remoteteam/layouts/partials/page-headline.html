@@ -8,11 +8,23 @@
       <div class="row">
         <div class="col-md-12 mx-auto">
           <div class="w-75 mx-auto">
+            {{ if isset .Params "headline" }}
             <h2 class="d-inline-block">
               {{ $.Params.headline }}
             </h2>
+            {{ end }} 
+            
             {{ if isset .Params "summary" }}
-              <p>{{ $.Params.summary }}</p>
+            <p>{{ $.Params.summary }}</p>
+            {{ end }}
+             
+            
+            {{ if isset .Params "headline_img" }}
+            <img
+              loading="lazy"
+              alt="{{ $.Params.title }}"
+              src="{{ $.Params.headline_img }}"
+            />
             {{ end }}
           </div>
         </div>

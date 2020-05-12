@@ -1,6 +1,6 @@
 <head>
   <meta charset="utf-8">
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} | Remote Team</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
@@ -12,7 +12,9 @@
   <link rel="preconnect" href="{{ .Site.BaseURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
-  <link href="{{ .Site.BaseURL }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .Site.BaseURL }}feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  <meta name="theme-color" content="#2d46c1">
 
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">

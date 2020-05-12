@@ -2,9 +2,9 @@
 type: platforms
 layout: transferwise
 url: transferwise
-headline: this a headline
-summary: this is a summary
-title: Time Off Tools You Need, Combined With Your Payroll.
-headline: Simple transferwise Policy Management 
-description: Customize your paid-transferwise policies that better fit your remote team. Either choose from the pre-packaged time off policies or create your own instantly.
+title: TransferWise Integration for Payments 
+description: Calculate and automate monthly payments to your remote team with TransferWise and RemoteTeam. Synchronize your remote team’s payroll with time management tools.
+headline_img: /img/transferwise-integration.png
+image: https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457911/www/payroll-list_mskxay.png
+
 ---
