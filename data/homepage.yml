@@ -55,9 +55,3 @@ integration_images:
       title: "Toggl Integration"
       URL : "#"
 
-
-# blog
-blog:
-  enable : true
-  title : "Blogs"
-  # blog post comes from "content/blog" folder

@@ -2,284 +2,261 @@
 
   {{- partial "hero.html" . -}}
 
+  <!-- original file content-->
 
-<!-- original file content-->
-
-
-<main class="main-content">
-
-  {{ partial "cta-slim.html" . }}
-
-  <!-- Feature Section -->
-
-  <section class="section white-background" id="features">
-    <div class="container">
-      <header class="section-header">
-        <h2>Products</h2>
-        <hr>
-        <p class="lead-p">Automated Payrolls, Time Off, HR Tools, and Compliance Made Simple for Remote Teams</p>
-      </header>
-      <div class="row gap-y text-center">
-        <div class="col-md-6 col-xl-3 feature-1">
-          <h3>
-            <a href="#payrolls">Payrolls</a>
-          </h3>
-          <p class="text-muted">
-            Automate Payrolls for your remote team
-          </p>
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-2">
-          <h3><a href="#time-off">Time Off</a></h3>
-          <p class="text-muted">
-            Easily manage time-off
-          </p>
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-3">
-          <h3><a href="#hr-tools">HR Tools</a></h3>
-          <p class="text-muted">
-            Make your remote team feel closer to each other
-          </p>
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-4">
-          <h3><a href="#compliance">Compliance</a></h3>
-          <p class="text-muted">
-            Tax Compliance for a Global Workforce
-          </p>
-        </div>
-
-        <div class="col-md-11 mx-auto align-self-end">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579546388/www/main_general_ppakmj.jpg"
-            alt="Time Off" class="mt-4">
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Payroll Section -->
-
-    <section id="payrolls" class="section bg-gray pb-0 overflow-hidden">
-      <div class="container">
-        <header class="section-header">
-          <h2>Automated Payroll</h2>
-          <hr />
-          <p class="lead-p">
-            Paying your remote team can be very complex and time consuming. We partnered
-            with TransferWise and a few others to make payrolls more seamless. Also, 👋
-            goodbye to manual 🏦 bank transfers with expensive fees. 🤑
-          </p>
-          <a
-            class="color-primary font-weight-600"
-            href="/payroll/"
-            style="font-size: 22px;color: #093C8A;"
-          >
-            Learn More 
-            <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
-          
-          </a>
-        </header>
-        
-
-        <div class="row">
-          <div class="col-md-12 mx-auto text-center">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579786684/www/main_payroll_jpg_wtgdb8.jpg"
-              data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
-          </div>
-        </div>
-        <div class="row mt-8">
-          <div class="col-md-8 text-center  mx-auto">
-            <h3 id="text-center" style="line-height: 1.5;">Global payments powered by
-              <span style="position: relative; bottom: 8px; margin: 8px; margin-top: 10px; margin-bottom: 10px;">
-                <img src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_192,c_scale/v1579546365/www/transferwiseLogo_wghp75.png" alt="TransferWise" style="width:12rem;">
-              </span>
-            </h3>
-            <p class="text-muted">
-              Banks and other providers often add a markup to their exchange rate while advertising low fees, which
-              means
-              you could be paying huge hidden charges. RemoteTeam.com selected TransferWise because it transparently
-              displays its fee upfront and deducts
-              it
-              before conversion. No nasty surprises. TransferWise then uses the mid-market rate.
-            </p>
-          </div>
-        </div>
-        <div class="mx-auto w-60 mt-2 mb-8">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_666,c_scale/v1579546394/www/bytransferwise_lrkgwi.png"
-            data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
-          <!-- <img src="bytransferwise.png" loading="lazy"  alt="TransferWise" /> -->
-        </div>
-      </div>
-
-      </div>
-      </div>
-    </section>
-
-    <!-- Time Off Section -->
-
-    <section class="section white-background" id="time-off">
-      <div class="container">
-        <header class="section-header">
-          <h2>Easily manage time-off</h2>
-          <hr />
-          <p class="lead-p">
-            Seamlessly synced with payrolls. Also supports local holidays, one-click
-            approvals, quick balances and customized / prepackaged policies.
-          </p>
-          <a
-            class="color-primary font-weight-600"
-            href="/time-off/"
-            style="font-size: 22px;color: #093C8A;"
-          >
-            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
-          </a>
-        </header>
-        
-        <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
-          <img loading="lazy"
-            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1580744092/www/main_timeoff_okcfth.png"
-            data-aos="fade-up" data-aos-delay="200">
-        </div>
-      </div>
-    </section>
-
-
-    {{ partial "cta-bold.html" . }}
-
-
-
-    <!-- HR Tools Section -->
-
-    <section id="hr-tools" class="section pb-0 bg-gray">
-      <div class="container">
-        <header class="section-header">
-          <h2>Easily manage time-off</h2>
-          <hr />
-          <p class="lead-p">
-            Seamlessly synced with payrolls. Also supports local holidays, one-click
-            approvals, quick balances and customized / prepackaged policies.
-          </p>
-          <a
-            class="color-primary font-weight-600"
-            href="/time-off/"
-            style="font-size: 22px;color: #093C8A;"
-          >
-            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
-          </a>
-        </header>
-        
-
-
-
-
-
-        {{ if .Site.Data.homepage.hr_tools.enable }}
-        {{ with .Site.Data.homepage.hr_tools }}
-        <!-- hr_tools -->
-        <div class="row gap-y text-center mb-8">
-              {{ range .item }}
-                {{ if eq .image "" }}
-                  <div class="col-md-6 col-xl-4 feature-8 my-4 align-self-center">
-                    <h3 class="lead-1">{{ .title }}</h3>
-                  </div>
-                {{ else }}
-                  <div class="col-md-6 col-xl-4 feature-7 my-4">
-                      <p class="feature-icon">
-                        <img src="{{ .image }}" loading="lazy"  alt="{{ .title }}" />
-                      </p>
-                    <h3 class="lead-1">{{ .title }}</h3>
-                  </div>
-                {{ end }}
-              {{ end }}
-            </div>
-        <!-- /hr_tools -->
-        {{ end }}
-        {{ end }}
-      
-
-
-      </div>
-    </section>
-
-    <!-- Compliance Section -->
-
-    <section id="compliance" class="section white-background">
-      <div class="container-fluid">
-        <header class="section-header">
-          <h2>Compliance</h2>
-          <hr />
-          <p class="lead-p">
-            Remote Team tax compliance platform streamlines the entire W-8BEN process
-            with digital tax form collection, validation, and payouts.
-          </p>
-          <a
-            class="color-primary font-weight-600"
-            href="/tax-compliance/"
-            style="font-size: 22px;color: #093C8A;"
-          >
-            Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
-          </a>
-        </header>
-        
-        <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
-          <img 
-            loading="lazy"
-            src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto/v1580292419/www/main_compliance_5_boqwg9.jpg"
-            data-aos-delay="200" class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA Slim 2 -->
+  <main class="main-content">
 
     {{ partial "cta-slim.html" . }}
 
-    <!-- Integrated Systems -->
-    <section class="section bg-gray">
-      <div class="container-fluid">
+    <!-- Feature Section -->
+
+    <section class="section white-background" id="features">
+      <div class="container">
         <header class="section-header">
-          <h2>Integrate with your favourite apps</h2>
-          <hr />
-          <p class="lead-p">
-            Your business runs on various applications. Remote Team seamlessly connects
-            with the apps you use everyday.
-          </p>
+          <h2>Products</h2>
+          <hr>
+          <p class="lead-p">Automated Payrolls, Time Off, HR Tools, and Compliance Made Simple for Remote Teams</p>
         </header>
-        
-        
+        <div class="row gap-y text-center">
+          <div class="col-md-6 col-xl-3 feature-1">
+            <h3>
+              <a href="#payrolls">Payrolls</a>
+            </h3>
+            <p class="text-muted">
+              Automate Payrolls for your remote team
+            </p>
+          </div>
 
-        
+          <div class="col-md-6 col-xl-3 feature-2">
+            <h3><a href="#time-off">Time Off</a></h3>
+            <p class="text-muted">
+              Easily manage time-off
+            </p>
+          </div>
 
-        {{ if .Site.Data.homepage.integration_images.enable }}
-        <!-- integration slider -->
-        {{ partial "integration-images.html" . }}
-        <!-- /integration slider -->
-        {{ end }}
+          <div class="col-md-6 col-xl-3 feature-3">
+            <h3><a href="#hr-tools">HR Tools</a></h3>
+            <p class="text-muted">
+              Make your remote team feel closer to each other
+            </p>
+          </div>
+
+          <div class="col-md-6 col-xl-3 feature-4">
+            <h3><a href="#compliance">Compliance</a></h3>
+            <p class="text-muted">
+              Tax Compliance for a Global Workforce
+            </p>
+          </div>
+
+          <div class="col-md-11 mx-auto align-self-end">
+            <img loading="lazy"
+              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579546388/www/main_general_ppakmj.jpg"
+              alt="Time Off" class="mt-4">
+          </div>
+        </div>
       </div>
 
 
+      <!-- Payroll Section -->
 
-    </section>
+      <section id="payrolls" class="section bg-gray pb-0 overflow-hidden">
+        <div class="container">
+          <header class="section-header">
+            <h2>Automated Payroll</h2>
+            <hr />
+            <p class="lead-p">
+              Paying your remote team can be very complex and time consuming. We partnered
+              with TransferWise and a few others to make payrolls more seamless. Also, 👋
+              goodbye to manual 🏦 bank transfers with expensive fees. 🤑
+            </p>
+            <a
+              class="color-primary font-weight-600"
+              href="/payroll/"
+              style="font-size: 22px;color: #093C8A;"
+            >
+              Learn More 
+              <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+            
+            </a>
+          </header>
+          
+
+          <div class="row">
+            <div class="col-md-12 mx-auto text-center">
+              <img loading="lazy"
+                src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579786684/www/main_payroll_jpg_wtgdb8.jpg"
+                data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
+            </div>
+          </div>
+          <div class="row mt-8">
+            <div class="col-md-8 text-center  mx-auto">
+              <h3 id="text-center" style="line-height: 1.5;">Global payments powered by
+                <span style="position: relative; bottom: 8px; margin: 8px; margin-top: 10px; margin-bottom: 10px;">
+                  <img src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_192,c_scale/v1579546365/www/transferwiseLogo_wghp75.png" alt="TransferWise" style="width:12rem;">
+                </span>
+              </h3>
+              <p class="text-muted">
+                Banks and other providers often add a markup to their exchange rate while advertising low fees, which
+                means
+                you could be paying huge hidden charges. RemoteTeam.com selected TransferWise because it transparently
+                displays its fee upfront and deducts
+                it
+                before conversion. No nasty surprises. TransferWise then uses the mid-market rate.
+              </p>
+            </div>
+          </div>
+          <div class="mx-auto w-60 mt-2 mb-8">
+            <img loading="lazy"
+              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_666,c_scale/v1579546394/www/bytransferwise_lrkgwi.png"
+              data-aos="fade-up" data-aos-delay="200" alt="RemoteTeam.com Payroll">
+            <!-- <img src="bytransferwise.png" loading="lazy"  alt="TransferWise" /> -->
+          </div>
+        </div>
+
+        </div>
+        </div>
+      </section>
+
+      <!-- Time Off Section -->
+
+      <section class="section white-background" id="time-off">
+        <div class="container">
+          <header class="section-header">
+            <h2>Easily manage time-off</h2>
+            <hr />
+            <p class="lead-p">
+              Seamlessly synced with payrolls. Also supports local holidays, one-click
+              approvals, quick balances and customized / prepackaged policies.
+            </p>
+            <a
+              class="color-primary font-weight-600"
+              href="/time-off/"
+              style="font-size: 22px;color: #093C8A;"
+            >
+              Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+            </a>
+          </header>
+          
+          <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
+            <img loading="lazy"
+              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1580744092/www/main_timeoff_okcfth.png"
+              data-aos="fade-up" data-aos-delay="200">
+          </div>
+        </div>
+      </section>
+
+
+      {{ partial "cta-bold.html" . }}
+
+      <!-- HR Tools Section -->
+
+      <section id="hr-tools" class="section pb-0 bg-gray">
+        <div class="container">
+          <header class="section-header">
+            <h2>Easily manage time-off</h2>
+            <hr />
+            <p class="lead-p">
+              Seamlessly synced with payrolls. Also supports local holidays, one-click
+              approvals, quick balances and customized / prepackaged policies.
+            </p>
+            <a
+              class="color-primary font-weight-600"
+              href="/time-off/"
+              style="font-size: 22px;color: #093C8A;"
+            >
+              Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+            </a>
+          </header>
+          
 
 
 
-    {{ if .Site.Data.homepage.blog.enable }}
-      {{ partial "latest-blog-posts.html" . }}
-    {{ end }}
-  
 
 
-</main>
+          {{ if .Site.Data.homepage.hr_tools.enable }}
+          {{ with .Site.Data.homepage.hr_tools }}
+          <!-- hr_tools -->
+          <div class="row gap-y text-center mb-8">
+                {{ range .item }}
+                  {{ if eq .image "" }}
+                    <div class="col-md-6 col-xl-4 feature-8 my-4 align-self-center">
+                      <h3 class="lead-1">{{ .title }}</h3>
+                    </div>
+                  {{ else }}
+                    <div class="col-md-6 col-xl-4 feature-7 my-4">
+                        <p class="feature-icon">
+                          <img src="{{ .image }}" loading="lazy"  alt="{{ .title }}" />
+                        </p>
+                      <h3 class="lead-1">{{ .title }}</h3>
+                    </div>
+                  {{ end }}
+                {{ end }}
+              </div>
+          <!-- /hr_tools -->
+          {{ end }}
+          {{ end }}
+        
 
 
-<!-- original file content ends-->
+        </div>
+      </section>
 
+      <!-- Compliance Section -->
 
+      <section id="compliance" class="section white-background">
+        <div class="container-fluid">
+          <header class="section-header">
+            <h2>Compliance</h2>
+            <hr />
+            <p class="lead-p">
+              Remote Team tax compliance platform streamlines the entire W-8BEN process
+              with digital tax form collection, validation, and payouts.
+            </p>
+            <a
+              class="color-primary font-weight-600"
+              href="/tax-compliance/"
+              style="font-size: 22px;color: #093C8A;"
+            >
+              Learn More <img loading="lazy"  src="{{ `images/remote-icons/page/chevron.svg` | absURL }}" alt="Learn More" />
+            </a>
+          </header>
+          
+          <div class="col-md-12 mt-7 mt-md-0 mx-auto text-center">
+            <img 
+              loading="lazy"
+              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto/v1580292419/www/main_compliance_5_boqwg9.jpg"
+              data-aos-delay="200" class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          </div>
+        </div>
+      </section>
 
+      <!-- CTA Slim 2 -->
 
+      {{ partial "cta-slim.html" . }}
+
+      <!-- Integrated Systems -->
+      <section class="section white-background">
+        <div class="container-fluid">
+          <header class="section-header">
+            <h2>Integrate with your favourite apps</h2>
+            <hr />
+            <p class="lead-p">
+              Your business runs on various applications. Remote Team seamlessly connects
+              with the apps you use everyday.
+            </p>
+          </header>
+          
+          {{ if .Site.Data.homepage.integration_images.enable }}
+          <!-- integration slider -->
+          {{ partial "integration-images.html" . }}
+          <!-- /integration slider -->
+          {{ end }}
+        </div>
+
+      </section>
+
+  </main>
+
+  <!-- original file content ends-->
 
 {{ end }}

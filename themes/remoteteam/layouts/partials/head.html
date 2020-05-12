@@ -1,7 +1,10 @@
 <head>
   <meta charset="utf-8">
+  {{ if .IsHome }}
+    <title>{{ .Title }}</title>
+  {{ else }}
   <title>{{ .Title }} | Remote Team</title>
-
+  {{ end }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
 
@@ -18,18 +21,33 @@
 
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-  <meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}/images/site-logo.png{{ end }}">
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.SiteDescription }}{{ end }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
-
+  {{ if isset .Params "image" }}
+    <meta property="og:image" content="{{ $.Params.image }}">
+  {{ else }} 
+    <meta name="og:image" content="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto/v1579546388/www/main_general_ppakmj.jpg" />
+  {{ end }} 
+  
   <style>
     :root{
       --primary-color:{{ .Site.Params.theme_color }};
     }
   </style>
 
+  <script type="application/ld+json">
+    {
+      "url": "{{ .Site.BaseURL }}",
+      "name": "{{ .Title }}",
+      "headline": "{{ .Title }}",
+      "description": "{{ .Description }}",
+      "@type": "WebSite",
+      "@context": "http://schema.org"
+    }
+  </script>
+  
   {{ with resources.Get "scss/main.scss" | toCSS | minify }}
-  <style>{{ .Content | safeCSS }}</style>
+    <style>{{ .Content | safeCSS }}</style>
   {{ end }}
 
 </head>
