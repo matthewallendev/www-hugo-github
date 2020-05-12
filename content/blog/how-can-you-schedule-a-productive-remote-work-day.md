@@ -1,5 +1,7 @@
 ---
 id: 587
+headline: this a headline
+summary: this is a summary
 title: "How Can You Schedule a Productive Remote Work Day?"
 date: 2020-04-22
 content_author: basak

@@ -1,5 +1,7 @@
 ---
 layout: main
+headline: this a headline
+summary: this is a summary
 title: How to Encourage Continuing Education For Your Remote Team Members
 date: 2020-04-17
 content_author: guest_artur

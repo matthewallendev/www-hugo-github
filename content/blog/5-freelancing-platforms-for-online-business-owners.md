@@ -1,5 +1,7 @@
 ---
 layout: main
+headline: this a headline
+summary: this is a summary
 title: 5 Freelancing Platforms for Online Business Owners
 url: freelancing-platforms-for-online-business-owners
 date: 2020-04-23

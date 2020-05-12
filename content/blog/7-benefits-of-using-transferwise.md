@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: 7 Benefits of Using TransferWise
 date: 2019-12-06
 layout: main

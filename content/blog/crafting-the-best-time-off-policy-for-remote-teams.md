@@ -1,5 +1,7 @@
 ---
 id: 371
+headline: this a headline
+summary: this is a summary
 title: Crafting The Best Time-off Policy for Remote Teams
 date: 2020-02-18
 content_author: canberk

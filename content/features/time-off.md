@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: Time Off
 url: time-off
 ---

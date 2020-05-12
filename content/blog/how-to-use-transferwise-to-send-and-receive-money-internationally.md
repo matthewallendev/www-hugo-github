@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: 'How to Use TransferWise To Send &#038; Receive Money Internationally'
 date: 2019-12-06
 layout: main

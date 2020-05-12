@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: Top 10 Effective Tips For Working Remotely
 date: 2019-12-27T10:55:23+00:00
 content_author: editorial_team

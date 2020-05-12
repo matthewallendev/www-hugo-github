@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: "12 Effective Virtual Team Building Activities"
 date: 2019-12-23
 layout: main

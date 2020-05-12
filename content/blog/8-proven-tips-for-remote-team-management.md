@@ -1,4 +1,6 @@
 ---
+headline: this a headline
+summary: this is a summary
 title: 8 Proven Tips for Remote Team Management
 date: 2019-12-18
 layout: main

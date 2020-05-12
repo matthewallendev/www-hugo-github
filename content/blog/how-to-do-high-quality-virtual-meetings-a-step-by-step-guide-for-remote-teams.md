@@ -1,5 +1,7 @@
 ---
 id: 469
+headline: this a headline
+summary: this is a summary
 title: "How to do high quality virtual meetings: a step by step guide for remote teams Emergency"
 date: 2020-03-25
 content_author: saibu

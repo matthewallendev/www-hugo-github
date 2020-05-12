@@ -1,5 +1,7 @@
 ---
 id: 464
+headline: this a headline
+summary: this is a summary
 title: 27 Must Listen Remote Work Podcasts in 2020
 date: 2020-03-03
 content_author: saibu

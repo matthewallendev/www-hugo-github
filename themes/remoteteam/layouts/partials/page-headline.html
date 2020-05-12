@@ -11,6 +11,9 @@
             <h2 class="d-inline-block">
               {{ $.Params.headline }}
             </h2>
+            {{ if isset .Params "summary" }}
+              <p>{{ $.Params.summary }}</p>
+            {{ end }}
           </div>
         </div>
       </div>
