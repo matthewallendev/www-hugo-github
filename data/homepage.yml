@@ -53,5 +53,5 @@ integration_images:
 
     - logo : "/assets/img/integration/toggl-remoteteam-integration.png"
       title: "Toggl Integration"
-      URL : "#"
+      URL : "/toggl/"
 
