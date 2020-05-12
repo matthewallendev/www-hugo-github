@@ -8,28 +8,28 @@ hr_tools:
   title : "HR Tools"
   item:
     - title : "Birthdays"
-      image : "/images/remote-icons/line/gift.svg"
+      image : "/img/icons/line/gift.svg"
       
     - title : "Local Holidays"
-      image : "/images/remote-icons/line/global.svg"
+      image : "/img/icons/line/global.svg"
       
     - title : "Diversity Reports"
-      image : "/images/remote-icons/line/linegraph.svg"
+      image : "/img/icons/line/linegraph.svg"
       
     - title : "Burn Rates"
-      image : "/images/remote-icons/line/dial.svg"
+      image : "/img/icons/line/dial.svg"
       
     - title : "Team Departments"
-      image : "/images/remote-icons/line/ribbon.svg"
+      image : "/img/icons/line/ribbon.svg"
       
     - title : "Documents"
-      image : "/images/remote-icons/line/documents.svg"
+      image : "/img/icons/line/documents.svg"
       
     - title : "Onboarding"
-      image : "/images/remote-icons/line/hotairballoon.svg"
+      image : "/img/icons/line/hotairballoon.svg"
       
     - title : "Inventory"
-      image : "/images/remote-icons/line/piechart.svg"
+      image : "/img/icons/line/piechart.svg"
       
     - title : "And More..."
       image : ""
@@ -39,19 +39,19 @@ hr_tools:
 integration_images:
   enable : true
   item:
-    - logo : "/images/remote-integration/transferwise-remoteteam-integration.png"
+    - logo : "/img/integration/transferwise-remoteteam-integration.png"
       title: "TransferWise Integration"
       URL : "/transferwise/"
 
-    - logo : "/images/remote-integration/desktime-remoteteam-integration.png"
+    - logo : "/img/integration/desktime-remoteteam-integration.png"
       title: "Desktime Integration"
       URL : "/desktime/"
 
-    - logo : "/images/remote-integration/slack-remoteteam-integration.png"
+    - logo : "/img/integration/slack-remoteteam-integration.png"
       title: "Slack Integration"
       URL : "#"
 
-    - logo : "/images/remote-integration/toggl-remoteteam-integration.png"
+    - logo : "/img/integration/toggl-remoteteam-integration.png"
       title: "Toggl Integration"
       URL : "#"
 
