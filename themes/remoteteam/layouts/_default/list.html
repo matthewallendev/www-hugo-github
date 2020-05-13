@@ -1,17 +1,17 @@
-{{ define "main" }}
+{{ define "main" }} {{ partial "page-headline.html" . }}
 
-  {{ partial "page-headline.html" . }}
-
+<div class="container">
   <!-- blog -->
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        {{ range .Data.Pages }}
-        {{ .Render "post" }}
-        {{ end }}
-      </div>
+<div class="row">
+  <div class="col-12 col-lg-8 col-md-10 py-4 mx-auto">
+    <div class="row">
+      {{ range .Data.Pages }} 
+      {{ .Render "post" }}
+    {{ end }}
     </div>
-  </section>
-  <!-- /blog -->
+  </div>
+</div>
+<!-- /blog -->
 
+</div>
 {{ end }}
