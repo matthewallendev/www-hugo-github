@@ -1,6 +1,5 @@
 ---
-headline: this is a headline
-summary: this is a summary
+
 title: How to Use DeskTime to Track the Time of Your Employees
 date: 2019-12-06
 layout: main

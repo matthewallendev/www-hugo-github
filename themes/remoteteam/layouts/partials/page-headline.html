@@ -9,9 +9,13 @@
         <div class="col-md-12 mx-auto">
           <div class="w-75 mx-auto">
             {{ if isset .Params "headline" }}
-            <h2 class="d-inline-block">
-              {{ $.Params.headline }}
-            </h2>
+              <h2 class="d-inline-block">
+                {{ $.Params.headline }}
+              </h2>
+            {{ else }} 
+              <h2 class="d-inline-block">
+                {{ .Title }}
+              </h2>
             {{ end }} 
             
             {{ if isset .Params "summary" }}

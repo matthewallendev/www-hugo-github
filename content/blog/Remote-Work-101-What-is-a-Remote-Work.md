@@ -1,6 +1,5 @@
 ---
-headline: this is a headline
-summary: this is a summary
+
 title: 'Remote Work 101: What is a Remote Work?'
 date: 2019-11-25
 layout: main

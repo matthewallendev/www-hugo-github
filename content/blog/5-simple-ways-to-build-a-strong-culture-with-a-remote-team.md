@@ -1,7 +1,6 @@
 ---
 layout: main
-headline: this is a headline
-summary: this is a summary
+
 title: 5 Simple Ways to Build a Strong Culture With a Remote Team
 date: 2019-11-25
 category: blog

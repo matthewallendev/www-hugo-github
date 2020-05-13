@@ -1,7 +1,6 @@
 ---
 layout: main
-headline: this is a headline
-summary: this is a summary
+
 title: 20 Remote Startups to Follow in 2020 and Beyond
 date: 2020-03-27
 category: blog
