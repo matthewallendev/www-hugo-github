@@ -8,6 +8,12 @@ description = "Remote Team is an HR platform for “Remote First” teams. Our f
 
 enableRobotsTXT = true
 
+# support html in markdown
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 # menu
 
