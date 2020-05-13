@@ -83,3 +83,6 @@ TITLE = "Linkedin"
 URL = "https://stackshare.io/companies/remoteteam"
 TITLE = "StackShare"
 
+[mediaTypes]
+  [mediaTypes."image/svg+xml"]
+    suffixes = ["svg"]
