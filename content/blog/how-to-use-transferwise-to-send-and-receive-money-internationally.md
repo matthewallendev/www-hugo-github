@@ -1,5 +1,5 @@
 ---
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: 'How to Use TransferWise To Send &#038; Receive Money Internationally'
 date: 2019-12-06

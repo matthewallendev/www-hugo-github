@@ -1,5 +1,5 @@
 ---
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: 7 Benefits of Using TransferWise
 date: 2019-12-06

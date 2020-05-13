@@ -1,5 +1,5 @@
 ---
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: What is a Virtual Team or Remote Team?
 date: 2019-12-16

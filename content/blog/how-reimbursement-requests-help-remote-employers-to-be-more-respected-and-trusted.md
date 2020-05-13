@@ -1,6 +1,6 @@
 ---
 id: 486
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: "How Reimbursement Requests Help Remote Employers to be more Respected and Trusted?"
 date: 2020-04-01

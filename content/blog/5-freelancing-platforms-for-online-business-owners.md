@@ -1,6 +1,6 @@
 ---
 layout: main
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: 5 Freelancing Platforms for Online Business Owners
 url: freelancing-platforms-for-online-business-owners

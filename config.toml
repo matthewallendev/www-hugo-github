@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://remoteteam.com"
+baseURL = "https://www-hugo.surge.sh/"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "remoteteam"

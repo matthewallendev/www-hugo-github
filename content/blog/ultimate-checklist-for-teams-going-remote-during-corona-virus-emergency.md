@@ -1,6 +1,6 @@
 ---
 id: 466
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: Ultimate Checklist for Teams Going Remote During (Corona virus) Emergency
 date: 2020-03-24

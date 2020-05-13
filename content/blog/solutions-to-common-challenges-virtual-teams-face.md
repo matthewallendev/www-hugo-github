@@ -1,5 +1,5 @@
 ---
-headline: this a headline
+headline: this is a headline
 summary: this is a summary
 title: Solutions to Common Challenges Virtual Teams Face
 date: 2019-12-25
