@@ -8,208 +8,220 @@ headline: Apply for Affiliate Program
 description: Apply for Affiliate Program
 ---
 
-**Updated: 2018-12-17 and 2020-05-08** 
+### Remote Team Affiliate Agreement .
 
-**Introduction**
+Remote Team may offer you an opportunity to become an independent Remote Team Affiliate (“Affiliate”), wherein you have the opportunity to earn additional money for Remote Team products, services, and accounts that you sell. Remote Team reserves the sole and exclusive right to determine the amount of remuneration each Affiliate will receive in exchange for the Affiliate’s efforts.  Affiliate commission is further discussed herein. See also Remote Team Terms of Service which apply to you in your role as Affiliate, unless otherwise expressly provided for.   
+ 
+This Affiliate Agreement (“Agreement”) governs Your application for, and any subsequent participation in, Remote Team’ Affiliate program. By mailing for Affiliate Request to us/clicking “I Accept the Terms and Conditions” and submit, You thereby accept the terms of this Agreement, You indicate that You have read and understood this Agreement, and agree that You are bound by its terms. 
+ 
+## DEFINITIONS.
 
-Please read these Terms of Service ("Terms" or "Terms of Service") carefully before accessing or using Remote Team lnc.’s (“Remote Team” "us", "we" or "our") or www.remoteteam.com website (the “Website”) and/or Remote Team service for registered users (“Service”), you ("User", "you" or "your") agree to be bound by these terms of use (these “Terms”)
+"Affiliate" or " you " means any person or legal entity, which completed the signup process on the Remote Team Website and became the participant of the Remote Team Affiliate Program. Participation in the Remote Team Affiliate Program is prohibited to individuals and entities who possess a voting or political interest in the Remote Team, including Remote Team officers, directors, stockholders and employees of Remote Team, and their immediate families.
 
-By accessing or using the Services, you agree to receive all communications and notices from us electronically. If you have questions about these Terms, contact our Customer Support team by submitting a request here(link).
+" Remote Team Affiliate Program"  is a revenue-sharing program, developed by the Remote Team that allows you, the Affiliate, to use marketing methods to promote our services and drive traffic to the Remote Team Website, pursuant to the provisions of this Agreement.
 
-If you do not wish to be bound by these Terms, you may not access or use the Website and products or service.
+" Remote Team Website" means www.remoteteam.com
+"Commission"  means the monetary compensation you receive, according to the “COMMISSION PAYMENT” section hereof, for participating in Remote Team Affiliate Program; the Commission consists of percent of your total sale amount. The sale occurs when an End User visits the Remote Team Website through a Reference Link and makes payment for Service or otherwise as described herein.
 
-This Agreement sets forth the general terms and conditions of your use of the our website and any of its products or services (collectively, "Website" or "Services").
+"Commission Payment"  refers to payments systems, through which you can receive your Commission. You may receive your commission through PayPal. The minimum threshold for PayPal payments is $100 USD. Payments are processed only on the 10th and 25th day of each month; provided that if the payment date falls on a day that is not a business day (in Remote Team 's sole discretion), payment will be made on the first business day thereafter.
 
-If you are signing up for the Service on behalf of any third party, you represent that you are duly authorized to represent the third party entity and accept the terms of this Agreement on behalf of such entity, and any references to “you” in this Agreement refer also to such entity and all of its employees, consultants and agents. You are responsible for all activity on the Service that occurs under your account and the service.
+"Cookie life period"  unless otherwise stated herein, means 10 (ten) years from the date of End User's first arrival on the Remote Team Website through Affiliate's Reference Link according to this Agreement. The Cookie life period for End Users from China is 30 (thirty) days, due to the implementation of the Remote Team Affiliate Program along with its partners in that region.
 
-We reserve the right to update and change these Terms of Service without notice and we posting an updated version to our website here. (add link)
+" End User " means the authorized actual user of the Remote Team Service, who registers for a free/paid account on the Remote Team Website.
 
-**Overview**
+" Lead " means the potential end user of the Remote Team Service, who clicks on the Reference Link and who has been approved by Remote Team as an Affiliate's lead according to the terms herein. The Lead could be approved by Remote Team at its sole discretion, taking into account the following: (i) the Lead should be the new user for Remote Team; (ii) the Lead should use your Reference Link; (iii) the Lead should not be the pre-existing End User of Remote Team (iv) the Lead is not involved in our active sales process with our Remote Team sales representative(s) or Remote Team agents or resellers; (v) there should be no more than 3 (three) Leads per 1 (one) Affiliate per 1 (one) month. Affiliate can re-submit the Lead up to 2 (two) times after the initial submission, any further re-submission would be declined by Remote Team at its sole discretion.
 
-Remote Team Inc. is an all-in-one HR solution for ‘remote first’ teams. Our fully-integrated service/platform helps companies automate and easily manage payments, tax compliance, expense reimbursements, time-off policies, team productivity, and more.
+"Net Revenue"  means the initial Remote Team Subscription fee, any renewal fees, and any upgrade or downgrade fees that are actually paid to Remote Team by an End User for the Remote Team Service on the Remote Team Website. Net Revenue shall: (i) be calculated net of any discounts, taxes payable; (ii) be calculated including any subsequent refunds to End User.
 
-How it works:
+"Reference Link"  means a link that leads to the Remote Team Website and contains your reference ID. You will receive your reference ID only after becoming the participant of the Remote Team Affiliate Program.
 
-- Registration to our website
-- Create your remote group
-- Set your remote workers data by details
-- Set your payroll periods
-- Let the Remote Team handle your needs by our website contexts
+" Remote Team Service" means the access to the online platform, applications, and tools, that the users view or subscribe for, that are developed, maintained, operated by us, accessible via the Remote Team Website.
 
-**Eligibility.**
+" Remote Team Subscription " means the subscription for the Remote Team Service specified on the Remote Team Website.
 
-We make the website and the Services available to Users 18 years of age or older. If you are not 18, you may not create an Account or use the Services. You must be a human to open an Account. Accounts registered by “bots” or other automated methods are not permitted. You may not maintain more than one Account at a time. By applying for an Account and using the Services, you represent and warrant that you are of legal age to form a binding contract and meet all of the foregoing eligibility requirements. If you do not meet these requirements, you may not access or use the Services or apply for an Account. We may refuse to provide the Services to anyone for any reason at any time, and may suspend or terminate your use of the Services without prior notice to you.
+"Third Party"  means any individual or legal entity, other than the party to this Agreement.
 
-**Accounts and membership**
+"Your Website"  or "Affiliate Website"  means the world wide web site that you state during the signup to Remote Team Affiliate Program, which is owned or operated by you.
 
-If you create an account on the Website, you are responsible for maintaining the security of your account and you are fully responsible for all activities that occur under the account and any other actions taken in connection with it. We may, but have no obligation to, monitor and review new accounts before you may sign in and use our Services. Providing false contact information of any kind may result in the termination of your account. You must immediately notify us of any unauthorized uses of your account or any other breaches of security. We will not be liable for any acts or omissions by you, including any damages of any kind incurred as a result of such acts or omissions. We may suspend, disable, or delete your account (or any part thereof) if we determine that you have violated any provision of this Agreement or that your conduct or content would tend to damage our reputation and goodwill. If we delete your account for the foregoing reasons, you may not re-register for our Services. We may block your email address and Internet protocol address to prevent further registration.
 
-**User content**
+#### PARTIES. 
 
-We do not own any data, information or material ("Content") that you submit on the Website in the course of using the Service. You shall have sole responsibility for the accuracy, quality, integrity, legality, reliability, appropriateness, and intellectual property ownership or right to use of all submitted Content. We may, but have no obligation to, monitor and review Content on the Website submitted or created using our Services by you. Unless specifically permitted by you, your use of the Website does not grant us the license to use, reproduce, adapt, modify, publish or distribute the Content created by you or stored in your user account for commercial, marketing or any similar purpose. But you grant us permission to access, copy, distribute, store, transmit, reformat, display and perform the Content of your user account solely as required for the purpose of providing the Services to you. Without limiting any of those representations or warranties, we have the right, though not the obligation, to, in our own sole discretion, refuse or remove any Content that, in our reasonable opinion, violates any of our policies or is in any way harmful or objectionable.
+All references to “Remote Team” herein means and refers to Remote Team lnc., doing business as Remote Team.  All references to “You” and “Your” mean and refer to the person or entity who has executed this Agreement.  Remote Team and You are each referred to herein as a “Party,” and collectively as the “Parties.”
+ 
+Non-Exclusivity.
 
-**Customer’s Rights**
+This Agreement does not create an exclusive agreement between you and us. Both you and we will have the right to recommend similar products and services of third parties and to work with other parties in connection with the design, sale, installation, implementation and use of similar services and products of third parties.
 
-During the Term, Remote Team grants you a limited, non-transferable, non-sub licensable, non-exclusive right to access and use the hosted software products and related documentation included in the Service and all modifications and/or enhancements to any of the foregoing (hereinafter “Software”) via a web browser or other device owned or controlled by you for your internal business use. Nothing in this Agreement obligates Remote Team to deliver or make available any copies of computer programs or code from the Software to you, whether in object code or source code form. You agree to use the Service only in compliance with all applicable local, state, national, and international laws, rules and regulations (“Applicable Law”). You shall not, and shall not agree to, and shall not authorize, encourage or permit any third party to: Use the Service to upload, transmit or otherwise distribute any content that is unlawful, defamatory, harassing, abusive, fraudulent, obscene, threatening, abusive, hateful, contains viruses, or is otherwise objectionable as reasonably determined by Remote Team; Use the Service for any fraudulent or inappropriate purpose; Attempt to decipher, decompile, delete, alter or reverse engineer any of the Software; Duplicate, make derivative works of, reproduce or exploit any part of the Service without the express written permission of Remote Team; Use any robot, spider, other automated device, or manual process to monitor or copy any content from the Service other than copying or exporting of the information provided, inputted or uploaded to the Service by you or on your behalf (“Data”) as contemplated in the Documentation; Rent, lease, distribute, or resell the Software, or use the Software for developing a competitive solution (or contract with a third party to do so), or remove or alter any of the logos, trademark, patent or copyright notices, confidentiality or proprietary legends or other notices or markings that are on or in the Software or displayed in connection with the Service. Remote Team shall maintain commercially reasonable administrative, physical, and technical safeguards for protection of the Services, and the security of your Data. Remote Team shall not (a) disclose your Data except as compelled by Applicable Law or as you expressly authorize in writing, or (b) access your Data except to provide the Service and prevent or address service or technical problems, or at your express request in connection with customer support matters. In the event we are compelled by Applicable Law to disclose your Data, we will provide you with notice thereof, (in advance, if possible) if permitted by Applicable Law.
 
-**Customer’s Responsibilities**
+Affiliate Acceptance.
 
-Remote Team’s obligations regarding Support Services are subject to the following: You will promptly report to Remote Team all problems with the Software and will implement any corrective procedures provided by Remote Team reasonably promptly upon receipt of the request. You will provide Remote Team with all information, access, and full good faith cooperation reasonably necessary to facilitate the provision of the Support Services. Customer’s failure or delay in its performance of any of the foregoing relieves Remote Team of its obligations under this Agreement to the extent that such obligations are dependent upon Customer’s performance. You will provide Remote Team a list of contacts (including name, email address, and phone number) of those individuals authorized to open service requests on Customer’s behalf. These authorized contacts must have the access and authority to administer or configure the Software as required by the nature of the service request. Remote Team does not provide support directly to the end users of the Software. You are solely responsible for the use of the Software by its personnel and will properly train its personnel in the use and application of the Software. You are responsible for obtaining and maintaining appropriate equipment and ancillary services needed to connect to, access or otherwise use the Software, including, without limitation, computers, computer operating systems, Data storage, network devices, and web browsers. SUPPORT. Subject to the terms of this Agreement, Remote Team will, during the Services Period, provide customers with support services (“Support Services”). Support Services do not cover problems caused by the following: (i) accident; unusual physical, electrical or electromagnetic stress; neglect; misuse; failure of electric power, air conditioning or humidity control; operation of the Software with other media not in accordance with the manufacturer’s specifications; or causes other than ordinary use; (ii) Modified Code; or (iii) use of the Software with unsupported tools; or (iv) any issue not covered by Technical Support. Customer may request assistance from Remote Team for such problems, for an additional fee.
+Once you complete an application to become an Affiliate, we will review your application and notify you whether you have been accepted to participate in the Affiliate Program, or not.  Before we accept an application, we may want to review your application with you, so we may reach out to you for more information. We may require that you complete certain requirements or certification(s) before we accept your application. If we do not notify you that you are accepted to participate in the Affiliate Program within thirty (30) days from your application, your application is considered to be rejected.
 
-**Payment, Refunds, Upgrading and Downgrading Terms**
+If you are accepted to participate in the Affiliate Program, then upon notification of acceptance, the terms and conditions of this Agreement shall apply in full force and effect, until terminated, pursuant to the terms set forth below.  Further, you will need to complete any enrollment criteria set out in the Program Policies Page, if applicable. Failure to complete any enrollment criteria within thirty (30) days of your acceptance will result in the immediate termination of this Agreement and you will no longer be able to participate in the Affiliate Program.
 
-The Service is offered with a free trial for 30 days. If you need more than 30 days, you will only be able to continue using
+Your acceptance and participation in the Affiliate Program does not mean that you will be accepted into any of our Remote Team Affiliate Programs, including our other programs. In order to participate in these programs, you will need to apply in accordance with the relevant application procedure.
 
-the Service by paying in advance for additional usage. If you fail to pay for additional usage, your account will be frozen and inaccessible until payment is made.
+You will comply with the terms and conditions of this Agreement at all times, including any applicable Program Policies.
 
-For any upgrade or downgrade in plan level, will result in the new rate being charged at the next billing cycle. There will be no prorating for downgrades in between billing cycles.
+#### AFFILIATE RIGHTS.
 
-Downgrading your Service may cause the loss of features or capacity of your account. The Company does not accept any liability for such loss.
+We grant you, subject to the limitations set forth below, a limited, non-exclusive, non-assignable, non-sublicensable, non-transferable, revocable right to: (i) demonstrate and promote the Remote Team Service to your prospects and customers, and (ii) to provide End Users access to use the Remote Team Service, in accordance with this Agreement and Remote Team terms and conditions, specified on the Remote Team Website, provided that End Users agreed to Remote Team terms and conditions, specified on the Remote Team Website.
 
-All fees are exclusive of all taxes, levies, or duties imposed by taxing authorities, and you shall be responsible for payment of all such taxes, levies, or duties, excluding only United States (federal or state) taxes. Where required, The Company will collect those taxes on behalf of taxing authority and remit those taxes to taxing authorities.
+You may place banners or Reference Links within your newsletters, on Your Website, or within other web related content.
 
-Refunds are processed according to our fair refund policy.
+You can reach us by sending an email to affiliate@remoteteam.com
 
-Payment terms details will be specified as part of a specific commercial agreement between the company client.
+#### AFFILIATE OBLIGATIONS.
 
-**Payment Service Providers and fees**
+You must provide your full legal name, a valid email address, a valid domain name of Your Website and all other information requested in order to complete to us. All information you provide in your profile must be truthful. You are solely responsible for all the information you provide in Your Website.
 
-If you make or receive payments using a Payment Service Provider, you acknowledge and agree that you will comply with any Payment Service Provider terms of service or other agreement between you and the Payment Service Provider. We will not be held liable for any losses or damages, direct or indirect, pecuniary or non-pecuniary, resulting from the actions or omissions of any Payment Service Provider, and we expressly disclaim any responsibility in this regard. Any fees for use of a Payment Service Provider to make payments or receive payments will be borne by you. Any fees imposed on you by a Payment Service Provider are in addition to any fees payable to us.
+As a prerequisite to payment, all Affiliates must submit W-8BEN/W-8BEN-E/W9 forms, as applicable, (hereinafter "forms"). Scanned or electronically completed  and signed copies of these forms must be sending us. If the forms are not properly filed or submitted on time, payments will be delayed. Your full name in Your Account must match the name on the form. The form must be filled out on behalf of the party receiving the payment. The completed forms must be provided at least 2 (two) business days before the payout date (for payments via PayPal) or at least 2 (two) business days before sending the invoice to Remote Team (for payments via wire transfer).
 
-Except for Remote Team’s role as a limited payment agent for Contractors, Remote Team does not and will not provide banking, deposit taking, stored value, escrow, insurance or any other financial service to Users. Remote Team do not guarantee that the Contractors will pay own freelancers or users. Depending on your location, some Payment Methods may not be available to you, and we cannot guarantee that you will be able to use any Payment Method in connection with the Service even in locations where your preferred Payment Method is available for use. Depending on the desired Payment Method, Users may be required to enter into a separate Payment Service Provider agreement. Your use of any Payment Method is subject to the terms and conditions of the applicable Payment Service Provider’s rules and regulations and your agreement with them, and we will not be liable to you for any losses you suffer in connection with your use of any third-party payment services. Remote Team is not a party to your Payment Service Provider agreement and will not intervene in any disputes related to payments you make or receive using any third-party Payment Method. Users are solely responsible for payment of insufficient funds fees, overdraft fees, wire transfer fees or other bank fees that you or we incur in connection with Payment Service Provider transaction fees, taxes, and any other third-party Payment Method fees or charges. Remote Team does not charge Contractors any fees for payments processed through the Platform regardless of Payment Method, however, Remote Team is not responsible for any transaction fees, foreign exchange fees or any other fee imposed separately on a Contractor by a Payment Service Provider or by Contractor’s own financial institution. Remote Team is also not responsible for any Payment Service fee changing.
+You will be solely responsible for the development, operation, and maintenance of Your Website and for all materials that appear on Your Website. You should ensure that materials posted on Your Website do not violate or infringe the rights of any Third Party (including, for example, copyrights, trademarks, privacy, or other personal or proprietary rights). You will be solely responsible for the accuracy, truthfulness, and appropriateness of materials posted on Your Website. We do not endorse or accept any responsibility for any links that lead from Your Website to any other website apart from the Remote Team Website and for any content that can be found by following these links to Third Party websites.
 
-**Disputes and Contract Cancellations**
+Affiliate warrants and guarantees on behalf of itself and its affiliates, subsidiaries, agents and subcontractors: (i) that all personal data, contained in the Leads (if any) or any other data or material , provided to Remote Team according to this Agreement,  were collected in accordance with all applicable laws, including but not limited to, applicable data protection laws; (ii) that the Affiliate is fully allowed to transfer personal data to Remote Team and that the Affiliate received all necessary permissions so that Remote Team could store and process such personal data, use it in marketing purposes and for offering its services.
 
-Reversals and Disputes. Clients should not initiate payments until Contractors have meet the acceptance criteria or other requirements detailed in a Contract. Except to satisfy the compliance obligations set forth in this terms, Remote Team cannot reverse payments or withhold funds from Contractors, and cannot cause Payment Service Providers to reverse payments or withhold funds from Contractors once funds have been received by Remote Team or the relevant Payment Service Provider. If a Client is not satisfied with the service provided by a Contractor or makes a payment in error, the Client must initiate a refund, reversal or other payment dispute process directly with the Contractor or with the relevant Payment Service Provider. Remote Team will not adjudicate payment or Contract disputes between Users regardless of Payment Method or Contract status under any circumstances, and Users are solely responsible for dispute settlement. Refunds and reversals of payments made through a Payment Service Provider are subject to the terms and conditions of your Payment Service Provider agreement.
+You will comply promptly with all opt-out, unsubscribe, "do not call" and "do not send" requests.  For the duration of this Agreement, you will establish and maintain systems and procedures appropriate to effectuate all opt-out, unsubscribe, "do not call" and "do not send" requests.
 
-User-Initiated Contract Cancellation. If a Client owes outstanding payments to a Contractor after completion of work, or if a Client is dissatisfied with the service provided by a Contractor, the Client or Contractor may initiate cancellation of the Contract through the Remote Team dashboard. Cancellation of a Contract through the Remote Team dashboard has no bearing whatsoever on the merits of a Contract dispute, or the interpretation of the terms of, or legality of a Contract. The Service records the initiator of, and the time and date of the cancellation. Users may not initiate or request payment for services related to, or alter the status of a Contract after it has been cancelled.
+#### CONSENT TO BE CONTACTED.
 
-Contract Cancellation by Remote Team. Remote Team may cancel a Contract in the event of suspicious Account activity or Account compromise; fraud, harassment, and threats; unfair, deceptive, or abusive acts or practices; illegal acts; at the direction of a regulatory authority; or for any other violation of these Terms of Service. Remote Team may also cancel a Contract if a User is no longer a Remote Team Accountholder in good standing. Please contact us if you believe a Contract or another User is in violation of these Terms.
+You expressly consent to be contacted at the email address and the phone number You provide in Your application about Your application and the Affiliate program, including through automated dialing systems, texts, and artificial or prerecorded messages.  This consent is a material condition of this Agreement and may not be revoked except in writing by both Parties.
 
-**Severability**
+#### PROHIBITED USES .
 
-All rights and restrictions contained in this Agreement may be exercised and shall be applicable and binding only to the extent that they do not violate any applicable laws and are intended to be limited to the extent necessary so that they will not render this Agreement illegal, invalid or unenforceable. If any provision or portion of any provision of this Agreement shall be held to be illegal, invalid or unenforceable by a court of competent jurisdiction, it is the intention of the parties that the remaining provisions or portions thereof shall constitute their agreement with respect to the subject matter hereof, and all such remaining provisions or portions thereof shall remain in full force and effect.
+You may not use the Remote Team Affiliate Program for any illegal or unauthorized purpose. While using the Remote Team Service and/or participating in the Remote Team Affiliate Program, you must not violate any laws in your area/state/country.
 
-**Links to Third Party Websites**
+You cannot promote Remote Team and/or Remote Team on any gambling websites, websites with adult/hate/violent/defamatory content or any other content that is considered offensive or inappropriate, and any websites that violate third party rights and/or violate any applicable laws. Remote Team may or may not review all content on Your Website(s) or used by you in your promotional methods. Remote Team may require and you agree to provide us the information regarding traffic sources, promotional channels and your promotional methods with regard to Remote Team Service. If your sources, channels or methods with regard to Remote Team Service would be considered as inappropriate or inconsistent with the terms of this Agreement, at Remote Team sole discretion, your account could be suspended, your use privileges could be revoked and Commissions could be canceled.
 
-Third party websites linked to and from the Website are not necessarily under the control of Remote Team. Remote Team shall have no responsibilities or liabilities whatsoever for the content or privacy practices of any such linked websites or any link or linking program at any time. Remote Team does not necessarily endorse companies (or related products or services) to or from which the Website is linked. If you decide to access any of the third party websites linked to the Website, you do so entirely at your own risk. You acknowledge and agree that you will not use any such third party websites linked to and from the Website, in any manner that violates or misappropriates or could result in a violation or misappropriation of intellectual property rights of such third party, including, without limitation, copyrights, trademarks, trade secrets and/or patent rights; but rather, that if you choose to use or access such third party website, you will do so according to such third party’s website terms of use. For avoidance of doubt, nothing in these Terms shall be interpreted as asserting or contesting any ownership rights in the intellectual property of such third party in any action or proceeding of whatever kind or nature.
+Affiliates may not share their Commission, received through Remote Team Affiliate Program, with End Users. Commission cannot be split in any way between you, your employees and any other Third Party, including End Users.
 
-**Accuracy of information**
+You cannot use and/or mention in any way: (i) the Remote Team brand names as a keyword in your advertising campaigns across any search engines, including any misspellings in the brand name; (ii) the Remote Team brand names in the domain name of Your Website, including any misspellings of the brand name.
 
-Occasionally there may be information on the Website that contains typographical errors, inaccuracies or omissions that may relate to promotions and offers. We reserve the right to correct any errors, inaccuracies or omissions, and to change or update information or cancel orders if any information on the Website or on any related Service is inaccurate at any time without prior notice (including after you have submitted your order). We undertake no obligation to update, amend or clarify information on the Website including, without limitation, pricing information, except as required by law. No specified update or refresh date applied on the Website should be taken to indicate that all information on the Website or on any related Service has been modified or updated.
+You may not modify the trademarks, banners, the content or any of the images provided to you in any way, without our prior written consent.
 
-**Prohibited uses**
+Fraud is a serious offense and will be treated as such. Fraud is defined as any action that intentionally attempts to create sales, leads, or click-throughs using robots, frames, iframes, scripts, or manually "refreshing" of pages, for the sole purpose of creating Commissions. ANY ATTEMPTED FRAUD OR FRAUD OR ANY HARMFUL ACTION WILL RESULT IN ACCOUNT CANCELATION AND VOIDED COMMISSIONS. Affiliate has to provide all the documents requested by us within 30 (thirty) days in case we notice any potentially fraudulent activities associated with Your Account or coming through your Reference Links. Otherwise, Your Account will be blocked and the Commissions will be canceled.
 
-In addition to other terms as set forth in the Agreement, you are prohibited from using the Website or its Content: (a) for any unlawful purpose; (b) to solicit others to perform or participate in any unlawful acts; (c) to violate any international, federal, provincial or state regulations, rules, laws, or local ordinances; (d) to infringe upon or violate our intellectual property rights or the intellectual property rights of others; (e) to harass, abuse, insult, harm, defame, slander, disparage, intimidate, or discriminate based on gender, sexual orientation, religion, ethnicity, race, age, national origin, or disability; (f) to submit false or misleading information; (g) to upload or transmit viruses or any other type of malicious code that will or may be used in any way that will affect the functionality or operation of the Service or of any related website, other websites, or the Internet; (h) to collect or track the personal information of others; (i) to spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any obscene or immoral purpose; or (k) to interfere with or circumvent the security features of the Service or any related website, other websites, or the Internet. We reserve the right to terminate your use of the Service or any related website for violating any of the prohibited uses.
+You cannot SPAM. We will terminate Your Account on the first offense of spamming. Do not send emails to lists or groups that you do not have permission to send them to. We have the right to deactivate or delete Your Account on the first offense referring to this section.
 
-**Restricted Activities**
+You will not receive Commissions for self-referrals and for Affiliates, who violate our Remote Team Affiliate Program Terms. You are also not allowed to refer the company you work for and receive Commissions for that.
 
-You may not use the Remote Team in connection with any product, service, transaction or activity that involves:
+You may not market Remote Team trials as discount offers/coupons and may not place Remote Team trials in discount/coupon sections of Your Website(s) unless otherwise agreed by Remote Team in writing.
 
-1. Violates any law or government regulation, or promotes or facilitates such by third parties;
-2. Violates any rule or regulation of Visa, Mastercard, American Express, Discover, JCB, Diners Club card, China UnionPay or any other electronic funds transfer network ;
-3. Is fraudulent, deceptive, unfair or predatory;
-4. Causes or threatens reputational damage to us;
-5. Involves any of the business categories listed in under this section; or
-6. Results in or creates a significant risk of chargebacks, penalties, damages or other harm or liability.
-
-Certain Business Categories
-
-You may not use the Remote Team Services in connection with any product, service, transaction or activity that involves:
-
-1. age restricted products or services
-2. aggregation or factoring, whether licensed or unlicensed
-3. airlines (exceptions apply if you get our prior written approval)
-4. bail bonds
-5. bankruptcy lawyers
-6. bidding fee auctions
-7. business or investment opportunity sales
-8. chain letters
-9. check cashing, wire transfers or money orders
-10. collection agencies
-11. counterfeit goods or any product or service that infringes upon the copyright, trademark or trade secrets of any third party
-12. credit card and identity theft protection
-13. credit counseling, repair or protection services, or mortgage consulting or reduction services
-14. cruise lines
-15. currency exchanges or dealers
-16. decryption and descrambler products designed to circumvent intellectual property rights or protections, including mod chips
-17. door-to-door sales
-18. drug paraphernalia
-19. embassies, foreign consulates or other foreign governments
-20. essay mills
-21. evading card association chargeback monitoring programs
-22. extended warranties
-23. real estate purchases with no money down
-24. flea markets
-25. fortune tellers
-26. gambling (including but not limited to lotteries, Internet gaming, contests, sweepstakes, or offering of prizes as an inducement to purchase goods or services) (exceptions apply in some countries/regions and if you get our prior written approval)
-27. “get rich quick” schemes
-28. human hair, fake hair or hair-extensions
-29. loan modifiers
-30. mail-order brides
-31. marijuana dispensaries and related businesses
-32. money transmitters or money service businesses
-33. multi-level marketing or pyramid schemes
-34. negative response marketing
-35. offering substantial rebates or special incentives to the cardholder subsequent to the original purchase
-36. online or other non-face-to-face pharmacies or pharmacy referral services
-37. online or other non-face-to-face tobacco or e-cigarette sales
-38. prepaid phone cards, phone services or cell phones
-39. pseudo pharmaceuticals
-40. products/services that promote hate, violence, harassment or abuse, if illegal
-41. quasi-cash or stored value
-42. securities brokers
-43. sexually-oriented or pornographic products or services
-44. sharing cardholder’s data with another merchant for payment of up-sell or cross-sell products or services
-45. shipping or forwarding brokers
-46. social media activity sales (such as sales of Twitter followers, Facebook likes or Youtube views)
-47. sports forecasting or odds making
-48. prescription drugs, illegal drugs or substances designed to mimic illegal drugs
-49. telecommunications equipment and telephone sales
-50. telemarketing
-51. timeshares
-52. tour operators (exceptions apply if you get our prior written approval)
-53. travel agencies or travel clubs (exceptions apply if you get our prior written approval)
-54. virtual currency or credits that can be monetized, re-sold or converted to physical or digital goods or services or otherwise exit the virtual world
-55. weapons and munitions
-56. entertainment venues including but not limited to nightclubs, bars
-57. pre-payment services
-58. personal computer technical support (exceptions apply if you get our prior written approval )
-
-**Use of the Remote Team Site**
-
-You agree to use the Remote Team Site only for lawful purposes and in a manner which does not infringe the rights of, or restrict or inhibit the use and enjoyment of the Remote Team Site by any third party (including intellectual property rights, rights of confidentiality or privacy). As such, you must not: (a) copy, download, reproduce, republish, broadcast, transmit, in any manner whatsoever, any material on the Remote Team Site except as is reasonably necessary for your own personal, non-commercial use; (b) send any materials which contain viruses or any other destructive elements. Use of these Services may be available through a compatible mobile device, the Internet, and may require software. You agree that you are solely responsible for these requirements, including any applicable changes, updates and fees as well as the terms of your agreement with your mobile device and telecommunications provider.
-
-**Interruption of Service**
-
-From time to time, the Services may be unavailable for periods of time for maintenance and / or modifications to the Website. We will endeavor to make keep maintenance down time as brief as possible. However, we cannot guarantee that the Services will be available to you, and we will not be liable to you for any losses or damages, pecuniary or non-pecuniary, resulting from the interruption of your use of the Services.
-
-**Intellectual Property Rights**
-
-Copyright All materials displayed or performed on or accessible through the Website, including any text, images and other materials contained or displayed on any Remote Team publication, product, service, report or e-mail are proprietary to Remote Team, except where otherwise noted, and constitute valuable intellectual property of Remote Team, protected by applicable patent, copyright and trade secret laws and by international treaty provisions. No material from any part of the Website or any Remote Team publication, product, service, report, e-mail or any third party website linked to and from the Website may be downloaded, transmitted, broadcasted, transferred, assigned, reproduced, stored in a retrieval system, or in any other way used or otherwise disseminated in any form to any person or entity, without the explicit prior written consent of Remote Team. All unauthorized reproduction or other use of material from Remote Team or the Website shall be deemed willful infringement(s) of Remote Team's copyright and other proprietary and intellectual property rights. You acknowledge and agree that you will not use the Website or any materials accessible through the Website in any manner that violates or misappropriates or could result in a violation or misappropriation of intellectual property rights of Remote Team, including, without limitation, copyrights, trademarks, trade secrets and/or patent rights. Under no circumstances shall you assert or contest any ownership rights in and to Remote Team's intellectual property in any action or proceeding of whatever kind or nature, nor shall you take any action that may prejudice, render generic, weaken or diminish the good will associated with Remote Team's intellectual property rights. Remote Team expressly reserves all rights in connection with its intellectual property, including without limitation the right to block the transfer of its products and services and/or to track usage thereof, through electronic tracking technology, and all other lawful means, now known or hereafter devised. Remote Team reserves the right, without further notice, to pursue to the fullest extent permitted by law any and all criminal and civil remedies for the violations of its rights. Additionally, the Website may contain third party proprietary information and/or Trademarks, which shall be subject to their respective owners’ terms of use.
-
-**Trademark**
-
-The trademarks, trade names, domain names, logos, service marks, slogans, and other indicia of origin (collectively the “Trademarks”) displayed on the Website are registered and/or unregistered Trademarks of either Remote Team and/or its affiliates and/or its partners and/or third parties. Nothing contained on the Website should be construed as granting by implication, estoppel, or otherwise, any license or right to use any Trademark displayed on the Website without the explicit written consent of Remote Team or its respective owner. Misuse of any Trademarks, or any other content, displayed on the Website, is prohibited. Remote Team reserves the right, without further notice, to pursue to the fullest extent permitted by law any and all criminal and civil remedies for the violations of its rights.
-
-**Termination; Survival**
-
-We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability to you, in our sole discretion, for any reason whatsoever and without limitation, including but not limited to a breach of these Terms. If you wish to terminate your account, please contact us via email. after which we will permanently delete the Contract from our servers.
-
-**Disclaimer and Limitation of Liability**
-
-While Remote Team shall use reasonable efforts to provide up-to-date and accurate information, Remote Team makes no warranties or representations as to the accuracy of the information and assumes no liability or responsibility for any errors or omissions in the information provided on the Website. You expressly acknowledge and agree that your use of the Website is at your own risk. All Information available through the Website is provided on an “AS IS” basis. Remote Team makes no warranty that the Website will meet your requirements, be uninterrupted, secure or error free, free of viruses or other harmful components or destructive files. The content of the Website is subject to change without notice. Remote Team SPECIFICALLY DISCLAIMS ANY AND ALL WARANTIES, EXPRESS OR IMPLIED, REGARDING ANY INFORMATION PROVIDED THROUGH OR IN CONNECTION WITH THE WEBSITE. Remote Team's OBLIGATIONS WITH RESPECT TO ITS PRODUCTS AND SERVICES ARE GOVERNED SOLELY BY THE AGREEMENTS UNDER WHICH THEY ARE PROVIDED AND NOTHING ON THIS WEBSITE SHOULD BE CONSTRUED TO ALTER SUCH AGREEMENTS. IN NO EVENT WILL Remote Team ASSUME ANY RESPONSIBILITY, AND WILL NOT BE LIABLE FOR, ANY DAMAGES TO, OR VIRUSES THAT MAY INFECT, YOUR COMPUTER EQUIPMENT OR OTHER PROPERTY ON ACCOUNT OF YOUR ACCESS TO, USE OF OR BROWSING IN THE WEBSITE, OR YOUR DOWNLOADING OF ANY MATERIALS, DATA, TEXT OR IMAGES FROM THE WEBSITE. IN NO EVENT SHALL Remote Team, ITS AFFILIATES, EMPLOYEES, AGENTS OR REPRESENTITIVES BE LIABLE FOR ANY INDIRECT, CONSEQUENTAL, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES (INCLUDING, WITHOUT LIMITATION, FOR ERRORS OR OMISSION IN THE INFORMATION IN CONECTION WITH THE WEBSITE).
-
-**Indemnity**
-
-You agree to hold Remote Team harmless, indemnify and defend Remote Team, its officers, directors, employees, affiliates and representatives from and against any and all actions, causes of action, suits, damages, liabilities, losses, claims and demands of whatever kind or nature, in law or equity, directly or indirectly, arising out of or in any way related to your violation of the Terms or your access to the Website, and all costs and expenses incurred by Remote Team as a result thereof, including attorney’s fees and court costs.
-
-**Notice to California Residents**
-
-If you are a California resident, under California Civil Code Section 1789.3, you may contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 N. Market Blvd., Suite S-202, Sacramento, California 95834, or by telephone at (800) 952-5210 in order to resolve a complaint regarding the Service or to receive further information regarding use of the Service.
-
-**Contacting Us**
-
-If you have any questions about this Agreement, please contact us at legal@remoteteam.com
-
-Any new features that augment or enhance the current Service, including the release of new tools and resources, shall be subject to the Terms of Service. Continued use of the Service after any such changes shall constitute your consent to such changes.
+#### COMMISSION PAYMENT.
+
+To be eligible to earn a Commission, the End User must purchase Remote Team Subscription within the stated Cookie life period of coming to Remote Team Website through the Reference Link from Your Website, email, or other communications. If a sale occurs after Cookie life period expires and the End User has not returned through the Reference Link and purchased the Remote Team Subscription, then no Commission shall occur.
+
+For the avoidance of doubt Commissions shall be paid only for purchases of brand new referrals, that occur after the End User clicked on your particular Reference Link(s) containing your reference ID, directly from the Remote Team Website. In other words, to be eligible for a Commission, the End User you referred shall be a new user for Remote Team, shall use your Reference Link to register and subsequently purchase an account and shall purchase Remote Team Subscription directly from Remote Team Website: any subscriptions, both monthly and annual. In case of purchase by the End User, as described herein of any custom or discounted accounts, Affiliate receives a partial commission of 25% (twenty five percent) from the Remote Team Subscription price. Affiliates can earn 25% recurring commissions for 1 year as long as the user remains a paid member. After 1 year, the buy-out option of the affiliate link will be available.  
+Remote Team is not responsible for using the wrong URL/link/reference link by you.
+
+Your Commission is equal to 25% (twenty five percent) of the total sale amount. Commission Payments via PayPal are processed one a month: on the 10th day of each month: payments on the 10th day cover sales accrued between the 16th and 31st days of the previous month. Please note the applicable payment thresholds described. We also draw your attention to the fact that the money credited to Your Account does not accrue interest. If the End User cancels or does not pay for Remote Team Subscription after the trial period is over, asks for a refund, or uses limited free registration, no Commission will accrue. The commission structure is subject to change at our discretion.
+
+Commissions earned through fraudulent, illegal, or overly aggressive, questionable sales or marketing methods will be voided. Fraudulent activities will also result in immediate account cancelation.
+
+All statistics are collected and calculated by Remote Team and will be the only valid statistics used for determining Commission.
+
+Сhargeback fee will be deducted from your earned Commission.
+
+If you do not withdraw your Commission within 4 months from reaching the applicable payment thresholds described, we reserve the right to charge the amount on the balance with a monthly fee of 10% (ten percent).
+
+Affiliates must withdraw Commission within 2 (two) years since it was accrued. After the expiration of the 2 (two) years period, Remote Team has the right to write off the unclaimed Commission.
+
+From time to time Remote Team may change Remote Team Subscription prices, therefore these changes may affect both the Commission you will earn and the truthfulness of the information you will provide. We cannot guarantee the availability of Remote Team Subscriptions at the prices that you list on Your Website if they are outdated.
+
+RECURRING COMMISSIONS AND COOKIE DURATION.
+
+Unless otherwise stated herein, when the End User with your reference ID  recorded in the Remote Team cookie registers an account with Remote Team, you will receive a commission for as long as the End User maintains the Remote Team paid Subscription on the Remote Team Website or until terminated by either party in accordance with these Remote Team Affiliate Program Terms, provided that you remain eligible to receive a Commission pursuant to Remote Team Affiliate Program Terms. If at any time the End User account is canceled, suspended or refunded, you will become ineligible to receive Commission on any future fees collected from that End User.
+
+TERM AND TERMINATION.
+
+This Agreement starts upon Your Request’s confirmation through the confirmation link in email you Remote Team Affiliate Program Terms.
+
+Either party may terminate this Agreement at any time in its sole discretion with written notice to the other at least 30 days prior to the termination date.
+
+Notwithstanding the above, Remote Team reserves the right to terminate any User account for abusive or fraudulent activity, for failure to comply with this Agreement, or for any other reason in its sole discretion.
+
+Termination of this Agreement will result in the deactivation or deletion of your partnership, and the forfeiture and relinquishment of all potential or to-be-paid Commissions if they were earned through fraudulent, illegal, or overly aggressive, questionable sales or marketing methods. Upon termination of this Agreement, all rights of the Affiliate specified in this Agreement shall terminate immediately.
+
+Upon any termination of this Agreement for any reason, all provisions regarding indemnification, warranty, liability and limits thereon, and confidentiality and protection of proprietary rights and trade secrets, and any provisions which expressly or by their nature are required to survive such termination in order to achieve their purpose, shall so survive until it shall no longer be necessary for them to survive in order to achieve their purpose.
+
+#### PUBLICITY.
+
+The Affiliate is not permitted to use any of the content of any websites owned and/or operated by Remote Team without the written consent of Remote Team and the Affiliate shall not frame any pages or parts of any pages of Remote Team Website or any other website nor will the Affiliate create the impression that the Affiliate Website is Remote Team Website or any part of Remote Team Website. The Affiliate agrees not to make any representations and/or give any warranties and/or guarantees relating to Remote Team Service and/or their efficacy other than those given by Remote Team and/or as otherwise approved by us in writing.
+
+#### OWNERSHIP AND INTELLECTUAL PROPERTY; USE OF TRADEMARKS .
+
+Affiliate acknowledges and agrees that all rights, title, and interest to, any and all intellectual property rights of all types or nature whatsoever, including, without limitation, patent, copyright, trademark, database rights as well as moral rights, know-how, and trade secrets (and any licenses in connection with any of the same), whether or not registered or capable of registration, and whether subsisting in any specific country or countries or any other part of the world, in Remote Team Affiliate Program, Remote Team platform (service, technology, hardware, software, etc.), any code or software (SDK, API, etc.) which may be provided to Affiliate or End User under this Agreement and any work products created and/or delivered herein and related documentation (forming the Remote Team Website, Remote Team Affiliate Program) are and will remain solely and exclusively our property and/or the property of Remote Team, Remote Team licensors or Remote Team affiliates. Affiliate is granted no title or ownership rights in the Remote Team Website or Remote Team Affiliate Program. Affiliate's right to use Remote Team Website, participate in Remote Team Affiliate Program and any part thereof is strictly limited to the provisions of this Agreement and we reserve all rights not expressly granted herein.
+
+Remote Team’s trademarks, and/or service marks of Remote Team and/or our affiliates and subsidiaries. Other marks, graphics, icons, names and logos used or displayed on or through Remote Team Website are trademarks, trade dress and/or service marks (" Marks ") of us and our affiliates and subsidiaries or otherwise are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by us and may be subject to such third parties' terms and conditions. Affiliates and End Users may not use any metatags or any other "hidden text" utilizing any of the aforementioned trademarks, trade dress and/or service marks without our and respective owner's prior written permission. Affiliate's right to use the Marks is strictly limited to the manner of use as instructed and approved by us, which right may be revoked or changed at any time at our (or the respective owners' or licensors') sole discretion. Affiliate will accordingly change or remove such display of materials immediately upon request by us or the respective Mark owners or licensors. Affiliate acknowledges and agrees that Affiliate shall not contest the ownership of the Marks on Remote Team Website for any reason. Affiliate's use or display of Marks will terminate effective upon the termination of this Agreement, deactivation or deletion of Your Account or upon notification by us or the respective owner or licensor to discontinue such use or display.
+
+Affiliate hereby grants us a worldwide, non-exclusive, unlimited, and royalty-free license to use Affiliate's brands, names, logos, trademarks, trade names, and service marks as used by Affiliate for informational and advertising purposes only.
+
+Affiliates are under no obligation to give Remote Team any ideas, suggestions, comments or other feedback related to Remote Team Website, Remote Team Affiliate Program, or the business or operations of Remote Team. If any Affiliate shares ideas, suggestions, comments, or other feedback with Remote Team, Remote Team will own such idea, suggestion, comment or feedback. Affiliate hereby assigns all of Affiliate's right, title, and interest in such idea, suggestion, comment, or feedback to Remote Team and agrees that Remote Team will be free to use and implement same, without restriction or obligation of any kind, without, however, any obligation to do so.
+
+
+
+ 
+#### INDEMNITY.
+
+You agree to defend, indemnify and hold harmless Remote Team and its officers, directors, employees, and agents, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees) arising from (a) your use of and access to Remote Team Website and participation in Remote Team Affiliate Program; (b) your violation of any term of this Agreement or applicable law; or (c) your violation of any Third Party right, including without limitation any copyright, property, or privacy right. This defense and indemnification obligation will survive the termination of this Agreement and your use of Remote Team Website and participation in the Remote Team Affiliate Program.
+
+#### AUTHORITY.
+
+Each party represents and warrants to the other party as to itself that the person executing this Agreement is authorized to do so on such party's behalf. IF YOU ARE AN INDIVIDUAL, YOU REPRESENT AND WARRANT THAT YOU WERE AT LEAST 18 YEARS OF AGE ON THE EFFECTIVE DATE OF THIS AGREEMENT. If you are under 18, please do not attempt to participate in the Remote Team Affiliate Program or send any information about yourself to us, including your name, address, telephone number, or email address. If we learn that we have collected personal information from anyone under age 18 without verification of parental consent, we will delete that information as quickly as possible.
+
+#### NON-INFRINGEMENT WARRANTIES.
+
+You represent and warrant that: (i) you have all appropriate authority to operate, and to post any and all content on Your Website(s); (ii) you have all appropriate rights to promote with any promotional method you may choose to use; (iii) Your Website(s) and your promotional methods do not and will not infringe a Third Party's or Remote Team's proprietary rights; and (iv) you shall remain solely responsible for any and all Your Website(s) and all of your promotional methods and/or campaigns and any consequences resulting therefrom.
+
+#### DISCLAIMER OF WARRANTIES.
+
+EXCEPT WHERE PROHIBITED BY LAW, REMOTE TEAM AFFILIATE PROGRAM AND REMOTE TEAM WEBSITE ARE PROVIDED "AS-IS" AND "AS AVAILABLE" AND WE EXPRESSLY DISCLAIM ANY WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT, ACCURACY, OR NON-INFRINGEMENT. WE MAKE NO WARRANTY THAT THE REMOTE TEAM AFFILIATE PROGRAM OR THE REMOTE TEAM WEBSITE (A) WILL MEET YOUR REQUIREMENTS AND/OR EXPECTATIONS; (B) WILL BE AVAILABLE ON AN UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE BASIS; OR (C) WILL BE ACCURATE, RELIABLE, FREE OF VIRUSES OR OTHER HARMFUL CODE, COMPLETE, LEGAL, OR SAFE. WE FURTHER MAKE NO WARRANTIES OR REPRESENTATIONS REGARDING THE ACCURACY OR COMPLETENESS OF THE CONTENT ON ANY SITES LINKED TO ON THE REMOTE TEAM WEBSITE.
+
+#### LIMITATION OF LIABILITIES.
+
+In no event shall Remote Team, its officers, directors, employees, or agents, be liable to you or to any Third Party for any direct, indirect, incidental, special, punitive, or consequential damages whatsoever arising from or related to either this Agreement, or use of Remote Team Website or participation in Remote Team Affiliate Program. Our liability to you for any damages arising from or related to this Agreement, will at all times be limited to the greater of (a) $50 (fifty USD) or (b) Commission you received in the prior 12 (twelve) months (if any). The existence of more than one claim will not enlarge this limit. The foregoing limitation of liability shall apply to the fullest extent permitted by law in the applicable jurisdiction.
+
+The Affiliate accepts that the operation of the Remote Team Affiliate Program, Reference Links or Remote Team Website may not be completely free of interruption, errors or omissions and Remote Team is not liable for the consequences of any interruptions or errors in the performance or content of the Remote Team Website or Reference Links.
+
+Remote Team does not warrant, endorse, guarantee, or assume responsibility for any product or service advertised or offered by the Third Party through Remote Team Website, hyperlinked website or Reference Links or featured in any banner or other advertising, and Remote Team will not be a party to or in any way be responsible for monitoring any transaction between you and Third Party providers of products or services.
+
+We make no representations that the Remote Team Affiliate Program or Remote Team Website are appropriate or available for use in all locations. Those who access or use Remote Team Website or participate in Remote Team Affiliate Program from jurisdictions prohibiting such use, do so at their own volition and are responsible for compliance with local law.
+
+We reserve the right to use Third Party service providers in the provisions of all or part of the Agreement including, but not limited to, hosting providers, payment processing services, information and communication services, analytics services, internet advertising platforms, advertising service providers, and platforms. Where any of the aforementioned services are provided by third parties, the Affiliate may be subject to such Third Party's terms and conditions. We accept no responsibility for services provided by any Third Party.
+
+#### MISCELLANEOUS.
+
+Assignment . This Agreement, any part thereof or any rights or obligations under it may not be novated, assigned, outsourced or transferred by you without our advance written consent, but may be assigned by us without restriction or limitations. Any assignment or transfer in violation of the aforementioned provisions shall be deemed null and void. Subject to the foregoing, the provisions of this Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+
+Force Majeure . We shall not be liable for failing or delaying performance of our obligations resulting from any condition beyond our reasonable control, including but not limited to, use of third parties' equipment or services, communications failure, governmental action, war, acts of terrorism, earthquake, fire, flood or other acts of God, labor conditions, power failures, and Internet disturbances.
+
+Headings and References .  Headings of Sections are for the convenience of reference only. Words indicated in quotes and capitalized signify an abbreviation or defined term for indicated words or terms, including those definitions contained in the opening paragraph.
+
+Relationships .  You and us are independent contractors, and nothing in this Agreement will create any partnership, joint venture, agency, franchise, sales representatives, or employment relationship between you and us. You will have no authority to make or accept any offers or representations on our behalf. You will not make any statement, whether on Your Website or otherwise, that reasonably contradict anything in this Agreement.
+
+Choice of Law .  This Agreement and all matters arising therefrom and any dispute arising between the parties in connection with this Agreement shall be governed and construed in accordance with the laws of the United States of America and the Commonwealth of California notwithstanding the conflict of law provisions thereof. The federal and/or state courts in the Commonwealth of California, as applicable, shall have exclusive jurisdiction in any legal proceedings resulting from or connected with this Agreement, and the Affiliate hereby irrevocably submits to such exclusive jurisdiction. However, this shall not prevent us from bringing any action in the court of any other jurisdiction for injunctive or similar relief.
+
+Tax Status and Obligations .  Remote Team is not obligated to and shall not provide you with tax and/or legal advice. Remote Team undertakes no duty to investigate or research your tax status and/or obligations, and such research and investigation is solely your responsibility. You are obligated to independently assess and comply with all relevant tax and legal requirements, and you are solely responsible for your own sales tax collection, reporting, and any other obligation arising from Commission income. If Remote Team provides you with information, that information shall not be deemed tax or legal advice, and Remote Team shall not be responsible for the accuracy of such information.
+
+Entire Agreement . This Agreement, together with the Privacy Policy, shall constitute the entire agreement between you and the Remote Team concerning your use of the Remote Team Website and participation in the Remote Team Affiliate Program. However, terms and conditions of some other Remote Team service and products may impose additional terms, which can be found in the terms and conditions for such services and products.
+
+Languages . This Agreement is in the English language, which prevails over any translations of it to other languages, made by us, and provided to you for your convenience, as applicable. Remote Team Affiliate Program is designed in the English language and its translations into other languages may contain inaccuracies for which we shall not bear any responsibility; we suggest using the English version and resorting to versions in other languages only for references and at your own risk. You also agree to have all communications with us in English.
+
+No Waiver . No failure or delay by a party to exercise any right or remedy provided under this Agreement or by law shall constitute a waiver of that (or any other) right or remedy, nor preclude or restrict its further exercise. No single or partial exercise of such right or remedy shall preclude or restrict the further exercise of that (or any other) right or remedy; and will not be construed as a waiver of any subsequent breach or default under the same or any other provision of this Agreement.
+
+Severability . All the provisions of this Agreement are distinct and severable. If any provision of this Agreement (or part of any provision) is found by any court or other authority of competent jurisdiction to be invalid, unenforceable or illegal, this shall not impair the operation of this Agreement or affect the other provisions which are valid.
+
+Privacy . Participation in Remote Team Affiliate Program is also governed by our Privacy Policy the provisions of which are adopted herein by reference so when we refer to this Agreement we also refer to the Privacy Policy.
+
+Marketing.  You agree that Remote Team may identify you as a Remote Team Affiliate and may use your name and/or logo solely for such purpose in its marketing materials.
+
+Amendment .  Remote Team has the right to change, modify or amend (" Change ") these Remote Team Affiliate Program Terms, in whole or in part, by posting a revised Remote Team Affiliate Program Terms on Remote Team Website. Your continued participation in the Remote Team Affiliate Program after the date of such Change shall be deemed your acceptance of the revised Remote Team Affiliate Program Terms.
+
+Acknowledgment .  You confirm that you have read, acknowledge, and agree to all the terms and conditions of Remote Team Affiliate Program Terms. You acknowledge that you have independently evaluated the desirability of accepting Remote Team Affiliate Program Terms and are not relying on any representation, guarantee, or statement other than as set forth in Remote Team Affiliate Program Terms.
+
+Electronic Notices . You agree to receive communications from us in an electronic form. Electronic notices will be delivered to your email address, which you used for registration purposes, as it may be subsequently changed by you by written notice to us. All communications in electronic format will be considered to be "in writing" and to have been received on the day that we send them. We reserve the right, but assume no obligation, to provide communications in paper format.
+
+Notices .  All notices, requests, claims, demands and other communications regarding these Remote Team Affiliate Program Terms are welcomed and should be addressed to legal@remoteteam.com
+CONTACT INFORMATION
+Mail: legal@remoteteam.com
+SF: 156 2nd Street San Francisco, CA 94105
