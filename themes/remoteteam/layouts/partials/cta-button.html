@@ -1,10 +1,21 @@
 <div>
   <a
     class="btn btn-round btn-primary btn-lg shadow-3 px-4"
-    href="https://dashboard.remoteteam.com/auth/sign-up"
+    href="{{ if isset .Params "cta_url" }}{{ $.Params.cta_url }}{{ else }}https://dashboard.remoteteam.com/auth/sign-up{{ end }}"
   >
-    Start Now
+    {{ if isset .Params "cta_button_text" }}
+      {{ $.Params.cta_button_text }}
+    {{ else }}
+      Start Now
+    {{ end }}
   </a>
   <br />
-  <small style="font-size: 12px;">Free Up to 3 People!</small>
+  <small style="font-size: 12px;">
+    {{ if isset .Params "cta_subtitle" }}
+      {{ $.Params.cta_subtitle }}
+    {{ else }}
+      Free Up to 3 People!
+    {{ end }}
+    
+  </small>
 </div>
