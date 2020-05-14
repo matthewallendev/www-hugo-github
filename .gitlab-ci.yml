@@ -1,0 +1,61 @@
+image: registry.gitlab.com/pages/hugo:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - build
+  - deploy
+
+
+buildStaging:
+  stage: build
+  script:
+    # Run hugo with a different baseURL to ensure links work in the staging site, and flag to include drafts and future posts
+    # - hugo --minify --baseURL http://$AWS_S3_Staging_Bucket.s3-website.$AWS_DEFAULT_REGION.amazonaws.com/ --buildDrafts --buildFuture
+    - hugo --minify --baseURL https://remoteteam.com --buildDrafts --buildFuture
+  
+  artifacts:
+    paths:
+      # Create an artifact folder of the hugo "public" output
+      - public
+
+
+# deployStaging:
+#   # In the deploy stage
+#   stage: deploy
+#   # Use a docker image with AWS CLI pre-installed
+#   image: garland/aws-cli-docker
+#   script:
+#   # Synchronise the "public" folder passed from buildStaging to the Staging AWS S3 bucket name from the variable
+#   - aws s3 sync ./public s3://$AWS_S3_Staging_Bucket --delete --only-show-errors
+#   dependencies:
+#   # Depend on the buildStaging job to ensure the "public" artifact is available
+#   - buildStaging
+
+# Build the Production site
+buildProduction:
+  # In the build stage
+  stage: build
+  script:
+    # Run hugo with just the minify command (no drafts or future posts)
+    - hugo --minify
+  artifacts:
+    paths:
+      # Create an artifact folder of the hugo "public" output
+      - public
+
+# deployProduction:
+#   # In the deploy stage
+#   stage: deploy
+#   # Use a docker image with AWS CLI pre-installed
+#   image: garland/aws-cli-docker
+#   script:
+#   # Synchronise the "public" folder passed from buildProduction to the Production AWS S3 bucket name from the variable
+#   - aws s3 sync ./public s3://$AWS_S3_Production_Bucket --delete --only-show-errors
+#   # Invalidate the cloudfront cache to make the changes live
+#   - aws cloudfront create-invalidation --distribution-id E37FU6DHWYT5T2 --paths "/*"
+
+#   dependencies:
+#   # Depend on the buildProduction job to ensure the "public" artifact is available
+#   - buildProduction
