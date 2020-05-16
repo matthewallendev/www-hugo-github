@@ -1,0 +1,36 @@
+
+<div class="section text-white py-8" style="background: #2d46c1">
+  <div class="container">
+    <header class="section-header mb-6">
+      <span class="display-3 fw-900 h2"> 
+         
+      
+        {{ if isset .Params "cta_title" }}
+          {{ $.Params.cta_title }}
+        {{ else }}
+          Free up to 3 People
+        {{ end }}
+
+      </span>
+    </header>
+    <p class="text-center">
+      <a style="background: #de774e; color: white; border: none" class="btn btn-xl btn-round btn-light w-250" href="{{ if isset .Params "cta_url" }}{{ $.Params.cta_url }}{{ else }}https://dashboard.remoteteam.com/auth/sign-up{{ end }}">
+        
+        {{ if isset .Params "cta_button_text" }}
+          {{ $.Params.cta_button_text }}
+        {{ else }}
+          Try it FREE
+        {{ end }}
+
+      </a>
+      <br>
+      <small class="text-white opacity-80"> 
+          {{ if isset .Params "cta_subtitle" }}
+            {{ $.Params.cta_subtitle }}
+          {{ else }}
+            No credit card required! 
+          {{ end }}
+      </small>
+    </p>
+  </div>
+</div>
