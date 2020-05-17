@@ -1,7 +1,6 @@
 ---
-headline: this is a headline
-summary: this is a summary
-title: "Simple and transparent pricing"
+headline: Simple and transparent pricing
+title: Simple and transparent pricing
 draft: false
 ---
 
