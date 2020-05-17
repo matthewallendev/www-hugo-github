@@ -1,13 +1,26 @@
 sections:
   enable : true
-  title : "Focus on your product, not your payroll."
+  # title : "Focus on your product, not your payroll."
   item:
-    - logo : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382583/www/Frame_1_1_v380oy.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382583/www/Frame_1_1_v380oy.jpg"
       title : "Simplify Your Payroll"
       description : "Teams are becoming more global and remote, yet everyone still needs to get paid. Remote Team's simplified and automatized payroll process globally includes earnings, deductions and time off- zero spreadsheets, zero clicks."
       cta : yes
+      view: 1
 
-    - logo : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382583/www/Frame_1_1_v380oy.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382582/www/Frame_2_1_jppcst.jpg"
       title : "Powered By TransferWise"
       description : "How do we make payments to employees all over the world? By teaming up with TransferWise, we make it easy for you to pay anyone, anywhere. We use modern transfers, like TransferWise and others to totally optimize the payment process. By using modern tools like Remote Team, you can skip the bank inconvenience and keep your payroll up-to-date."
       cta: true
+      view: 2
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580327856/www/Frame_4_fke8ou.jpg"
+      title : "Spend Less Time Managing Employee Time Off"
+      description : "We make it easy for you to track and manage time off requests. You can review and approve vacation requests, sick leave, personal leave and many more. You can even customize and create your own policy and time off requests as needed. Finally you can manage your remote team's time off in seconds."
+      cta: true
+      view: 1
+
+    - title : "Local Holiday Support"
+      description : "In this global world we now live, we feel it's important to support local holidays for your team. So now you can create new policies for your employee's local holidays so they can feel culturally supported within your startup."
+      cta: true
+      view: 3
