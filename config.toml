@@ -1,9 +1,5 @@
 # default configuration
-<<<<<<< HEAD
 baseURL = "https://www.remoteteam.com"
-=======
-baseURL = "https://www-hugo.remoteteam.workers.dev/"
->>>>>>> ee6e6b6cb4a0cd7c5bc3d656c67a639872122636
 languageCode = "en-us"
 summaryLength = "10"
 theme = "remoteteam"
