@@ -4,7 +4,7 @@ layout: main
 title: How to Encourage Continuing Education For Your Remote Team Members
 date: 2020-04-17
 content_author: guest_artur
-tags: education for remote employees
+blog/tags: education for remote employees
 category: blog
 image: https://res.cloudinary.com/hebu10lmu/image/upload/f_auto,q_auto/54.80.5.68/remote-team-management/woman-using-a-laptop-3776180_yun0av.jpg
 ---

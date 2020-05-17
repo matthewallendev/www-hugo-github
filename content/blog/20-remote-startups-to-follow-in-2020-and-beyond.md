@@ -5,7 +5,7 @@ title: 20 Remote Startups to Follow in 2020 and Beyond
 date: 2020-03-27
 category: blog
 author: editorial_team
-tags: culture
+blog/tags: culture
 image: https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto/54.80.5.68/Remote%20Startups%20to%20Follow/Articulate_msokyk.png
 ---
 

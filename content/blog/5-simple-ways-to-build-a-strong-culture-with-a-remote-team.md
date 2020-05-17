@@ -5,7 +5,7 @@ title: 5 Simple Ways to Build a Strong Culture With a Remote Team
 date: 2019-11-25
 category: blog
 author: editorial_team
-tags: culture
+blog/tags: culture
 image: https://res.cloudinary.com/hebu10lmu/image/upload/v1574674947/content/5-simple-ways-to-build-strong-culture-in-a-remote-team/brooke-cagle-g1Kr4Ozfoac-unsplash-1024x683_azlydw.jpg
 ---
 

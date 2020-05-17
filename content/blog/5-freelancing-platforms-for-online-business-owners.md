@@ -5,7 +5,7 @@ title: 5 Freelancing Platforms for Online Business Owners
 url: freelancing-platforms-for-online-business-owners
 date: 2020-04-23
 content_author: Thomas_Boldt
-tags: Freelancing
+blog/tags: Freelancing
 category: blog
 image: https://res.cloudinary.com/hebu10lmu/image/upload/v1587144403/54.80.5.68/woman-in-red-long-sleeve-shirt-wearing-eyeglasses-using-3791130.jpg
 ---
