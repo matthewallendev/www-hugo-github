@@ -1,7 +1,9 @@
 sections:
-  title: Toggl Time Tracking App Integration with RemoteTeam
   enable : true
   item:
+    - title: Toggl Time Tracking App Integration with RemoteTeam
+      view: "OnlyTitle"
+      
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227602/www/Group_95-1_ziebsg.jpg"
       title : "Observe remote employee performance with Toggl & RemoteTeam"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam and Toggl help you to see all of your remote workers’ dedicated time each day, week & month. Make time-tracking simpler."

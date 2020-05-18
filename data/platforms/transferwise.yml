@@ -1,7 +1,9 @@
 sections:
-  title: Complete remote HR with TransferWise and RemoteTeam
   enable : true
   item:
+    - title: "Complete remote HR with TransferWise and RemoteTeam"
+      view: "OnlyTitle"
+      
     - image : "/assets/img/payroll-people-list.png"
       title : "Run Your Payroll Automatically"
       description : "Simplify and synchronize your remote team’s payroll, including deductions, earnings, sick leaves, bonuses, overtime pay, and time offs. Automate salaries calculation and monthly payments to your remote team with a few clicks. With RemoteTeam and TransferWise, you never have to worry about your remote team’s payroll again."

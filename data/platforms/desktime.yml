@@ -1,7 +1,9 @@
 sections:
-  title: Desktime Time Tracking App Integration with RemoteTeam
   enable : true
   item:
+    - title: Desktime Time Tracking App Integration with RemoteTeam
+      view: "OnlyTitle"  
+    
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580215851/www/working-hours-4_1_bic3bf.jpg"
       title : "Online Time-Sheet to Track All Employees on One Screen"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam integration with Desktime helps you to see all of your remote workers’ dedicated time each day, week & month."

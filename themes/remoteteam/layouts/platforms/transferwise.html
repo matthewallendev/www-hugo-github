@@ -3,15 +3,6 @@
   
   {{ if .Site.Data.platforms.transferwise.sections.enable }}
     {{ with .Site.Data.platforms.transferwise.sections }}
-      {{ if .title }}
-      <section class="section bg-gray overflow-hidden pt-6 pb-2">
-        <div class="container">
-          <h1 class="text-center">
-            {{ .title }}
-          </h1>
-        </div>
-      </section>
-      {{end}}
       <div class="sections" >
         {{ range .item }}
           {{ partial "section.html" . }}
@@ -19,7 +10,6 @@
       </div>
     {{ end }}
   {{ end }}
-
 
   {{ partial "cta-bold.html" . }}
   
