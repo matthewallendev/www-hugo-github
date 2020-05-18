@@ -2,7 +2,7 @@
   {{ partial "page-headline.html" . }}
 
 
-  <!-- {{ if .Site.Data.platforms.tax_compliance.sections.enable }}
+  {{ if .Site.Data.platforms.tax_compliance.sections.enable }}
     {{ with .Site.Data.platforms.tax_compliance.sections }}
       <div class="sections" >
         {{ range .item }}
@@ -10,129 +10,8 @@
         {{ end }}
       </div>
     {{ end }}
-  {{ end }} -->
+  {{ end }}
 
-
-  <section class="section">
-    <div class="container">
-      <div class="row gap-y">
-        <div class="col-md-8 mx-auto mb-7 text-center">
-          <h3 class="lead mb-6">Stop worrying about tax compliance</h3>
-          <p>
-            Remote Team tax compliance platform streamlines the entire
-            <span style="white-space: nowrap;" class="fw-600 text-primary"
-              >W-8BEN, W-8BEN-E, W9, 1099 Misc</span
-            >
-            process with digital tax form collection, validation, and payouts.
-            Asking your recipients to complete complicated tax forms is already
-            painful enough, so let us make life easier for everyone.
-          </p>
-        </div>
-      </div>
-      <div class="row gap-y">
-        <div class="col-md-8 mx-auto mb-7">
-         <img src="/assets/img/photos/tax-compliance.png"  loading="lazy"  alt="W-8BEN tax compliance" />
-        </div>
-
-        <div class="w-100"></div>
-
-        <div class="row gap-y text-center">
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-1">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/shield.svg"  loading="lazy"  alt="Penalties"
-                class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2"><a href="#">Avoid Penalties</a></h3>
-                <p class="text-muted">
-                  Prevent large IRS tax penalties by staying compliant.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-2">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/adjustments.svg"  loading="lazy"  alt="Burden"
-                class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2">
-                  <a href="#">Reduce Administrative Burden</a>
-                </h3>
-                <p class="text-muted">
-                  Get rid of the administrative burden of manually collecting
-                  tax form documents from recipients and/or suppliers via mail,
-                  scan or fax.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-3">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/piechart.svg"  loading="lazy"  alt="Errors" class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2"><a href="#">Eliminate Errors</a></h3>
-                <p class="text-muted">
-                  Reduce recipient errors and wasted time through our easy to
-                  complete guided tax form process.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-4">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/laptop.svg"  loading="lazy"  alt="Work" class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2"><a href="#">Work Digitally</a></h3>
-                <p class="text-muted">
-                  Go paperless with a complete digitized tax form collection and
-                  reporting solution in accordance to IRS requirements.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-5">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/documents.svg"  loading="lazy"  alt="Storage"
-                class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2"><a href="#">Document Storage</a></h3>
-                <p class="text-muted">
-                  Central hub to maintain completed tax forms for IRS audits
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-xl-4 my-4 text-left feature-6">
-            <div class="media p-1">
-              <div class="lead-6 line-height-1 text-dark w-70px">
-               <img src="/assets/img/icons/line/bargraph.svg"  loading="lazy"  alt="Tax" class="ml-2" />
-              </div>
-              <div class="media-body">
-                <h3 class="lead-2"><a href="#">Tax Wizard</a></h3>
-                <p class="text-muted">
-                  Guided and automated tax form process
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   {{ partial "cta-bold.html" . }}
 

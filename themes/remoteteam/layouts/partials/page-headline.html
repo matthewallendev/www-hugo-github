@@ -12,12 +12,12 @@
               <h1 class="d-inline-block">
                 {{ $.Params.headline }}
               </h1>
-            {{ end }} 
-            
-            {{ if not .Params.headline_text_hide }}
-              <h1 class="d-inline-block">
-                {{ .Title }}
-              </h1>
+            {{ else }}
+              {{ if not .Params.headline_text_hide }}
+                <h1 class="d-inline-block">
+                  {{ .Title }}
+                </h1>
+              {{ end }} 
             {{ end }} 
             
             {{ if isset .Params "summary" }}

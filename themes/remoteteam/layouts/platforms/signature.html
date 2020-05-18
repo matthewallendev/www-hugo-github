@@ -2,118 +2,15 @@
   {{ partial "page-headline.html" . }}
 
   {{ if .Site.Data.platforms.signature.sections.enable }}
-  {{ with .Site.Data.platforms.signature.sections }}
-    <div class="sections" >
-      {{ range .item }}
-        {{ partial "section.html" . }}
-      {{ end }}
-    </div>
+    {{ with .Site.Data.platforms.signature.sections }}
+      <div class="sections" >
+        {{ range .item }}
+          {{ partial "section.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
   {{ end }}
-{{ end }}
-
-  <!-- <section class="section overflow-hidden align-items-center py-4 py-md-6">
-    <div class="container">
-      <div class="row align-items-center">
-        <div
-          class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-        >
-          <p class="text-md-right text-center mb-0">
-            <span class="iconbox liner left" id="1"><span>1</span></span>
-          </p>
-
-          <div class="mr-md-9 ml-md-8 ml-md-0">
-            <h3 class="mb-3 mt-2">
-              Easily create documents using templates
-            </h3>
-            <p>
-              Our document signing app allows you to easily create documents for
-              your remote compay using easy to use templates. You don’t need to
-              suffer creating and designing new documents from scratch. With our
-              app, all you need is to input your company details inside the
-              done-for-you template and you’re good to go.
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-        >
-          <div class="ml-md-8 ml-md-0 img-container">
-           <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580115582/www/ds1_1_f6acs5.jpg"
-             loading="lazy"  alt="Online Time-Sheet" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section overflow-hidden align-items-center py-4 py-md-6">
-    <div class="container">
-      <div class="row align-items-center">
-        <div
-          class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
-        >
-          <span class="iconbox liner right" id="3"><span>2</span></span>
-          <div class="ml-md-9 ml-md-8">
-            <h3 class="mb-3 mt-2">
-              Make document handling easy for your remote team
-            </h3>
-            <p>
-              Allow your remote team to sign documents easily inside their
-              employee dashboards without using third party document signing
-              platforms. Your employees can agree to NDAs, fill forms, and sign
-              documents easily without our signature app, giving them an easy
-              platform to work with your company.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
-        >
-          <div class="ml-md-8 ml-md-0 img-container">
-           <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580197779/www/2_qxaplu.jpg"
-             loading="lazy"  alt="Online Time-Sheet" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section overflow-hidden align-items-center py-4 py-md-6">
-    <div class="container">
-      <div class="row align-items-center">
-        <div
-          class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-        >
-          <p class="text-md-right text-center mb-0">
-            <span class="iconbox liner left" id="5"><span>3</span></span>
-          </p>
-          <div class="mr-md-9 ml-md-8 ml-md-0 mr-md-8">
-            <h3 class="mb-3 mt-2">
-              Track and ensure accuracy
-            </h3>
-            <p>
-              Track the status of all the documents you send out to your remote
-              team to sign. Know when a document is signed and when it’s not,
-              and get notifications in real-time. This also helps you keep your
-              remote employees up to date on pending documents they need to sign
-              and any deadlines they should meet.
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-        >
-          <div class="ml-md-8 ml-md-0 img-container">
-           <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580197782/www/3_mda6sr.jpg"
-             loading="lazy"  alt="Online Time-Sheet" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   {{ partial "cta-bold.html" . }}
 
-
-  
-  {{ end }}
+{{ end }}

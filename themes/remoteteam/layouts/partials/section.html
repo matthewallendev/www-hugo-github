@@ -1,5 +1,5 @@
 
-    {{ if eq .view 1 }}
+    {{ if eq .view "TextRightImageLeft" }}
     <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
       <div class="container">
         <div class="row ">
@@ -23,7 +23,7 @@
         </div>
       </div>
     </section>
-    {{ else if eq .view 2 }}
+    {{ else if eq .view "TextLeftImageRight" }}
       <section
         class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
         <div class="container">
@@ -48,7 +48,7 @@
           </div>
         </div>
       </section>
-    {{ else if eq .view 3 }}
+    {{ else if eq .view "TextImageCentered" }}
     <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
       <div class="container">
         <div class="row mx-auto">
@@ -56,13 +56,9 @@
             <h3 class="mb-3 mt-2">{{ .title }}</h3>
             <div class="w-75 mx-auto mb-7">
               <p>{{ .description }}</p>
-              
               {{ if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
-
-              
-
              </div>
              {{ if .image }}
                 <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
@@ -71,7 +67,7 @@
         </div>
       </div>
     </section>
-    {{ else if eq .view 4 }}
+    {{ else if eq .view "ContentListLeftImageRight" }}
       <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
         <div class="container">
           <div class="row ">
@@ -85,7 +81,6 @@
                 <p>
                   {{ .description }}
                 </p>
-                
               {{ end }}
               
               {{ if eq .cta true }}
@@ -101,14 +96,12 @@
           </div>
         </div>
       </section>
-      {{ else if eq .view 5 }}
+      {{ else if eq .view "ContentListRightImageLeft" }}
       <section
         class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
         <div class="container">
           <div class="row ">
-            <div
-              class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-            >
+            <div class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1">
               {{ range .content }}
                 <h3 class="mb-3 mt-2">
                   {{ .title }}
@@ -116,17 +109,12 @@
                 <p>
                   {{ .description }}
                 </p>
-                
               {{ end }}
-              
               {{ if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
             </div>
-
-            <div
-              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-            >
+            <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2">
                 <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
             </div>
           </div>
@@ -172,14 +160,10 @@
               <span class="iconbox liner right" id="{{ .ribbon }}"><span>{{ .ribbon }}</span></span>
               <div class="ml-md-9 ml-md-8">
                 <h3 class="mb-3 mt-2">
-                  Make document handling easy for your remote team
+                  {{ .title }}
                 </h3>
                 <p>
-                  Allow your remote team to sign documents easily inside their
-                  employee dashboards without using third party document signing
-                  platforms. Your employees can agree to NDAs, fill forms, and sign
-                  documents easily without our signature app, giving them an easy
-                  platform to work with your company.
+                  {{ .description }}
                 </p>
               </div>
             </div>
@@ -195,7 +179,33 @@
           </div>
         </div>
       </section>
+      {{ else if eq .view "FeatureList3ColumntGrids" }}
+      <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row gap-y text-center">
+
+            {{ range .content }}
+                <div class="col-md-6 col-xl-4 my-4 text-left feature-1">
+                  <div class="media p-1">
+                    <div class="lead-6 line-height-1 text-dark w-70px">
+                     <img src="{{ .image }}"  loading="lazy"  alt="{{ .title }}"
+                      class="ml-2" />
+                    </div>
+                    <div class="media-body">
+                      <h3 class="lead-2">{{ .title }}</h3>
+                      <p class="text-muted">
+                        {{ .description }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              {{ end }}
+            
+          </div>
+        </div>
+      </section>
     {{ end }}
+
 
 
 

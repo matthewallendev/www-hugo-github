@@ -6,16 +6,16 @@ sections:
       title : "Online Time-Sheet to Track All Employees on One Screen"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam integration with Desktime helps you to see all of your remote workers’ dedicated time each day, week & month."
       cta : yes
-      view: 2
+      view: "TextLeftImageRight"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580218066/www/paycheck-details_t90wak.jpg"
       title : "Automate Payments Integrated with Dedicated Employee Times"
       description : "Automate your monthly International payrolls using TransferWise and Desktime. Pay your remote employees automatically every month based on their dedicated time to work. Let RemoteTeam and Desktime handle your team's performance, payments, and HR management. Focus on vital tasks."
       cta: true
-      view: 1
+      view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467956/www/Frame_132_ly8k42.jpg"
-      view: 5
+      view: "ContentListRightImageLeft"
       cta: true
       content:
         - title : "Great tool for remote companies"
@@ -28,25 +28,25 @@ sections:
     - title : "Advantages of using DeskTime"
       description : "Without a remote employee time tracking software, a lot of productive work hours are being lost. This is how Desktime time tracking makes your remote team better at productivity."
       cta: false
-      view: 3
+      view: "TextImageCentered"
 
     - title : "An ingredient for improving your team’s focus"
       description : "While multitasking might seem productive because you get to do a lot of things at a time, it’s stifling overall productivity in many cases. Desktime’s remote employee time tracking software helps your remote team to log and assign time to specific tasks to avoid multitasking. It helps them focus on the work at hand and then move on to the next once they’re done."
       cta: false
-      view: 3
+      view: "TextImageCentered"
 
     - title : "Identify your productivity booster"
       description : "Some remote employees need a co-working space to produce great work. Others do their best when in bed. Some work harder at a coffee shop. But how can you identify your unique productivity booster? Desktime would help you identify where you were more productive, the places you’re usually not working well – and helps your remote employees to adjust for the better."
       cta: false
-      view: 3
+      view: "TextImageCentered"
 
     - title : "Makes you a time management guru"
       description : "How do you even manage your time when you don’t know how you’re using it? Using Desktime to track your remote team’s time would help you identify the amount of time each member needs to accomplish certain tasks. This makes it easy for you to schedule their time, assign tasks, and create deadlines appropriately."
       cta: false
-      view: 3
+      view: "TextImageCentered"
 
     - title : "Manage stress"
       description : "Juggling a lot of work. Not knowing how much time your remote team spends on specific tasks. And just going with the flow and starting and ending work whenever you feel like can all increase your remote employees’ stress. By using Desktime, you’re able to help your remote team organize tasks and take control of their time – by knowing when to work, when to take a break, and when to call the day off."
       cta: true
-      view: 3
+      view: "TextImageCentered"
 

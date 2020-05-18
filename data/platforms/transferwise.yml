@@ -6,25 +6,25 @@ sections:
       title : "Run Your Payroll Automatically"
       description : "Simplify and synchronize your remote team’s payroll, including deductions, earnings, sick leaves, bonuses, overtime pay, and time offs. Automate salaries calculation and monthly payments to your remote team with a few clicks. With RemoteTeam and TransferWise, you never have to worry about your remote team’s payroll again."
       cta : yes
-      view: 1
+      view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457911/www/payroll-list_mskxay.png"
       title : "Integrate & Pay Through TransferWise"
       description : "Use TransferWise and our automated payroll manager to pay your remote employees seamlessly, and faster than a traditional bank. No matter where your remote employee is located, TransferWise’s borderless account is open for them. The best part? You can automate the entire process so that payments go out at a certain time every month - and you don’t have to touch a single button. It’s that simple."
       cta: true
-      view: 3
+      view: "TextImageCentered"
 
     - image : "/assets/img/payment-lists.png"
       title : "Keep Paycheck History"
       description : "Keep track of all your payments to remote workers, freelancers, and contractors. Use this data to plan your remote company’s future payroll, finances, employee salaries, and save time to focus on the most important things."
       cta: true
-      view: 3
+      view: "TextImageCentered"
     
     - image : "/assets/img/employers.png"
       title : "Make The Team Happy"
       description : "The ability to streamline your payroll, make payments seamlessly, and automate employee management doesn’t just save you time and money, but also makes your remote employees happy. Company wins. Employees win. Everyone is happy."
       cta: true
-      view: 2
+      view: "TextLeftImageRight"
 
     - image : "/assets/img/transferwise-remote-companies.png"
       title : "Why remote companies love TransferWise"
@@ -33,13 +33,13 @@ sections:
         Devoid of cumbersome paperwork
         Easy integration with other remote tools"
       cta: true
-      view: 1
+      view: "TextRightImageLeft"
 
     - image : "https://www.remoteteam.com/assets/img/transferwise-api.png"
       title : "Done-for-you Integration"
       description : "RemoteTeam integrates our HR platform with TransferWise, so you don’t have to do any technical leg work. This gives your remote company instant payroll capabilities, a borderless account, and an automated employee payment system. Apart from walking you through the entire process of managing your remote teams, you also have access to time tracking, which is automatically synced to your TransferWise and RemoteTeam’s interface to give you real-time report on employee productivity and commensurate compensation."
       cta: true
-      view: 2
+      view: "TextLeftImageRight"
     
     - image : "https://www.remoteteam.com/assets/img/transferwise-employees.png"
       title : "Why Employees Choose TransferWise"
@@ -47,22 +47,22 @@ sections:
         Enjoy fast and cheap money transfers
         Pay less charges when receiving money from remote employers"
       cta: true
-      view: 1
+      view: "TextRightImageLeft"
     
     - image : "https://www.remoteteam.com/assets/img/transferwise-remoteteam.png"
       title : "Why we love TransferWise"
       description : "There are many international payment platforms out there. However, we decided to go with TransferWise borderless account because its features are ideal for remote teams. It has simple dashboards, offer a lot of options for remote companies to pay their employees. With these features, we saw that integrating TransferWise with RemoteTeam will give remote companies the most powerful tools they’ll ever need to run successful companies."
       cta: true
-      view: 2
+      view: "TextLeftImageRight"
     
     - image : "https://www.remoteteam.com/assets/img/borderless-account.gif"
       title : "A borderless account for your remote company"
       description : "Get a TransferWise borderless account that allows you to hold money in over 40 currencies and pay your remote team in a currency of their choice. You also get local bank details for EUR, AUD, USD, and GBP without needing any physical address from these locations. Switch between currencies, no minimum deposit gimmicks - and opening an account is free."
       cta: true
-      view: 1
+      view: "TextRightImageLeft"
     
     - image : "https://www.remoteteam.com/assets/img/wisecard-transferwise.png"
       title : "Spend anywhere with your TransferWise Card"
       description : "Get access to the TransferWise card, which is linked to your borderless account and spend anywhere as a company or with your remote team. Register for a coworking space for your virtual team. Pay for a remote PTO. Withdraw money physically from an ATM anywhere around the world. Whatever your needs are as a remote company, the TransferWise debit card is remote-friendly enough to make you happy."
       cta: true
-      view: 2
+      view: "TextLeftImageRight"
