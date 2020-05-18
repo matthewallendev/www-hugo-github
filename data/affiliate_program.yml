@@ -1,0 +1,62 @@
+sections:
+  enable : true
+  item:
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_200/v1589554913/www/affiliate/remote-work-full-size_ludxpb.png"
+      title : "Let's make the world more remote together!"
+      description : "We want to teach the world remote work is the future. There are still %99 
+            not companies are remote, there is so much work to do together. Join our
+            program and change the world with us!  "
+      cta : false
+      view: "TextImageCentered"
+    
+    - view: "TitleList3ColumntGrids"
+      cta: false
+      content:
+        - title : "Easy Team Productivity Management"
+          image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_320/c_scale,f_auto,q_auto,w_560/v1589560270/www/affiliate/remote-work-globe_rtzuj9.png"
+        - title : "Monthly Team Performance Reporting"
+          image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-work-increased_jwlyzl.png"
+        - title : "%18 of employees work remotely full time"
+          image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589559411/www/affiliate/remote-work-feature_yyfivn.png"
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_280/v1589491398/www/affiliate/affiliate-earnings_im6zip.png"
+      title : "Unique Program Benefits"
+      description : "Remote Team advocate program is an affiliate program, which will help you earn passive 
+          income by partnering up with one of the fastest growing remote company worldwide. We are excited 
+          to be part to spread remote work to the world with you! We are just at the beginning…"
+      cta : false
+      view: "TextImageCentered"
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589568497/www/affiliate/social-boost-remote_i1gxsn.png"
+      title : "We don't leave the content to its own fate, we are with you."
+      description : "We boost your content in Google, Instagram, Facebook or LinkedIn. Remote Team offers Google and Social Ad budgets for your content to be reached by the right people. Get a chance to increase your content impressions and get more affiliate sign-ups!"
+      cta : yes
+      view: "TextRightImageLeft"
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589568493/www/affiliate/remote-work-future_uq5wcm.png"
+      title : "Free SEO & Content Marketing Sessions"
+      description : "Our SEO expert Canberk will provide you one-toone video sessions to support your affiliate performance the best way possible. Reserve your seats for free sessions! We also provide trending remote work ideas with content calendar."
+      cta : yes
+      view: "TextLeftImageRight"
+
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-swag_ys8pyt.png"
+      title : "Free Welcome Kit!"
+      description : "Our welcome kit includes Remote Team t-shirt and one free remote work book. Also get a chance to involve one of the fastest growing remote work communities."
+      cta : yes
+      view: "TextRightImageLeft"
+
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491396/www/affiliate/video-creation_m1szlg.png"
+      title : "Video Creation Tools for Your Contents"
+      description : "Our RemoteTeam studio will create videos for your articles! Click here to see video examples."
+      cta : yes
+      view: "TextLeftImageRight"
+
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491406/www/affiliate/remote-resources_qoclts.png"
+      title : "Resources to Help You Grow with Marketing Templates & Tips"
+      description : "Our team will provide you the best resources the help you stay at top on your affiliate efforts. Use ready to go e-mail and social media marketing templates with high quality images to promote RemoteTeam on your channels. Get free feedbacks for your affiliate links, contents & videos."
+      cta : yes
+      view: "TextRightImageLeft"
+

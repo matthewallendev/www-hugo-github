@@ -1,0 +1,18 @@
+ <a
+  class="btn btn-round btn-lg font-weight-bold"
+  style="
+    height: 3.6rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #de774e;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+  "
+  href="{{ if isset .Params "cta_url" }}{{ $.Params.cta_url }}{{ else }}https://dashboard.remoteteam.com/auth/sign-up{{ end }}"
+>
+    {{ if isset .Params "cta_button_text" }}
+      {{ $.Params.cta_button_text }}
+    {{ else }}
+      Join Now
+    {{ end }}
+</a>

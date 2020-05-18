@@ -1,278 +1,29 @@
 {{ define "main" }}
   {{ partial "page-headline.html" . }}
 
-  <section class="section bg-gray">
-    <div class="container">
-      <div class="row gap-y">
-        <div class="col-md-8 mx-auto text-center">
-          <h3 class="lead mb-6">Let's make the world more remote together!</h3>
-          <img alt="affiliate earning" loading="lazy" width="200" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_300/v1589554913/www/affiliate/remote-work-full-size_ludxpb.png" >
-          <p>
-            We want to teach the world remote work is the future. There are still %99 
-            not companies are remote, there is so much work to do together. Join our
-            program and change the world with us!  
-          </p>
-        </div>
-      </div>
-      <div class="row gap-y">
-        <div class="col-md-8 mx-auto text-center">
-          <a
-          class="btn btn-round btn-lg font-weight-bold"
-          style="
-            height: 3.6rem;
-            font-size: 1.2rem;
-            font-weight: 700;
-            background-color: #de774e;
-            font-family: Montserrat, sans-serif;
-            color: #fff;
-          "
-          href="/affiliate-program/apply/"
-        >
-          Join Now
-        </a>
-        </div>
 
-        <div class="w-100"></div>
-
-        <div class="row gap-y text-center">
-          <div class="col-12 col-md-4 col-xl-4 my-4 text-center">
-            <div class="media p-1">
-              <div class="media-body">
-                <img loading="lazy" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_320/c_scale,f_auto,q_auto,w_560/v1589560270/www/affiliate/remote-work-globe_rtzuj9.png" alt="future remote work" />
-                <h3 class="text-muted">
-                  The Future is Remote Work
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-xl-4 my-4 text-center feature-2">
-            <div class="media p-1">
-              <div class="media-body">
-                
-                <img loading="lazy" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-work-increased_jwlyzl.png" alt="remote" />
-                <h3 class="text-muted">
-                  %159 Increase in Remote Work in 12 Years 
-                </h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 col-xl-4 my-4 text-center feature-3">
-            <div class="media p-1">
-              <div class="media-body">
-                <img loading="lazy" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589559411/www/affiliate/remote-work-feature_yyfivn.png" alt="remote"  />
-                <h3 class="text-muted">
-                  %18 of employees work remotely full time 
-                </h3>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-
-      </div>
-      <hr />
-      <div class="row">
-        <div class="col-12 text-center">
-          <img loading="lazy" width="250" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491398/www/affiliate/affiliate-earnings_im6zip.png" alt="affiliate earning">
-          <h3 class="lead mb-6">Unique Program Benefits</h3>
-          <p>Remote Team advocate program is an affiliate program, which will help
-            you earn passive income by partnering up with one of the fastest growing
-            remote company worldwide. We are excited to be part to spread remote work
-            to the world with you! We are just at the beginning… </p>
-        </div>
-
-      <section
-        class="section overflow-hidden align-items-center py-4 py-md-6"
-      >
+  {{ if .Site.Data.affiliate_program.sections.enable }}
+    {{ with .Site.Data.affiliate_program.sections }}
+      {{ if .title }}
+      <section class="section bg-gray overflow-hidden pt-6 pb-2">
         <div class="container">
-          <div class="row ">
-            <div
-              class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
-            >
-              <h3 class="mb-3 mt-2">
-                We don't leave the content to its own fate, we are with you.
-              </h3>
-              <p>
-                We boost your content in Google, Instagram, Facebook or LinkedIn. Remote Team offers Google and Social Ad budgets for your content to be reached by the right people. Get a chance to increase your content impressions and get more affiliate sign-ups!
-              </p>
-            </div>
-    
-            <div
-              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
-            >
-                <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589568497/www/affiliate/social-boost-remote_i1gxsn.png" loading="lazy" alt="Remote Payments. Payroll for remote teams" />
-              
-            </div>
-          </div>
+          <h1 class="text-center">
+            {{ .title }}
+          </h1>
         </div>
       </section>
-
-
-  <section
-    class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
-  >
-    <div class="container">
-      <div class="row ">
-        <div
-          class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-        >
-          <h3 class="mb-3 mt-2">
-            Free SEO & Content Marketing Sessions
-          </h3>
-          <p>
-            Our SEO expert Canberk will provide you one-toone video sessions to support your affiliate performance the best way possible. Reserve your seats for free sessions! We also provide trending remote work ideas with content calendar.
-          </p>
-          {{ partial "cta-button.html" . }}
-        </div>
-
-        <div
-          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-        >
-            <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589568493/www/affiliate/remote-work-future_uq5wcm.png" loading="lazy" alt="Remote Payments. Payroll for remote teams" />
-        </div>
+      {{end}}
+      <div class="sections my-4" >
+        {{ range .item }}
+          {{ partial "section.html" . }}
+        {{ end }}
       </div>
-    </div>
-  </section>
+    {{ end }}
+  {{ end }}
 
-
-  <section
-        class="section overflow-hidden align-items-center py-4 py-md-6"
-      >
-        <div class="container">
-          <div class="row ">
-            <div
-              class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
-            >
-              <h3 class="mb-3 mt-2">
-                Free Welcome Kit! 
-              </h3>
-              <p>
-                Our welcome kit includes Remote Team t-shirt and one free remote work book. Also get a chance to involve one of the fastest growing remote work communities.
-              </p>
-              {{ partial "cta-button.html" . }}
-            </div>
-    
-            <div
-              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
-            >
-                <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-swag_ys8pyt.png" loading="lazy" alt="Remote Payments. Payroll for remote teams" />
-            </div>
-          </div>
-        </div>
-  </section>
-
-
-  <section
-    class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
-  >
-    <div class="container">
-      <div class="row ">
-        <div
-          class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-        >
-          <h3 class="mb-3 mt-2">
-            Video Creation Tools for Your Contents
-          </h3>
-
-          <p>
-            Our RemoteTeam studio will create videos for your articles! Click here to see video examples.
-          </p>
-          {{ partial "cta-button.html" . }}
-        </div>
-
-        <div
-          class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-        >
-            <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491396/www/affiliate/video-creation_m1szlg.png" loading="lazy" alt="Remote Payments. Payroll for remote teams" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-    <section
-        class="section overflow-hidden align-items-center py-4 py-md-6"
-      >
-        <div class="container">
-          <div class="row ">
-            <div
-              class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
-            >
-              <h3 class="mb-3 mt-2">
-                Resources to Help You Grow with Marketing Templates & Tips
-              </h3>
-              <p>
-                Our team will provide you the best resources the help you stay at top on your affiliate efforts. Use ready to go e-mail and social media marketing templates with high quality images to promote RemoteTeam on your channels. Get free feedbacks for your affiliate links, contents & videos.
-              </p>
-              {{ partial "cta-button.html" . }}
-            </div>
-    
-            <div
-              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
-            >
-                <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491406/www/affiliate/remote-resources_qoclts.png" loading="lazy" alt="Remote Payments. Payroll for remote teams" />
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-
-      {{/*  <section
-      class="section overflow-hidden align-items-center py-4 py-md-6"
-    >
-      <div class="container">
-        <div class="row w-75 mx-auto">
-          <div
-            class="col-md-12 text-center"
-          >
-            <img loading="lazy" width="250" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491398/www/affiliate/affiliate-earnings_im6zip.png" alt="affiliate earning">
-            <h3 class="mb-3 mt-2">
-              Earn As you Grow System
-            </h3>
-            <p>
-              Your commission rate will grow as you help us get more sign-ups. Check-out our commission rates based on paid sign-ups you earn monthly:
-            </p>
-          </div>
-  
-        </div>
-      </div>
-    </section>
-
-
-    <section
-      class="section overflow-hidden align-items-center py-4 py-md-6 bg-gray"
-    >
-      <div class="container">
-        <div class="row w-75 mx-auto">
-          <div
-            class="col-md-12 text-center"
-          >
-            <img loading="lazy" width="250" src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491391/www/affiliate/remote-work_ip78ku.png" alt="remote team earning comission">
-            <h3 class="mb-3 mt-2">
-              Start earning monthly recurring commissions for lifetime!
-            </h3>
-            <p>Starting commission: %30 for per paid company sign-up.</p>
-            <p>• Tier 1: After the first 50 per paid company sign-up: Earn more commission as: %35*</p>
-            <p>• Tier 2: After the first 100 per paid company sign-up: Earn more commission as %40*</p>
-            <p>• *You start earning 35% from per paid sign-up after 50 paid sign-ups</p>
-            <p>• *You start earning 40% from per paid sign-up after 100 sign-ups</p>
-          </div>
-  
-        </div>
-      </div>
-    </section>  */}}
-    
-      </div>
-    </div>
-  </section>
 
   {{ partial "cta-bold-orange.html" . }}
 
-</main>
 
 
   

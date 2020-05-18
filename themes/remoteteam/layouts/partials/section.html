@@ -27,7 +27,7 @@
       <section
         class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
         <div class="container">
-          <div class="row ">
+          <div class="row">
             <div
               class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
             >
@@ -53,6 +53,9 @@
       <div class="container">
         <div class="row mx-auto">
           <div class="col-md-12 text-center order-md-1 order-sm-1 order-xs-1">
+            {{ if .image }}
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+            {{ end }}
             <h3 class="mb-3 mt-2">{{ .title }}</h3>
             <div class="w-75 mx-auto mb-7">
               <p>{{ .description }}</p>
@@ -60,9 +63,7 @@
                 {{ partial "cta-button.html" . }}
               {{end}}
              </div>
-             {{ if .image }}
-                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
-              {{ end }}
+             
           </div>
         </div>
       </div>
@@ -204,7 +205,29 @@
           </div>
         </div>
       </section>
-    {{ end }}
+      {{ else if eq .view "TitleList3ColumntGrids" }}
+        <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+          <div class="container">
+            <div class="row gap-y text-center">
+
+              {{ range .content }}
+                  <div class="col-12 col-md-4 col-xl-4 my-4 text-center">
+                    <div class="media p-1">
+                      <div class="media-body">
+                        <img loading="lazy" src="{{ .image }}" alt="{{ .title }}" />
+                        <h3 class="text-muted">
+                          {{ .title }}
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                {{ end }}
+              
+            </div>
+          </div>
+        </section>
+      {{ end }}
+
 
 
 

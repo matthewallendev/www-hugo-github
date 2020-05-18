@@ -26,13 +26,18 @@
              
             
             {{ if isset .Params "headline_img" }}
-            <img
-              loading="lazy"
-              width="300"
-              alt="{{ $.Params.title }}"
-              src="{{ $.Params.headline_img }}"
-            />
+              <img
+                loading="lazy"
+                width="300"
+                alt="{{ $.Params.title }}"
+                src="{{ $.Params.headline_img }}"
+              />
             {{ end }}
+
+            {{ if isset .Params "headline_cta" }}
+              {{ partial "cta-headline.html" . }}
+            {{ end }}
+
           </div>
         </div>
       </div>
