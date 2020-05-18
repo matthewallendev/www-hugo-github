@@ -19,7 +19,9 @@
 
   <link href="{{ .Site.BaseURL }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-  <meta name="theme-color" content="#2d46c1">
+  {{ with .Site.Params.theme_color }}
+  <meta name="theme-color" content="{{ . }}">
+  {{ end }}
 
   <meta property="og:locale" content="en_US">
   <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
