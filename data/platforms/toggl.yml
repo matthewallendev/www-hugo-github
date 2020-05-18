@@ -1,0 +1,34 @@
+sections:
+  title: Toggl Time Tracking App Integration with RemoteTeam
+  enable : true
+  item:
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227602/www/Group_95-1_ziebsg.jpg"
+      title : "Observe remote employee performance with Toggl & RemoteTeam"
+      description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam and Toggl help you to see all of your remote workers’ dedicated time each day, week & month. Make time-tracking simpler."
+      cta : yes
+      view: 1
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227601/www/Group_95_ebx2ve.jpg"
+      title : "Automate Payments Integrated with Dedicated Employee Times"
+      description : "Automate your monthly International payrolls using TransferWise and Desktime. Pay your remote employees automatically every month based on their dedicated time to work. Let RemoteTeam and Desktime handle your team's performance, payments, and HR management. Focus on vital tasks."
+      cta: true
+      view: 2
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467931/www/Frame_131_rubs4o.jpg"
+      view: 4
+      cta: true
+      content:
+        - title : "Easy Set-up with Toggl API Integration"
+          description : "Toggl is one of the best time-tracking software available. Simply enter your remote team’s Toggl API to RemoteTeam platform to start tracking and observing your remote employee’s time on your dashboard."
+        - title : "Easy Team Productivity Management for Remote companies"
+          description : "Everyone says you cannot manage something you cannot measure. Toggl helps you to increase your team member’s productivity and learn the most from their work habits. It helps you to observe what you spend time the most and optimize your team’s working time more effectively for your business."
+        - title : "Monthly Remote Team Performance Reporting"
+          description : "Get monthly performance reports of your remote employees in your mailbox. Do not worry about missing performance results. Track the performance of your team every month from your mailbox using Toggl and RemoteTeam."
+        
+    - title : "Why remote companies love Toggl and RemoteTeam"
+      description : "Seamless integrations makes it possible to observe your remote employees and sync their work with payroll for seamless compensation.
+        Easy to observe remote employees’ productivity, know what they spend time on, and how to scale their work ethics.
+        Manage an entire HR for a remote company that is seamlessly synced with productivity
+        Tools built by remote professionals for remote companies."
+      cta: false
+      view: 3

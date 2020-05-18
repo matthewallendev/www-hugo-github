@@ -3,85 +3,11 @@
 
   {{ if .Site.Data.platforms.payroll.sections.enable }}
     {{ with .Site.Data.platforms.payroll.sections }}
-      
-      <!-- sections -->
       <div class="sections" >
         {{ range .item }}
-          {{ if eq .view 1 }}
-          <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
-            <div class="container">
-              <div class="row ">
-                <div
-                  class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
-                >
-                  <h3 class="mb-3 mt-2">
-                    {{ .title }}
-                  </h3>
-                  <p>
-                    {{ .description }}
-                  </p>
-                  {{ if eq .cta true }}
-                    {{ partial "cta-button.html" . }}
-                  {{end}}
-                </div>
-
-                <div
-                  class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
-                >
-                  <div class="img-container">
-                    <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          {{ else if eq .view 2 }}
-            <section
-              class="section bg-gray overflow-hidden align-items-center py-4 py-md-6"
-              
-            >
-              <div class="container">
-                <div class="row ">
-                  <div
-                    class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
-                  >
-                    <h3 class="mb-3 mt-2">
-                      {{ .title }}
-                    </h3>
-                    <p>
-                      {{ .description }}
-                    </p>
-                    {{ if eq .cta true }}
-                      {{ partial "cta-button.html" . }}
-                    {{end}}
-                  </div>
-
-                  <div
-                    class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
-                  >
-                    <div class="img-container">
-                      <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382582/www/Frame_2_1_jppcst.jpg"  loading="lazy"  alt="Remote Payments. Payroll for remote teams" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          {{ else if eq .view 3 }}
-          <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
-            <div class="container">
-              <div class="row mx-auto">
-                <div class="col-md-12 text-center order-md-1 order-sm-1 order-xs-1">
-                  <h3 class="mb-3 mt-2">{{ .title }}</h3>
-                  <p>{{ .description }}</p>
-                </div>
-              </div>
-            </div>
-          </section>
-          {{ end }}
+          {{ partial "section.html" . }}
         {{ end }}
       </div>
-      <!-- /sections -->
-
     {{ end }}
   {{ end }}
 

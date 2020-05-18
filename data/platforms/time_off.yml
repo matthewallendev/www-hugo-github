@@ -1,0 +1,26 @@
+sections:
+  enable : true
+  item:
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457692/www/streamline_hioagz.png"
+      title : "Streamline the Process"
+      description : "Efficiently review and approve vacation requests, sick leave, personal leave, and more all in a just a few seconds. It's even automatically calculated into your payroll with no extra steps."
+      cta : yes
+      view: 1
+
+    - image : "/assets/img/photos/unique-pto.png"
+      title : "Unique PTO Policies For Your Team"
+      description : "Customize your paid-time-off policies that better fit your team. Either choose from the pre-packaged time off policies or create your own instantly."
+      cta: true
+      view: 2
+
+    - image : "/assets/img/photos/time-off-request.png"
+      title : "Time Off Requests"
+      description : "Employees can easily submit their vacation and sick days for approval, or managers can submit time off on their behalf. It all syncs automatically to calendars and payroll so everything is streamlined to make the processes easier."
+      cta: true
+      view: 1
+    
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580740274/www/features/local-holidays_yafaoo.jpg"
+      title : "Local Holiday Support"
+      description : "In this global world we now live, we feel it's important to support local holidays for your team. So now you can create new policies for your employee's local holidays so they can feel culturally supported within your startup."
+      cta: true
+      view: 2

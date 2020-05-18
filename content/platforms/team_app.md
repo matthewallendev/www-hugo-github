@@ -1,6 +1,6 @@
 ---
 type: platforms
-layout: team-app
+layout: team_app
 url: team-app
 headline: Team App
 summary: One dashboard for all the remote employees in your organization and their status.

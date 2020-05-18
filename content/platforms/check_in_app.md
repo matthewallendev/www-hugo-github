@@ -1,6 +1,6 @@
 ---
 type: platforms
-layout: check-in-app
+layout: check_in_app
 url: check-in-app
 headline: Check-in App
 summary: Allow your team to better sync.

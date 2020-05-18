@@ -1,0 +1,204 @@
+
+    {{ if eq .view 1 }}
+    <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+      <div class="container">
+        <div class="row ">
+          <div
+            class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+          >
+            <h3 class="mb-3 mt-2">
+              {{ .title }}
+            </h3>
+            <p>
+              {{ .description }}
+            </p>
+            {{ if eq .cta true }}
+              {{ partial "cta-button.html" . }}
+            {{end}}
+          </div>
+
+          <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2 m-2">
+              <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ else if eq .view 2 }}
+      <section
+        class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row ">
+            <div
+              class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
+            >
+              <h3 class="mb-3 mt-2">
+                {{ .title }}
+              </h3>
+              <p>
+                {{ .description }}
+              </p>
+              {{ if eq .cta true }}
+                {{ partial "cta-button.html" . }}
+              {{end}}
+            </div>
+
+            <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2 m-2">
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ else if eq .view 3 }}
+    <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="col-md-12 text-center order-md-1 order-sm-1 order-xs-1">
+            <h3 class="mb-3 mt-2">{{ .title }}</h3>
+            <div class="w-75 mx-auto mb-7">
+              <p>{{ .description }}</p>
+              
+              {{ if eq .cta true }}
+                {{ partial "cta-button.html" . }}
+              {{end}}
+
+              
+
+             </div>
+             {{ if .image }}
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+              {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+    {{ else if eq .view 4 }}
+      <section class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row ">
+            <div
+              class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+            >
+              {{ range .content }}
+                <h3 class="mb-3 mt-2">
+                  {{ .title }}
+                </h3>
+                <p>
+                  {{ .description }}
+                </p>
+                
+              {{ end }}
+              
+              {{ if eq .cta true }}
+                {{ partial "cta-button.html" . }}
+              {{end}}
+            </div>
+
+            <div
+              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
+            >
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ else if eq .view 5 }}
+      <section
+        class="section bg-gray overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row ">
+            <div
+              class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
+            >
+              {{ range .content }}
+                <h3 class="mb-3 mt-2">
+                  {{ .title }}
+                </h3>
+                <p>
+                  {{ .description }}
+                </p>
+                
+              {{ end }}
+              
+              {{ if eq .cta true }}
+                {{ partial "cta-button.html" . }}
+              {{end}}
+            </div>
+
+            <div
+              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
+            >
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ else if eq .view "TextRightWithRibbon" }}
+      <section class="section overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1"
+            >
+              <p class="text-md-right text-center mb-0">
+                <span class="iconbox liner left" id="{{ .ribbon }}"><span>{{ .ribbon }}</span></span>
+              </p>
+    
+              <div class="mr-md-9 ml-md-8 ml-md-0">
+                <h3 class="mb-3 mt-2">
+                  {{ .title }}
+                </h3>
+                <p>
+                  {{ .description }}
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2"
+            >
+              <div class="ml-md-8 ml-md-0 img-container">
+                <img loading="lazy"  alt="{{ .title }}" src="{{ .image }}" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ else if eq .view "TextLeftWithRibbon" }}
+      <section class="section overflow-hidden align-items-center py-4 py-md-6">
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+            >
+              <span class="iconbox liner right" id="{{ .ribbon }}"><span>{{ .ribbon }}</span></span>
+              <div class="ml-md-9 ml-md-8">
+                <h3 class="mb-3 mt-2">
+                  Make document handling easy for your remote team
+                </h3>
+                <p>
+                  Allow your remote team to sign documents easily inside their
+                  employee dashboards without using third party document signing
+                  platforms. Your employees can agree to NDAs, fill forms, and sign
+                  documents easily without our signature app, giving them an easy
+                  platform to work with your company.
+                </p>
+              </div>
+            </div>
+    
+            <div
+              class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2"
+            >
+              <div class="ml-md-8 ml-md-0 img-container">
+               <img src="https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580197779/www/2_qxaplu.jpg"
+                 loading="lazy"  alt="{{ .title }}" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    {{ end }}
+
+
+
+
+
+

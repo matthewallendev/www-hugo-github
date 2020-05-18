@@ -1,6 +1,18 @@
 {{ define "main" }}
   {{ partial "page-headline.html" . }}
 
+
+  <!-- {{ if .Site.Data.platforms.tax_compliance.sections.enable }}
+    {{ with .Site.Data.platforms.tax_compliance.sections }}
+      <div class="sections" >
+        {{ range .item }}
+        {{ partial "section.html" . }}
+        {{ end }}
+      </div>
+    {{ end }}
+  {{ end }} -->
+
+
   <section class="section">
     <div class="container">
       <div class="row gap-y">
@@ -123,7 +135,6 @@
   </section>
 
   {{ partial "cta-bold.html" . }}
-</main>
 
 
   

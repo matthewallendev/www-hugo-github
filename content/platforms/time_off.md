@@ -1,6 +1,6 @@
 ---
 type: platforms
-layout: time-off
+layout: time_off
 url: time-off
 headline: Time Off Tools You Need, Combined With Your Payroll.
 title: Simple Time-off Policy Management 

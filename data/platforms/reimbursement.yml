@@ -1,0 +1,32 @@
+sections:
+  enable : true
+  item:
+    - image : "https://www.remoteteam.com/assets/img/reimbursement-request.png"
+      title : "Pay your remote employees for work-related expenditure"
+      description : "Easily manage and reimburse your remote employees who use their own resources on work-related stuff. See their total expenditure, what they spend it on, and when the expenditure was made - all in one dashboard. And reimburse them on time."
+      cta : yes
+      view: 1
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1580453610/www/features/details-total_wudfzh.png"
+      title : "Flexibly manage expense reimbursements"
+      description : "Get options for reimbursing your remote employees. You can reimburse them by adding the amount to their monthly salary or paying them separately on each expense made. The choice is yours - and based on your remote company’s policies."
+      cta: true
+      view: 2
+
+    - image : "/assets/img/receipt.png"
+      title : "Easily verify expense claims"
+      description : "Our reimbursement dashboard allows your remote employees to upload proof of expenditure such as a receipt. This helps you verify the source, time, and amount of an expense claim and make payments accurately."
+      cta: true
+      view: 1
+    
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580748530/www/features/reimbursement-list-second_qasesy.png"
+      title : "Keep reimbursement history"
+      description : "Our platform gives you a simple dashboard showing your company’s reimbursement history. This shows where your money is going and how to budget for future reimbursements."
+      cta: true
+      view: 2
+    
+    - image : "/assets/img/total-card.png"
+      title : "Great flexibility in spend management"
+      description : "Our platform provides flexibility for your remote team when reporting their expenses. From purchasing a product or an expense for a co-working space to travel or conference expense, employees can fill in the data of their choice for your approval."
+      cta: true
+      view: 1

@@ -1,8 +1,9 @@
 {{ define "main" }}
+
   {{ partial "page-headline.html" . }}
 
-  {{ if .Site.Data.platforms.reimbursement.sections.enable }}
-    {{ with .Site.Data.platforms.reimbursement.sections }}
+  {{ if .Site.Data.platforms.team_app.sections.enable }}
+    {{ with .Site.Data.platforms.team_app.sections }}
       <div class="sections" >
         {{ range .item }}
           {{ partial "section.html" . }}
@@ -10,7 +11,7 @@
       </div>
     {{ end }}
   {{ end }}
-  
+
   {{ partial "cta-bold.html" . }}
 
 {{ end }}

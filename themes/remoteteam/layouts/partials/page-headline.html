@@ -9,13 +9,15 @@
         <div class="col-md-12 mx-auto">
           <div class="w-75 mx-auto">
             {{ if isset .Params "headline" }}
-              <h2 class="d-inline-block">
+              <h1 class="d-inline-block">
                 {{ $.Params.headline }}
-              </h2>
-            {{ else }} 
-              <h2 class="d-inline-block">
+              </h1>
+            {{ end }} 
+            
+            {{ if not .Params.headline_text_hide }}
+              <h1 class="d-inline-block">
                 {{ .Title }}
-              </h2>
+              </h1>
             {{ end }} 
             
             {{ if isset .Params "summary" }}
@@ -26,7 +28,7 @@
             {{ if isset .Params "headline_img" }}
             <img
               loading="lazy"
-              width="120"
+              width="300"
               alt="{{ $.Params.title }}"
               src="{{ $.Params.headline_img }}"
             />

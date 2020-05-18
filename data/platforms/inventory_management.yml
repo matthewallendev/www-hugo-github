@@ -1,0 +1,26 @@
+sections:
+  enable : true
+  item:
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457453/www/inventory-list_k7glhl_1_xk7lno.png"
+      title : "Manage inventory in a single dashboard"
+      description : "Easily create and manage both offline and online inventories for your company using our feature-packed dashboard. Seamlessly manage inventory status across different remote locations. Our inventory management system helps you create and assign orders to your remote team, as well as control drop shipments."
+      cta : yes
+      view: 2
+
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580738574/www/features/inventory-detail_wafnmb.png"
+      title : "Track inventories in real-time"
+      description : "Track and control the status of your remote company’s inventory 24/7. Track inventory movements, orders, and expiries, and ensure that replenishments are made on time."
+      cta: true
+      view: 1
+
+    - image : "https://www.remoteteam.com/assets/img/inventory-sign.png"
+      title : "Stay accountable"
+      description : "Getting real-time updates and a simple dashboard for managing everything concerning the inventory of your remote team ensures that you’re on top of matters. This helps you to evaluate the company’s inventory system and make better decisions in the future."
+      cta: true
+      view: 2
+    
+    - title : "Do away with old-time spreadsheets"
+      description : "Time to ditch long and cumbersome spreadsheets and start using our inventory management software. Our platform helps you sync your entire inventory system to ensure you get timely updates on catalogs, add new inventories without resorting to cumbersome entries through spreadsheets."
+      cta: true
+      view: 3
+

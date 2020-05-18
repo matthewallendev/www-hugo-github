@@ -1,0 +1,11 @@
+sections:
+  enable : true
+  item:
+    - image : "/assets/img/photos/tax-compliance.png"
+      title : "Stop worrying about tax compliance"
+      description : "Remote Team tax compliance platform streamlines the entire W-8BEN, 
+        W-8BEN-E, W9, 1099 Misc process with digital tax form collection, validation, 
+        and payouts. Asking your recipients to complete complicated tax forms is 
+        already painful enough, so let us make life easier for everyone."
+      cta : yes
+      view: 3

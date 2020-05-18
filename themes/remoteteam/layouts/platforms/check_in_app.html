@@ -1,8 +1,8 @@
 {{ define "main" }}
   {{ partial "page-headline.html" . }}
 
-  {{ if .Site.Data.platforms.reimbursement.sections.enable }}
-    {{ with .Site.Data.platforms.reimbursement.sections }}
+  {{ if .Site.Data.platforms.check_in_app.sections.enable }}
+    {{ with .Site.Data.platforms.check_in_app.sections }}
       <div class="sections" >
         {{ range .item }}
           {{ partial "section.html" . }}
@@ -10,7 +10,8 @@
       </div>
     {{ end }}
   {{ end }}
-  
+
   {{ partial "cta-bold.html" . }}
 
-{{ end }}
+
+  {{ end }}
