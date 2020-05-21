@@ -9,10 +9,8 @@ const AIRTABLE_PAGE_VIEW = process.env.AIRTABLE_PAGE_VIEW;
 const API_VIEW_ENDPOINT = `https://api.airtable.com/v0/${AIRTABLE_PAGE_VIEW}/Pages?api_key=${AIRTABLE_API_KEY}`;
 
 
-
 const targetDestination = path.resolve(__dirname, "../content/alternative_pages/");
 
-// Clean up files
 const removeOldFiles = (targetDestination) => {
     fs.readdir(targetDestination, (err, files) => {
         if (err) throw err;
@@ -25,16 +23,16 @@ const removeOldFiles = (targetDestination) => {
     });
 }
 
+// Fill  up data into markdown schema
 const getMarkdownTemplate = (title, url, category, description) => {
-return `---
-type: alternative_pages
-layout: alternative_pages
-url: ${url || ''} 
-title: ${title || ''} 
-category: ${category || ''} 
-description: ${description || ''} 
----
-`.replace("    ", "");
+    return `---
+        type: alternative_pages
+        layout: alternative_pages
+        url: ${url || ''} 
+        title: ${title || ''} 
+        category: ${category || ''} 
+        description: ${description || ''} 
+        ---`.split("    ").join("");
 };
 
 const getFileName = (slug) => {
@@ -72,7 +70,7 @@ fetch(API_VIEW_ENDPOINT)
                         if (err) throw err;
                         console.log('File is created successfully.');
                     });
-                    
+
             }
         })
     });

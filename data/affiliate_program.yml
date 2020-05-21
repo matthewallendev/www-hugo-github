@@ -27,7 +27,7 @@ sections:
       cta : false
       view: "TextImageCentered"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589983636/www/affiliate/boost-social-content_ijhz09.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590071242/www/affiliate/boost-social-content_qvtpw3.png"
       title : "Content Boost: We don’t leave the content to its own fate, we are with you."
       description : "We boost your content in Google, Instagram, Facebook or LinkedIn. Remote Team offers Google and Social Ad budgets for your content to be reached by the right people. Get a chance to increase your content impressions and get more affiliate sign-ups!"
       cta : yes
@@ -50,7 +50,7 @@ sections:
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491396/www/affiliate/video-creation_m1szlg.png"
       title : "Video Creation Tools for Your Contents"
-      description : "Our RemoteTeam studio will create videos for your articles! <a href='#' target='_blank'>Click here</a> to see video examples."
+      description : "Our RemoteTeam studio will create videos for your articles! <a href='https://www.youtube.com/watch?v=g8WGDQRNuW8&list=PL73WcJb1S26x-0YQx8HDJf7B-pa9od3Fr' target='_blank'>Click here</a> to see video examples."
       cta : yes
       view: "TextLeftImageRight"
 
@@ -61,3 +61,7 @@ sections:
       cta : yes
       view: "TextRightImageLeft"
 
+    - title : "Remote Team Branding assets"
+      description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this</strong></a> page. Make sure you are following the branding guidelines."
+      cta : false
+      view: "TextImageCentered"

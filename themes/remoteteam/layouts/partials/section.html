@@ -10,7 +10,7 @@
               {{ .title }}
             </h3>
             <p>
-              {{ .description }}
+              {{ .description | safeHTML }}
             </p>
             {{ if eq .cta true }}
               {{ partial "cta-button.html" . }}
@@ -58,7 +58,7 @@
             {{ end }}
             <h3 class="mb-3 mt-2">{{ .title }}</h3>
             <div class="w-75 mx-auto mb-7">
-              <p>{{ .description }}</p>
+              <p>{{ .description | safeHTML }}</p>
               {{ if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
@@ -80,7 +80,7 @@
                   {{ .title }}
                 </h3>
                 <p>
-                  {{ .description }}
+                  {{ .description | safeHTML }}
                 </p>
               {{ end }}
               
@@ -108,7 +108,7 @@
                   {{ .title }}
                 </h3>
                 <p>
-                  {{ .description }}
+                  {{ .description | safeHTML }}
                 </p>
               {{ end }}
               {{ if eq .cta true }}
@@ -137,7 +137,7 @@
                   {{ .title }}
                 </h3>
                 <p>
-                  {{ .description }}
+                  {{ .description | safeHTML }}
                 </p>
               </div>
             </div>
@@ -164,7 +164,7 @@
                   {{ .title }}
                 </h3>
                 <p>
-                  {{ .description }}
+                  {{ .description | safeHTML }}
                 </p>
               </div>
             </div>
@@ -195,7 +195,7 @@
                     <div class="media-body">
                       <h3 class="lead-2">{{ .title }}</h3>
                       <p class="text-muted">
-                        {{ .description }}
+                        {{ .description | safeHTML }}
                       </p>
                     </div>
                   </div>

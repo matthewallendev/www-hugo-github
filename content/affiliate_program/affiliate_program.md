@@ -2,7 +2,7 @@
 draft: false
 type: platforms
 layout: affiliate-program
-url: affiliate-program
+url: /affiliate-program
 title: Affiliate Program
 headline: Remote Advocate Program
 headline_cta: true
