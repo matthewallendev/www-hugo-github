@@ -1,8 +1,8 @@
 ---
 draft: false
-type: affiliate-program
-layout: post
-url: affiliate-program/terms
+# type: affiliate-program
+# layout: post
+url: affiliate-program/apply
 title: Apply for Affiliate Program
 headline: Apply for Affiliate Program
 description: Apply for Affiliate Program
