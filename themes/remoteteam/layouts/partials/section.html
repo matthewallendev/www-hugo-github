@@ -35,7 +35,7 @@
                 {{ .title }}
               </h3>
               <p>
-                {{ .description }}
+                {{ .description | safeHTML }}
               </p>
               {{ if eq .cta true }}
                 {{ partial "cta-button.html" . }}

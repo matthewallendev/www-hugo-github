@@ -1,0 +1,185 @@
+<div
+  class="hero-video-section"
+  style="
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1111;
+    background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/q_auto/v1588459798/world/v2/Scene_1_s9h7qw.png);
+    background-size: cover;
+  "
+></div>
+
+<script>
+  document.body.style.cssText =
+    "background-color: rgb(207,230,232); background-image: radial-gradient(circle, rgba(207,230,232,1) 0%, rgba(227,231,232,1) 32%, rgba(205,232,231,1) 48%, rgba(226,232,232,1) 52%, rgba(167,209,208,1) 95%); background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/f_auto,q_auto/v1588459798/world/v2/Scene_1_s9h7qw.png); background-size: cover;";
+
+  function getURLforOptimizedWidth(path) {
+    var cloudinaryRoot = "https://res.cloudinary.com/hzynudzjs/video/upload";
+    var browserSize =
+      window.devicePixelRatio === 1 ? window.innerWidth : window.innerHeight;
+    var browserSize =
+      window.devicePixelRatio === 1 ? window.innerWidth : window.innerHeight;
+    var videoWidthForDisplay = (parseInt(browserSize / 270) + 1) * 270;
+    var fullUrl =
+      cloudinaryRoot +
+      "/f_auto,q_auto,vc_auto,w_" +
+      videoWidthForDisplay +
+      "/dpr_" +
+      window.devicePixelRatio +
+      "/" +
+      path +
+      ".mp4";
+    return fullUrl;
+  }
+
+  var videoSourceList = [
+    getURLforOptimizedWidth("/v1588459798/world/v2/Scene_1_s9h7qw"),
+    getURLforOptimizedWidth("/v1588459769/world/v2/Scene_2_eqix2i"),
+    getURLforOptimizedWidth("/v1588460563/world/v2/Scene_3_afar2f"),
+    getURLforOptimizedWidth("/v1588459815/world/v2/Scene_4_thoxc5"),
+    getURLforOptimizedWidth("/v1588460742/world/v2/Scene_6_ymccg2"),
+    getURLforOptimizedWidth("/v1588459976/world/v2/Scene_22_gxsyl3"),
+    getURLforOptimizedWidth("/v1588460023/world/v2/Scene_7_ktp9x0"),
+    getURLforOptimizedWidth("/v1588460012/world/v2/Scene_23_onivil"),
+    getURLforOptimizedWidth("/v1588459988/world/v2/Scene_24_yyp3kf"),
+    getURLforOptimizedWidth("/v1588459976/world/v2/Scene_16_mwhsss"),
+    getURLforOptimizedWidth("/v1588459972/world/v2/Scene_20_vjtyxg"),
+    getURLforOptimizedWidth("/v1588459957/world/v2/Scene_15_ngckbr"),
+    getURLforOptimizedWidth("/v1588459936/world/v2/Scene_14_eme1vv"),
+    getURLforOptimizedWidth("/v1588459910/world/v2/Scene_11_zq5zrf"),
+    getURLforOptimizedWidth("/v1588459904/world/v2/Scene_10_tvbzlg"),
+    getURLforOptimizedWidth("/v1588459887/world/v2/Scene_9_egfjxl"),
+    getURLforOptimizedWidth("/v1588459875/world/v2/Scene_12_bgbz5o"),
+    getURLforOptimizedWidth("/v1588459870/world/v2/Scene_5_ktqdxk"),
+    getURLforOptimizedWidth("/v1588459845/world/v2/Scene_8_zwpscw"),
+    getURLforOptimizedWidth("/v1588459936/world/v2/Scene_13_yi4fdv"),
+  ];
+
+  if (window.innerWidth < 500) {
+    videoSourceList = [
+      videoSourceList[0],
+      videoSourceList[12],
+      videoSourceList[videoSourceList.length - 1],
+    ];
+  }
+
+  var getVideoTagName = function (videoPosition) {
+    return "video" + videoPosition;
+  };
+
+  var getNextPlayerPosition = function (current) {
+    return current === videoSourceList.length - 1 ? 0 : current + 1;
+  };
+
+  var videoStore = {};
+  var videoReducer = new Proxy(videoStore, {
+    set: function (target, key, value) {
+      if (key && key === "willPlay") {
+        var videoTag = getVideoTagName(value);
+        if (!document.getElementById(videoTag)) {
+          createVideoPlayer(value, "hidden");
+        }
+        videoStore[videoTag] = "mounted";
+        videoStore[key] = value;
+        // console.log("log:willplay:set:value", key, value, videoStore);
+      }
+      if (value === "willMount") {
+        console.log("will mount başarılı");
+        var videoTag = key;
+        var videoID = parseInt(videoTag.replace("video", ""));
+        // console.log("videoTag:", videoTag, "videoID:", videoID);
+        if (!document.getElementById(videoTag)) {
+          createVideoPlayer(videoID, "hidden");
+        }
+      }
+      if (key && key.startsWith("video")) {
+        var videoTag = key;
+        // console.log(key, value);
+        var videoID = parseInt(videoTag.replace("video", ""));
+        if (value === "canPlay" && videoID === videoStore.willPlay) {
+          var videoPlayer = document.getElementById(videoTag);
+          videoPlayer.style.visibility = "visible";
+          videoPlayer.play();
+
+          // mount next video
+          var nextPlayerPosition = getNextPlayerPosition(videoID);
+          var nextPlayerTag = getVideoTagName(nextPlayerPosition);
+          videoReducer[nextPlayerTag] == "willMount";
+        } else if (value === "hidePlayer") {
+          // hide Video
+          var videoTag = key;
+          var videoPlayer = document.getElementById(videoTag);
+          if (videoPlayer) videoPlayer.style.visibility = "hidden";
+        } else if (value === "played") {
+          // set canPlay
+          var videoTag = key;
+          videoStore[videoTag] = "canPlay";
+          var videoID = parseInt(videoTag.replace("video", ""));
+          // console.log("log:played:videoID", videoID);
+          var nextPlayerPosition = getNextPlayerPosition(videoID);
+          // console.log("log:played:nextPlayerPosition", nextPlayerPosition);
+          videoReducer.willPlay = nextPlayerPosition;
+          videoStore[videoTag] = "canPlay";
+        } else {
+          console.log(target, key, value);
+          console.info("info:store:", videoStore);
+        }
+      }
+
+      console.log(key, value);
+
+      console.log("-----------------------------------------");
+      console.log("-----------------------------------------");
+
+      return true;
+    },
+  });
+
+  var createVideoPlayer = function createVideoPlayer(
+    currentPlayerIndex,
+    videoVisibility
+  ) {
+    var currentVideoSource = videoSourceList[currentPlayerIndex];
+
+    var style = "visibility: " + videoVisibility + ";";
+    style += "position: fixed; right: 0; bottom: 0; min-width: 100vw;";
+    style += "object-fit: cover; width: auto; height: 100%; z-index: -1;";
+
+    var elementVideo = document.createElement("video");
+    elementVideo.id = getVideoTagName(currentPlayerIndex);
+    elementVideo.autoplay = false;
+    elementVideo.muted = true;
+    elementVideo.loop = false;
+    elementVideo.src = currentVideoSource;
+    elementVideo.preload = true;
+    elementVideo.style.cssText = style;
+    // add tag to the dom
+    document.body.appendChild(elementVideo);
+
+    elementVideo.oncanplaythrough = function () {
+      var videoTag = getVideoTagName(currentPlayerIndex);
+      videoReducer[videoTag] = "canPlay";
+    };
+
+    elementVideo.addEventListener("ended", function () {
+      var videoTag = getVideoTagName(currentPlayerIndex);
+      videoReducer[videoTag] = "hidePlayer";
+    });
+
+    elementVideo.addEventListener("timeupdate", function () {
+      if (elementVideo.currentTime > 4.5) {
+        var videoTag = getVideoTagName(currentPlayerIndex);
+        videoReducer[videoTag] = "played";
+      }
+    });
+
+    elementVideo.playbackRate = 1.2;
+  };
+
+  videoReducer.willPlay = 0;
+</script>

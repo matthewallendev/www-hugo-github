@@ -4,15 +4,15 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_200/v1589554913/www/affiliate/remote-work-full-size_ludxpb.png"
       title : "Let's make the world more remote together!"
       description : "We want to teach the world remote work is the future. There are still %99 
-            not companies are remote, there is so much work to do together. Join our
-            program and change the world with us!  "
+            companies are not remote, there is so much work to do together. Join our
+            program and change the world with us!"
       cta : false
       view: "TextImageCentered"
     
     - view: "TitleList3ColumntGrids"
       cta: false
       content:
-        - title : "Easy Team Productivity Management"
+        - title : "%99 of employees want to work remotely"
           image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_320/c_scale,f_auto,q_auto,w_560/v1589560270/www/affiliate/remote-work-globe_rtzuj9.png"
         - title : "Monthly Team Performance Reporting"
           image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-work-increased_jwlyzl.png"
@@ -27,15 +27,16 @@ sections:
       cta : false
       view: "TextImageCentered"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589568497/www/affiliate/social-boost-remote_i1gxsn.png"
-      title : "We don't leave the content to its own fate, we are with you."
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589983636/www/affiliate/boost-social-content_ijhz09.png"
+      title : "Content Boost: We don’t leave the content to its own fate, we are with you."
       description : "We boost your content in Google, Instagram, Facebook or LinkedIn. Remote Team offers Google and Social Ad budgets for your content to be reached by the right people. Get a chance to increase your content impressions and get more affiliate sign-ups!"
       cta : yes
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589826121/www/affiliate/remote-work-future_gb7rwo.png"
       title : "Free SEO & Content Marketing Sessions"
-      description : "Our SEO expert Canberk will provide you one-toone video sessions to support your affiliate performance the best way possible. Reserve your seats for free sessions! We also provide trending remote work ideas with content calendar."
+      description : "Our SEO expert Canberk will provide you one-toone video sessions to support your affiliate performance the best way possible.
+         Reserve your seats for free sessions! We also provide trending remote work ideas with content calendar."
       cta : yes
       view: "TextLeftImageRight"
 
@@ -49,7 +50,7 @@ sections:
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491396/www/affiliate/video-creation_m1szlg.png"
       title : "Video Creation Tools for Your Contents"
-      description : "Our RemoteTeam studio will create videos for your articles! Click here to see video examples."
+      description : "Our RemoteTeam studio will create videos for your articles! <a href='#' target='_blank'>Click here</a> to see video examples."
       cta : yes
       view: "TextLeftImageRight"
 

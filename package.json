@@ -9,9 +9,11 @@
         "serve": "concurrently \"hugo server --buildDrafts --disableFastRender --disableLiveReload --renderToDisk\" \"npm run assets:development -- --watch\"",
         "preserve": "npm run assets:development",
         "clean": "rimraf ./public/* && rimraf ./static/assets/*",
-        "scripts:pages": "node -r dotenv/config scripts/pages.js"
+        "scripts:airtable:import:pages": "node -r dotenv/config scripts/pages.js"
     },
-    "dependencies": {},
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    },
     "devDependencies": {
         "@babel/core": "^7.1.2",
         "@babel/preset-env": "^7.1.0",
