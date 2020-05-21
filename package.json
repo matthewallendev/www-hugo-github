@@ -8,7 +8,8 @@
         "prebuild": "npm run assets:production",
         "serve": "concurrently \"hugo server --buildDrafts --disableFastRender --disableLiveReload --renderToDisk\" \"npm run assets:development -- --watch\"",
         "preserve": "npm run assets:development",
-        "clean": "rimraf ./public/* && rimraf ./static/assets/*"
+        "clean": "rimraf ./public/* && rimraf ./static/assets/*",
+        "scripts:pages": "node -r dotenv/config scripts/pages.js"
     },
     "dependencies": {},
     "devDependencies": {
@@ -21,6 +22,7 @@
         "concurrently": "^4.0.1",
         "cross-env": "^5.2.0",
         "css-loader": "^1.0.0",
+        "dotenv": "^8.2.0",
         "file-loader": "^2.0.0",
         "mini-css-extract-plugin": "^0.4.3",
         "node-sass": "^4.9.3",
