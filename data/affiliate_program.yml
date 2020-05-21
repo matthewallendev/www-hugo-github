@@ -62,6 +62,6 @@ sections:
       view: "TextRightImageLeft"
 
     - title : "Remote Team Branding assets"
-      description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this</strong></a> page. Make sure you are following the branding guidelines."
+      description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this</strong></a> page. Make sure you are following the <a href='/files/Remote-Team-Brand-Identity-Guidelines.pdf'>branding guidelines.</a>"
       cta : false
       view: "TextImageCentered"
