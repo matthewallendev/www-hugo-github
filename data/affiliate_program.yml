@@ -63,6 +63,6 @@ sections:
 
     - title : "Remote Team Branding assets"
       description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this page</strong></a>. 
-        Make sure you are following the <a target='_blank' href='https://res.cloudinary.com/hebu10lmu/image/upload/v1590155121/www/affiliate/Remote-Team-Brand-Identity-Guidelines_k3ireg.pdf'><strong>branding guidelines</strong></a>."
+        Make sure you are following the <a target='_blank' href='https://assets.remoteteam.io/Remote-Team-Brand-Identity-Guidelines_k3ireg.pdf'><strong>branding guidelines</strong></a>."
       cta : false
       view: "TextImageCentered"
