@@ -1,0 +1,8 @@
+slug: /logicgate-alternatives
+sections:
+  enable: true
+  item:
+    - title: |
+        Test 1 LogicGate Alternative Feature
+      description: lorem ipsum sit dolor amet
+      template: TextRightImageLeft

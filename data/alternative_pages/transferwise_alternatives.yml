@@ -1,0 +1,15 @@
+slug: /transferwise-alternatives
+sections:
+  enable: true
+  item:
+    - title: |
+        Test 1 Transferwise Alternative Feature
+      description: |
+        lorem ipsum sit dolor amet
+      cta: true
+      template: TextImageCentered
+    - title: |
+        Test 2 Transferwise Alternative Feature
+      description: lorem ipsum sit dolor amet
+      cta: true
+      template: TextLeftImageRight
