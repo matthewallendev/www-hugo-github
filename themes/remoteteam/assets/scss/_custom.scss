@@ -107,22 +107,9 @@ body.featured-style .h2 {
 /* h3 Styles */
 body.featured-style h3,
 body.featured-style .h3 {
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   font-weight: 900;
-}
-
-@media (min-width: 760px) {
-  body.featured-style h3,
-  body.featured-style .h3 {
-    font-size: 2rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  body.featured-style h3,
-  body.featured-style .h3 {
-    font-size: 2.1rem;
-  }
+  letter-spacing: 1px;
 }
 
 .headline {
@@ -130,18 +117,8 @@ body.featured-style .h3 {
 }
 /* p styles */
 body.featured-style p:not([class|="lead"]) {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   font-weight: 400;
-}
-@media (min-width: 760px) {
-  body.featured-style p:not([class|="lead"]) {
-    font-size: 1.2rem;
-  }
-}
-@media (max-width: 991px) {
-  body.featured-style p:not([class|="lead"]) {
-    font-size: 1.3rem;
-  }
 }
 /* p styles ends */
 
