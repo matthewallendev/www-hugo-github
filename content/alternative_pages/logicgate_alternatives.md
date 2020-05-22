@@ -1,8 +1,8 @@
 ---
 type: alternative_pages
 layout: alternative_pages
-url: /transferwise-alternatives 
-title: TransferWise Alternatives 
+url: /logicgate-alternatives 
+title:  
 category: Alternative Pages 
 description:  
 ---

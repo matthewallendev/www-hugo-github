@@ -12,6 +12,7 @@
         "scripts:airtable:import:pages": "node -r dotenv/config scripts/pages.js"
     },
     "dependencies": {
+        "js-yaml": "^3.13.1",
         "node-fetch": "^2.6.0"
     },
     "devDependencies": {
