@@ -7,7 +7,7 @@ sections:
     - image : "/assets/img/payroll-people-list.png"
       title : "Run Your Payroll Automatically"
       description : "Simplify and synchronize your remote team’s payroll, including deductions, earnings, sick leaves, bonuses, overtime pay, and time offs. Automate salaries calculation and monthly payments to your remote team with a few clicks. With RemoteTeam and TransferWise, you never have to worry about your remote team’s payroll again."
-      cta : yes
+      cta : true
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457911/www/payroll-list_mskxay.png"

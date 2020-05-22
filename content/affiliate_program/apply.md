@@ -2,7 +2,7 @@
 draft: false
 # type: affiliate-program
 # layout: post
-url: affiliate-program/apply
+url: /affiliate-program/apply
 title: Apply for Affiliate Program
 headline: Apply for Affiliate Program
 description: Apply for Affiliate Program

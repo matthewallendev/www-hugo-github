@@ -4,7 +4,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580115582/www/ds1_1_f6acs5.jpg"
       title : "Easily create documents using templates"
       description : "Our document signing app allows you to easily create documents for your remote compay using easy to use templates. You don’t need to suffer creating and designing new documents from scratch. With our app, all you need is to input your company details inside the done-for-you template and you’re good to go."
-      cta : yes
+      cta : true
       ribbon: 1
       view: "TextRightWithRibbon"
 

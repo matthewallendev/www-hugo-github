@@ -12,9 +12,12 @@
             <p>
               {{ .description | safeHTML }}
             </p>
-            {{ if eq .cta true }}
-              {{ partial "cta-button.html" . }}
-            {{end}}
+            
+              {{ if eq .cta "affiliate" }}
+                {{ partial "cta-button-orange.html" . }}
+              {{ else }}
+                {{ partial "cta-button.html" . }}
+              {{end}}
           </div>
 
           <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2 m-2">
@@ -37,7 +40,10 @@
               <p>
                 {{ .description | safeHTML }}
               </p>
-              {{ if eq .cta true }}
+              
+              {{ if eq .cta "affiliate" }}
+                {{ partial "cta-button-orange.html" . }}
+              {{ else }}
                 {{ partial "cta-button.html" . }}
               {{end}}
             </div>
@@ -59,11 +65,13 @@
             <h3 class="mb-3 mt-2">{{ .title }}</h3>
             <div class="w-75 mx-auto mb-7">
               <p>{{ .description | safeHTML }}</p>
-              {{ if eq .cta true }}
+              
+              {{ if eq .cta "affiliate" }}
+                {{ partial "cta-button-orange.html" . }}
+              {{ else if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
              </div>
-             
           </div>
         </div>
       </div>
@@ -84,7 +92,9 @@
                 </p>
               {{ end }}
               
-              {{ if eq .cta true }}
+              {{ if eq .cta "affiliate" }}
+                {{ partial "cta-button-orange.html" . }}
+              {{ else if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
             </div>
@@ -111,7 +121,10 @@
                   {{ .description | safeHTML }}
                 </p>
               {{ end }}
-              {{ if eq .cta true }}
+              
+              {{ if eq .cta "affiliate" }}
+                {{ partial "cta-button-orange.html" . }}
+              {{ else if eq .cta true }}
                 {{ partial "cta-button.html" . }}
               {{end}}
             </div>

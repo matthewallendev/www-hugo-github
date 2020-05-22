@@ -4,7 +4,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457692/www/streamline_hioagz.png"
       title : "Streamline the Process"
       description : "Efficiently review and approve vacation requests, sick leave, personal leave, and more all in a just a few seconds. It's even automatically calculated into your payroll with no extra steps."
-      cta : yes
+      cta : true
       view: "TextRightImageLeft"
 
     - image : "/assets/img/photos/unique-pto.png"

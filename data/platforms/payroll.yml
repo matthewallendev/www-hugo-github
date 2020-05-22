@@ -5,7 +5,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382583/www/Frame_1_1_v380oy.jpg"
       title : "Simplify Your Payroll"
       description : "Teams are becoming more global and remote, yet everyone still needs to get paid. Remote Team's simplified and automatized payroll process globally includes earnings, deductions and time off- zero spreadsheets, zero clicks."
-      cta : yes
+      cta : true
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580382582/www/Frame_2_1_jppcst.jpg"

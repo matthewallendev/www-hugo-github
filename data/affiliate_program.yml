@@ -30,38 +30,39 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590071242/www/affiliate/boost-social-content_qvtpw3.png"
       title : "Content Boost: We don’t leave the content to its own fate, we are with you."
       description : "We boost your content in Google, Instagram, Facebook or LinkedIn. Remote Team offers Google and Social Ad budgets for your content to be reached by the right people. Get a chance to increase your content impressions and get more affiliate sign-ups!"
-      cta : yes
+      cta : "affiliate"
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589826121/www/affiliate/remote-work-future_gb7rwo.png"
       title : "Free SEO & Content Marketing Sessions"
       description : "Our SEO expert Canberk will provide you one-toone video sessions to support your affiliate performance the best way possible.
          Reserve your seats for free sessions! We also provide trending remote work ideas with content calendar."
-      cta : yes
+      cta : "affiliate"
       view: "TextLeftImageRight"
 
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491392/www/affiliate/remote-swag_ys8pyt.png"
       title : "Free Welcome Kit!"
       description : "Our welcome kit includes Remote Team t-shirt and one free remote work book. Also get a chance to involve one of the fastest growing remote work communities."
-      cta : yes
+      cta : "affiliate"
       view: "TextRightImageLeft"
 
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491396/www/affiliate/video-creation_m1szlg.png"
       title : "Video Creation Tools for Your Contents"
       description : "Our RemoteTeam studio will create videos for your articles! <a href='https://www.youtube.com/watch?v=g8WGDQRNuW8&list=PL73WcJb1S26x-0YQx8HDJf7B-pa9od3Fr' target='_blank'>Click here</a> to see video examples."
-      cta : yes
+      cta : "affiliate"
       view: "TextLeftImageRight"
 
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1589491406/www/affiliate/remote-resources_qoclts.png"
       title : "Resources to Help You Grow with Marketing Templates & Tips"
       description : "Our team will provide you the best resources the help you stay at top on your affiliate efforts. Use ready to go e-mail and social media marketing templates with high quality images to promote RemoteTeam on your channels. Get free feedbacks for your affiliate links, contents & videos."
-      cta : yes
+      cta : "affiliate"
       view: "TextRightImageLeft"
 
     - title : "Remote Team Branding assets"
-      description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this</strong></a> page. Make sure you are following the <a href='/files/Remote-Team-Brand-Identity-Guidelines.pdf'>branding guidelines.</a>"
+      description : "You can get all the assets that you can use information about Remote Team from <a href='/press'><strong>this page</strong></a>. 
+        Make sure you are following the <a target='_blank' href='/files/Remote-Team-Brand-Identity-Guidelines.pdf'><strong>branding guidelines</strong></a>."
       cta : false
       view: "TextImageCentered"

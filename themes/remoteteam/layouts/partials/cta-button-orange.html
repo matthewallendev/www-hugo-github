@@ -1,13 +1,13 @@
 <div>
   <a
     class="btn btn-round btn-primary btn-lg shadow-3 px-4"
-    href="{{ if isset .Params "cta_url" }}{{ $.Params.cta_url }}{{ else }}https://dashboard.remoteteam.com/auth/sign-up{{ end }}"
+    href="{{ if isset .Params "cta_url" }}{{ $.Params.cta_url }}{{ else }}http://localhost:1313/affiliate-program/apply/{{ end }}"
     style="background-color: #de774e;border:none;"
   >
     {{ if isset .Params "cta_button_text" }}
       {{ $.Params.cta_button_text }}
     {{ else }}
-      Start Now
+      Join Now
     {{ end }}
   </a>
   <br />
@@ -15,7 +15,7 @@
     {{ if isset .Params "cta_subtitle" }}
       {{ $.Params.cta_subtitle }}
     {{ else }}
-      Free Up to 3 People!
+      Start Earnings!
     {{ end }}
   </small>
 </div>

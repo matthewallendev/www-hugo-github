@@ -4,7 +4,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580453610/www/features/dashboard-tools_bphwou.png"
       title : "One dashboard - for all of your remote team"
       description : "Visualize your entire remote team on our dashboard. The dashboard lets you view the status of each remote employee, including contractors, part-time employees, full-time remote workers, and freelancers. You also get to see their time zones in real-time."
-      cta : yes
+      cta : true
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580453610/www/features/team-report_dv3hva.png"

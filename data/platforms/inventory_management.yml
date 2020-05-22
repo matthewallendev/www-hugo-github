@@ -4,7 +4,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580457453/www/inventory-list_k7glhl_1_xk7lno.png"
       title : "Manage inventory in a single dashboard"
       description : "Easily create and manage both offline and online inventories for your company using our feature-packed dashboard. Seamlessly manage inventory status across different remote locations. Our inventory management system helps you create and assign orders to your remote team, as well as control drop shipments."
-      cta : yes
+      cta : true
       view: "TextLeftImageRight"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580738574/www/features/inventory-detail_wafnmb.png"

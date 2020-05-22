@@ -4,7 +4,7 @@ sections:
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580416222/www/Frame_2_3_qqdq1p.jpg"
       title : "Easy-to-use Check-in System"
       description : "Check-in app allows you to calculate and track the time your remote employee starts and ends their work time. You can simply see the total working time on one platform."
-      cta : yes
+      cta : true
       view: "TextRightImageLeft"
 
     - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580416221/www/Frame_3_4_me4hra.jpg"
