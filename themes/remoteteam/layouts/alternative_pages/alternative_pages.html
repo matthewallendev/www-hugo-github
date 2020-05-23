@@ -1,8 +1,7 @@
 {{ define "main" }}
   {{ partial "page-headline.html" . }}
-  
-  {{ if .Site.Data.platforms.transferwise.sections.enable }}
-    {{ with .Site.Data.platforms.transferwise.sections }}
+  {{ if .Site.Data.alternative_pages.transferwise_alternatives.sections.enable }}
+    {{ with .Site.Data.alternative_pages.transferwise_alternatives.sections }}
       <div class="sections" >
         {{ range .item }}
           {{ partial "section.html" . }}
@@ -10,29 +9,5 @@
       </div>
     {{ end }}
   {{ end }}
-
-  {{ if .Site.Data.platforms.desktime.sections.enable }}
-    {{ with .Site.Data.platforms.desktime.sections }}
-      <div class="sections" >
-        {{ range .item }}
-          {{ partial "section.html" . }}
-        {{ end }}
-      </div>
-    {{ end }}
-  {{ end }}
-    
-
-  {{ if .Site.Data.platforms.toggl.sections.enable }}
-    {{ with .Site.Data.platforms.toggl.sections }}
-      <div class="sections" >
-        {{ range .item }}
-          {{ partial "section.html" . }}
-        {{ end }}
-      </div>
-    {{ end }}
-  {{ end }}
-
-
-  {{ partial "cta-bold.html" . }}
-  
-  {{ end }}
+  {{ partial "cta-bold.html" . }}  
+{{ end }}

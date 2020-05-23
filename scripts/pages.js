@@ -26,12 +26,18 @@ const removeOldFiles = (targetContentDestination) => {
 }
 
 // Fill  up data into markdown schema
-const getMarkdownTemplate = (title, url, category, description, image) => {
+const getMarkdownTemplate = (title, headline, url, category, description, image) => {
+    if (!title && headline) {
+        title = headline;
+    } else if (title && !headline) {
+        headline = title;
+    }
     return `---
         type: alternative_pages
         layout: alternative_pages
         url: ${url || ''} 
         title: ${title || ''} 
+        headline: ${headline || ''} 
         category: ${category || ''} 
         description: ${description || ''} 
         image: ${image || ''} 
@@ -72,7 +78,8 @@ const createFiles = async () => {
         // console.log("step 2");
 
         const slug = record.fields.Slug;
-        const name = record.fields.PageTitle;
+        const title = record.fields.Title;
+        const headline = record.fields.Headline;
         const category = record.fields.Category;
         const description = record.fields.SeoDescription;
         const fileName = getFileName(fileNameFormat(slug), "md");
@@ -80,7 +87,7 @@ const createFiles = async () => {
 
         if (slug && category === "Alternative Pages") {
 
-            const markdownContent = getMarkdownTemplate(name, slug, category, description);
+            const markdownContent = getMarkdownTemplate(title, headline, slug, category, description);
             // console.log(filePathPages);
 
             fs.writeFile(filePathPages, markdownContent, (err) => {

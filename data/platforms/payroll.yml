@@ -2,13 +2,13 @@ sections:
   enable : true
   # title : "Focus on your product, not your payroll."
   item:
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590232532/www/features/payroll/payroll_run_dyqgq3.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590232532/www/features/payroll/payroll_run_dyqgq3.png"
       title : "Simplify Your Payroll"
       description : "Teams are becoming more global and remote, yet everyone still needs to get paid. Remote Team's simplified and automatized payroll process globally includes earnings, deductions and time off- zero spreadsheets, zero clicks."
       cta : true
       view: "TextRightImageLeft"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590232529/www/features/payroll/payroll_earnings_dmgcon.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590232529/www/features/payroll/payroll_earnings_dmgcon.png"
       title : "Powered By TransferWise"
       description : "How do we make payments to employees all over the world? By teaming up with TransferWise, we make it easy for you to pay anyone, anywhere. We use modern transfers, like TransferWise and others to totally optimize the payment process. By using modern tools like Remote Team, you can skip the bank inconvenience and keep your payroll up-to-date."
       cta: true

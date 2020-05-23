@@ -8,7 +8,7 @@ sections:
       ribbon: 1
       view: "TextRightWithRibbon"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590268766/www/features/signature/signature_2_myhblg.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590269381/www/features/signature/signature_2_wliwef.png"
       title : "Make document handling easy for your remote team"
       description : "Allow your remote team to sign documents easily inside their employee dashboards without using third party document signing platforms. Your employees can agree to NDAs, fill forms, and sign documents easily without our signature app, giving them an easy platform to work with your company."
       cta: true
