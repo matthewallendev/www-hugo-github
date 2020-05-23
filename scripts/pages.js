@@ -26,7 +26,7 @@ const removeOldFiles = (targetContentDestination) => {
 }
 
 // Fill  up data into markdown schema
-const getMarkdownTemplate = (title, url, category, description) => {
+const getMarkdownTemplate = (title, url, category, description, image) => {
     return `---
         type: alternative_pages
         layout: alternative_pages
@@ -34,6 +34,7 @@ const getMarkdownTemplate = (title, url, category, description) => {
         title: ${title || ''} 
         category: ${category || ''} 
         description: ${description || ''} 
+        image: ${image || ''} 
         ---`.split("    ").join("");
 };
 
@@ -54,6 +55,7 @@ const fileNameFormat = (value) => {
     if (value) {
         return value.split("-").join("_");
     }
+    return value;
 }
 
 const createFiles = async () => {
@@ -70,7 +72,7 @@ const createFiles = async () => {
         // console.log("step 2");
 
         const slug = record.fields.Slug;
-        const name = record.fields.Name;
+        const name = record.fields.PageTitle;
         const category = record.fields.Category;
         const description = record.fields.SeoDescription;
         const fileName = getFileName(fileNameFormat(slug), "md");
@@ -152,7 +154,7 @@ const createFiles = async () => {
                     if (block.Image1) (item.image = block.Image1);
                     if (block.Description1) (item.description = block.Description1);
                     if (block.ShowCTA) (item.cta = block.ShowCTA);
-                    if (block.Template) (item.template = block.Template);
+                    if (block.Template) (item.view = block.Template);
 
                     data.sections.item.push(item);
                 }
