@@ -1,9 +1,9 @@
 
 {{ $script := resources.Get "js/page.min.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+<script defer src="{{ $script.Permalink }}"></script>
 
 {{ $script := resources.Get "js/script.js" | minify}}
-<script src="{{ $script.Permalink }}"></script>
+<script defer src="{{ $script.Permalink }}"></script>
 
 {{ "<!-- google analytics -->" | safeHTML }}
 {{ with .Site.Params.google_analytics_id }}
