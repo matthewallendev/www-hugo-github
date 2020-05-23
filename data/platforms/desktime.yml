@@ -4,19 +4,19 @@ sections:
     - title: Desktime Time Tracking App Integration with RemoteTeam
       view: "OnlyTitle"  
     
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580215851/www/working-hours-4_1_bic3bf.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590246253/www/features/desktime/working-hours_iqdnao.png"
       title : "Online Time-Sheet to Track All Employees on One Screen"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam integration with Desktime helps you to see all of your remote workers’ dedicated time each day, week & month."
       cta : true
       view: "TextLeftImageRight"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580218066/www/paycheck-details_t90wak.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590246333/www/features/desktime/paycheck-details_jv9a8u.png"
       title : "Automate Payments Integrated with Dedicated Employee Times"
       description : "Automate your monthly International payrolls using TransferWise and Desktime. Pay your remote employees automatically every month based on their dedicated time to work. Let RemoteTeam and Desktime handle your team's performance, payments, and HR management. Focus on vital tasks."
       cta: true
       view: "TextRightImageLeft"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467956/www/Frame_132_ly8k42.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590246717/www/features/desktime/weekly_overview_2_u8f9mo.png"
       view: "ContentListRightImageLeft"
       cta: true
       content:

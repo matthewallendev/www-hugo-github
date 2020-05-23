@@ -37,13 +37,13 @@ sections:
       cta: true
       view: "TextRightImageLeft"
 
-    - image : "https://www.remoteteam.com/assets/img/transferwise-api.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590245910/www/features/transferwise/transferwise-api_iapcsl.png"
       title : "Done-for-you Integration"
       description : "RemoteTeam integrates our HR platform with TransferWise, so you don’t have to do any technical leg work. This gives your remote company instant payroll capabilities, a borderless account, and an automated employee payment system. Apart from walking you through the entire process of managing your remote teams, you also have access to time tracking, which is automatically synced to your TransferWise and RemoteTeam’s interface to give you real-time report on employee productivity and commensurate compensation."
       cta: true
       view: "TextLeftImageRight"
     
-    - image : "https://www.remoteteam.com/assets/img/transferwise-employees.png"
+    - image : "/assets/img/transferwise-employees.png"
       title : "Why Employees Choose TransferWise"
       description : "Receive your salary in your local currency
         Enjoy fast and cheap money transfers
@@ -51,19 +51,19 @@ sections:
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "https://www.remoteteam.com/assets/img/transferwise-remoteteam.png"
+    - image : "/assets/img/transferwise-remoteteam.png"
       title : "Why we love TransferWise"
       description : "There are many international payment platforms out there. However, we decided to go with TransferWise borderless account because its features are ideal for remote teams. It has simple dashboards, offer a lot of options for remote companies to pay their employees. With these features, we saw that integrating TransferWise with RemoteTeam will give remote companies the most powerful tools they’ll ever need to run successful companies."
       cta: true
       view: "TextLeftImageRight"
     
-    - image : "https://www.remoteteam.com/assets/img/borderless-account.gif"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590248272/www/features/transferwise/borderless-account_g9wopk.png"
       title : "A borderless account for your remote company"
       description : "Get a TransferWise borderless account that allows you to hold money in over 40 currencies and pay your remote team in a currency of their choice. You also get local bank details for EUR, AUD, USD, and GBP without needing any physical address from these locations. Switch between currencies, no minimum deposit gimmicks - and opening an account is free."
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "https://www.remoteteam.com/assets/img/wisecard-transferwise.png"
+    - image : "/assets/img/wisecard-transferwise.png"
       title : "Spend anywhere with your TransferWise Card"
       description : "Get access to the TransferWise card, which is linked to your borderless account and spend anywhere as a company or with your remote team. Register for a coworking space for your virtual team. Pay for a remote PTO. Withdraw money physically from an ATM anywhere around the world. Whatever your needs are as a remote company, the TransferWise debit card is remote-friendly enough to make you happy."
       cta: true

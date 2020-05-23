@@ -4,19 +4,19 @@ sections:
     - title: Toggl Time Tracking App Integration with RemoteTeam
       view: "OnlyTitle"
       
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227602/www/Group_95-1_ziebsg.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590246253/www/features/desktime/working-hours_iqdnao.png"
       title : "Observe remote employee performance with Toggl & RemoteTeam"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam and Toggl help you to see all of your remote workers’ dedicated time each day, week & month. Make time-tracking simpler."
       cta : true
       view: "TextRightImageLeft"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227601/www/Group_95_ebx2ve.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590246333/www/features/desktime/paycheck-details_jv9a8u.png"
       title : "Automate Payments Integrated with Dedicated Employee Times"
       description : "Automate your monthly International payrolls using TransferWise and Desktime. Pay your remote employees automatically every month based on their dedicated time to work. Let RemoteTeam and Desktime handle your team's performance, payments, and HR management. Focus on vital tasks."
       cta: true
       view: "TextLeftImageRight"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467931/www/Frame_131_rubs4o.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239926/www/features/check-in-app/weekly_overview_1_cck4ua.png"
       view: "ContentListLeftImageRight"
       cta: true
       content:

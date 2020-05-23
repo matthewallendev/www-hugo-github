@@ -13,7 +13,7 @@ sections:
       cta: true
       view: "TextRightImageLeft"
 
-    - image : "https://www.remoteteam.com/assets/img/inventory-sign.png"
+    - image : "/assets/img/inventory-sign.png"
       title : "Stay accountable"
       description : "Getting real-time updates and a simple dashboard for managing everything concerning the inventory of your remote team ensures that you’re on top of matters. This helps you to evaluate the company’s inventory system and make better decisions in the future."
       cta: true
