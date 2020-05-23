@@ -1,37 +1,37 @@
 sections:
   enable : true
   item:
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580416222/www/Frame_2_3_qqdq1p.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239761/www/features/check-in-app/check_in_app_1_sw2jqy.png"
       title : "Easy-to-use Check-in System"
       description : "Check-in app allows you to calculate and track the time your remote employee starts and ends their work time. You can simply see the total working time on one platform."
       cta : true
       view: "TextRightImageLeft"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580416221/www/Frame_3_4_me4hra.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239762/www/features/check-in-app/time_tracking_app_1_auvscj.png"
       title : "Simple Set-up"
       description : "Install the check-in app in seconds and use it right away! Assign the employees you want to observe the check-in times and start using on RemoteTeam platform."
       cta: true
       view: "TextLeftImageRight"
 
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467930/www/Frame_130_ftmhuk.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239926/www/features/check-in-app/weekly_overview_1_cck4ua.png"
       title : "Observe Daily Work Habit Logs"
       description : "Observe your remote employees’ check-in times every day and save their starting and ending times to manage their work habits. Make recommendations for your remote team’s productivity and effectiveness based on their time intervals and outcome analysis."
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580227630/www/Group_95-1_1_gus081.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590240111/www/features/check-in-app/time_tracking_3_psuavb.png"
       title : "Online Time-Sheet to Track All Employees on One Screen"
       description : "Manage & observe the working times of your remote employees on one screen. RemoteTeam dashboard helps you to see all of your remote workers’ dedicated time each day, week & month."
       cta: true
       view: "TextLeftImageRight"
     
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580409618/www/Group_95_2_tqqczo.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239762/www/features/check-in-app/paycheck_details_3_yhxdjf.png"
       title : "Automate Payments Integrated with Dedicated Employee Times"
       description : "Automate your monthly International payrolls using TransferWise, Check-in App and Time-off integration together. Pay your remote employees automatically every month based on their dedicated time to work and your business. Let RemoteTeam handle your team’s’ performance, payments, and HR management. Focus on vital tasks."
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580467930/www/Frame_130_ftmhuk.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590239926/www/features/check-in-app/weekly_overview_1_cck4ua.png"
       view: "ContentListRightImageLeft"
       content:
         - title : "Easy Team Productivity Management"

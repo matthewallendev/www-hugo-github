@@ -19,7 +19,7 @@ sections:
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1580740274/www/features/local-holidays_yafaoo.jpg"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,w_560,f_auto,q_auto/v1590233592/www/features/local-holidays_r4zok5.png"
       title : "Local Holiday Support"
       description : "In this global world we now live, we feel it's important to support local holidays for your team. So now you can create new policies for your employee's local holidays so they can feel culturally supported within your startup."
       cta: true
