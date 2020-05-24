@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 100vh;
     z-index: -1111;
-    background-image: url(https://res.cloudinary.com/hzynudzjs/image/upload/f_auto,q_auto/v1589301894/world/v2/world_vgdodu.png);
+    background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/f_auto,q_auto/v1588459798/world/v2/Scene_1_s9h7qw.jpg);
     background-size: cover;
   "
 ></div>
@@ -26,14 +26,16 @@
     var browserSize = window.innerWidth;
     
     var dpr = 1;
-    if(window.devicePixelRatio !== undefined) dpr = window.devicePixelRatio;
+    if(window.devicePixelRatio && window.devicePixelRatio > 1 ){
+      dpr = 2;
+    };
 
     var videoWidthForDisplay = 640;
     if(browserSize && browserSize > 960){
         videoWidthForDisplay = 1280;
     } else if(browserSize && browserSize > 640){
         videoWidthForDisplay = 960;
-    } else if(browserSize && browserSize > 320){
+    }else if(browserSize && browserSize > 320){
         videoWidthForDisplay = 640;
     }
     var fullUrl =
@@ -119,7 +121,7 @@
     videoObjects[0].src = videoSourceList[nextActiveVideo];
     document.body.appendChild(videoObjects[0]);
 
-    video.playbackRate = 0.8;
+    video.playbackRate = 0.7;
     video.play();
   });
 
