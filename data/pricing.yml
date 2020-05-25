@@ -1,18 +1,15 @@
-# work process
-work_process:
+# plans
+monthly:
   enable : true
-  title : "Work Process"
-  item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
+  title : "Monthly Package"
+  short_title: "Monthly"
+  price : "$14"
+  price_decimals: "99"
+  # portfolio item comes from 'data/portfolio.yml' item.
+yearly:
+  enable : true
+  title : "Yearly Package"
+  short_title: "Yearly"
+  price : "$11"
+  price_decimals: "99"
+  # portfolio item comes from 'data/portfolio.yml' item.
