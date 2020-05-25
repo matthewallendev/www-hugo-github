@@ -1,15 +1,15 @@
 {
     "name": "www-hugo",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "scripts": {
-        "assets:development": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-        "assets:production": "cross-env NODE_ENV=production webpack -p --no-progress --hide-modules",
-        "build": "cross-env HUGO_ENV=production hugo",
-        "prebuild": "npm run assets:production",
+        "assets:development": "echo 'webpack builds disabled for now' #cross-env NODE_ENV=development webpack --progress --hide-modules",
+        "assets:production": "echo 'webpack builds disabled for now' #cross-env NODE_ENV=production webpack -p --no-progress --hide-modules",
+        "build": "cross-env HUGO_ENV=production hugo --minify",
+        "prebuild": "echo 'webpack builds disabled for now' #npm run assets:production",
         "serve": "concurrently \"hugo server --buildDrafts --disableFastRender --disableLiveReload --renderToDisk\" \"npm run assets:development -- --watch\"",
-        "preserve": "npm run assets:development",
-        "clean": "rimraf ./public/* && rimraf ./static/assets/*",
-        "scripts:airtable:import:pages": "node -r dotenv/config scripts/pages.js"
+        "preserve": "echo 'webpack builds disabled for now' #npm run assets:development",
+        "clean": "echo 'webpack builds disabled for now' #rimraf ./public/* && rimraf ./static/assets/*",
+        "scripts:airtable:import:pages": "node -r dotenv/config scripts/pages_airtable_importer.js"
     },
     "dependencies": {
         "chalk": "^4.0.0",
@@ -30,7 +30,6 @@
         "file-loader": "^2.0.0",
         "mini-css-extract-plugin": "^0.4.3",
         "node-sass": "^4.9.3",
-        "postcss-loader": "^3.0.0",
         "rimraf": "^2.6.2",
         "sass-loader": "^7.1.0",
         "webpack": "^4.20.2",

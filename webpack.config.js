@@ -16,50 +16,49 @@ module.exports = {
     mode: devMode ? 'development' : 'production',
     module: {
         rules: [
-            {
-                // JavaScript
-                test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,
-                use: {
-                    loader: 'babel-loader',
-                    options: {
-                        presets: ['@babel/preset-env']
-                    }
-                }
-            },
-            {
-                // SCSS
-                test: /\.(sa|sc|c)ss$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'postcss-loader',
-                    'sass-loader',
-                ],
-            },
-            {
-                // Fonts
-                test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
-                use: {
-                    loader: 'file-loader',
-                    options: {
-                            name: '[name].[ext]',
-                            outputPath: 'fonts/'
-                    }
-                }
-            },
-            {
-                // Images
-                test: /\.(png|jpe?g|gif|svg|ico)(\?v=.+)?$/,
-                exclude: /(\/fonts|webfonts)/,
-                use: {
-                    loader: 'file-loader',
-                    options: {
-                        name: '[name].[ext]',
-                        outputPath: 'images/'
-                    }
-                }
-            }
+            // {
+            //     // JavaScript
+            //     test: /\.js$/,
+            //     exclude: /(node_modules|bower_components)/,
+            //     use: {
+            //         loader: 'babel-loader',
+            //         options: {
+            //             presets: ['@babel/preset-env']
+            //         }
+            //     }
+            // },
+            // {
+            //     // SCSS
+            //     test: /\.(sa|sc|c)ss$/,
+            //     use: [
+            //         MiniCssExtractPlugin.loader,
+            //         'css-loader',
+            //         'sass-loader',
+            //     ],
+            // },
+            // {
+            //     // Fonts
+            //     test: /.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+            //     use: {
+            //         loader: 'file-loader',
+            //         options: {
+            //                 name: '[name].[ext]',
+            //                 outputPath: 'fonts/'
+            //         }
+            //     }
+            // },
+            // {
+            //     // Images
+            //     test: /\.(png|jpe?g|gif|svg|ico)(\?v=.+)?$/,
+            //     exclude: /(\/fonts|webfonts)/,
+            //     use: {
+            //         loader: 'file-loader',
+            //         options: {
+            //             name: '[name].[ext]',
+            //             outputPath: 'images/'
+            //         }
+            //     }
+            // }
         ]
     },
     plugins: [

@@ -23,7 +23,7 @@ $ snap install hugo
 ## Build
 
 ```
-$ hugo
+$ hugo --minify
 ```
 
 # Development
