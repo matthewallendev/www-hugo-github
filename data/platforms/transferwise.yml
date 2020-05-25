@@ -4,7 +4,7 @@ sections:
     - title: "Complete remote HR with TransferWise and RemoteTeam"
       view: "OnlyTitle"
       
-    - image : "/assets/img/payroll-people-list.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426816/www/features/transferwise/payment-lists_c2vjlp.png"
       title : "Run Your Payroll Automatically"
       description : "Simplify and synchronize your remote team’s payroll, including deductions, earnings, sick leaves, bonuses, overtime pay, and time offs. Automate salaries calculation and monthly payments to your remote team with a few clicks. With RemoteTeam and TransferWise, you never have to worry about your remote team’s payroll again."
       cta : true
@@ -16,19 +16,19 @@ sections:
       cta: true
       view: "TextImageCentered"
 
-    - image : "/assets/img/payment-lists.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426874/www/features/transferwise/payment-lists_imvfqn.png"
       title : "Keep Paycheck History"
       description : "Keep track of all your payments to remote workers, freelancers, and contractors. Use this data to plan your remote company’s future payroll, finances, employee salaries, and save time to focus on the most important things."
       cta: true
       view: "TextImageCentered"
     
-    - image : "/assets/img/employers.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426917/www/features/transferwise/employers_uvpvuj.png"
       title : "Make The Team Happy"
       description : "The ability to streamline your payroll, make payments seamlessly, and automate employee management doesn’t just save you time and money, but also makes your remote employees happy. Company wins. Employees win. Everyone is happy."
       cta: true
       view: "TextLeftImageRight"
 
-    - image : "/assets/img/transferwise-remote-companies.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426940/www/features/transferwise/transferwise-remote-companies_yunxdg.png"
       title : "Why remote companies love TransferWise"
       description : "Cheap to send money across national borders using a borderless account.
         Fast to send money to remote employees in batch
@@ -43,7 +43,7 @@ sections:
       cta: true
       view: "TextLeftImageRight"
     
-    - image : "/assets/img/transferwise-employees.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426964/www/features/transferwise/transferwise-employees_xd4ilz.png"
       title : "Why Employees Choose TransferWise"
       description : "Receive your salary in your local currency
         Enjoy fast and cheap money transfers
@@ -51,7 +51,7 @@ sections:
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "/assets/img/transferwise-remoteteam.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426989/www/features/transferwise/transferwise-remoteteam_xf8vmx.png"
       title : "Why we love TransferWise"
       description : "There are many international payment platforms out there. However, we decided to go with TransferWise borderless account because its features are ideal for remote teams. It has simple dashboards, offer a lot of options for remote companies to pay their employees. With these features, we saw that integrating TransferWise with RemoteTeam will give remote companies the most powerful tools they’ll ever need to run successful companies."
       cta: true
@@ -63,7 +63,7 @@ sections:
       cta: true
       view: "TextRightImageLeft"
     
-    - image : "/assets/img/wisecard-transferwise.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590427028/www/features/transferwise/wisecard-transferwise_eigp9t.png"
       title : "Spend anywhere with your TransferWise Card"
       description : "Get access to the TransferWise card, which is linked to your borderless account and spend anywhere as a company or with your remote team. Register for a coworking space for your virtual team. Pay for a remote PTO. Withdraw money physically from an ATM anywhere around the world. Whatever your needs are as a remote company, the TransferWise debit card is remote-friendly enough to make you happy."
       cta: true

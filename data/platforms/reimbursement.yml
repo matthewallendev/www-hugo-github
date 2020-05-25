@@ -1,7 +1,7 @@
 sections:
   enable : true
   item:
-    - image : "/assets/img/reimbursement-request.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1590426357/www/features/reimbursement/reimbursement-request_zuv865.png"
       title : "Pay your remote employees for work-related expenditure"
       description : "Easily manage and reimburse your remote employees who use their own resources on work-related stuff. See their total expenditure, what they spend it on, and when the expenditure was made - all in one dashboard. And reimburse them on time."
       cta : true

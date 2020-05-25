@@ -13,7 +13,7 @@ sections:
       cta: true
       view: "TextRightImageLeft"
 
-    - image : "/assets/img/inventory-sign.png"
+    - image : "https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1590426631/www/features/inventory-management/inventory-sign_rbrekg.png"
       title : "Stay accountable"
       description : "Getting real-time updates and a simple dashboard for managing everything concerning the inventory of your remote team ensures that you’re on top of matters. This helps you to evaluate the company’s inventory system and make better decisions in the future."
       cta: true
