@@ -36,7 +36,7 @@
 {{ "<!-- cookiebot -->" | safeHTML }}
 <script async id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="43cfb1f9-b152-4fff-8841-57cffc4bb37f" type="text/javascript"></script>
 <script>
-  if(document.cookie.includes('sign_status=1')) {
+  if(document.cookie.includes('sign_status=1') && document.getElementById('signInButton')) {
       document.getElementById('signInButton').text = 'Go to Dashboard';
       document.getElementById('signInButton').href = 'https://dashboard.remoteteam.com';
       document.getElementById('loginButton').remove();
