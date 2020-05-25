@@ -10,51 +10,33 @@
 
     <!-- Feature Section -->
 
-    <section class="section white-background" id="features">
-      <div class="container">
-        <header class="section-header">
-          <h2>Products</h2>
-          <hr>
-          <p class="lead-p">Automated Payrolls, Time Off, HR Tools, and Compliance Made Simple for Remote Teams</p>
-        </header>
-        <div class="row gap-y text-center">
-          <div class="col-md-6 col-xl-3 feature-1">
-            <h3>
-              <a href="#payrolls">Payrolls</a>
-            </h3>
-            <p class="text-muted">
-              Automate Payrolls for your remote team
-            </p>
-          </div>
-
-          <div class="col-md-6 col-xl-3 feature-2">
-            <h3><a href="#time-off">Time Off</a></h3>
-            <p class="text-muted">
-              Easily manage time-off
-            </p>
-          </div>
-
-          <div class="col-md-6 col-xl-3 feature-3">
-            <h3><a href="#hr-tools">HR Tools</a></h3>
-            <p class="text-muted">
-              Make your remote team feel closer to each other
-            </p>
-          </div>
-
-          <div class="col-md-6 col-xl-3 feature-4">
-            <h3><a href="#compliance">Compliance</a></h3>
-            <p class="text-muted">
-              Tax Compliance for a Global Workforce
-            </p>
-          </div>
-
-          <div class="col-md-11 mx-auto align-self-end">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579546388/www/main_general_ppakmj.jpg"
-              alt="Time Off" class="mt-4">
+    {{ if .Site.Data.homepage.product.enable }}
+    {{ with .Site.Data.homepage.product }}
+      <section class="section white-background" id="features">
+        <div class="container">
+          <header class="text-center">
+            <h2>{{ .title }}</h2>
+            <hr>
+            <p class="lead-p">{{ .description }}</p>
+          </header>
+          <div class="row gap-y text-center">
+            {{ range .item }}
+                <div class="col-md-6 col-xl-3 feature-4">
+                  <h3><a href="{{ .URL }}">{{ .title }}</a></h3>
+                  <p class="text-muted">
+                    {{ .description }}
+                  </p>
+                </div>
+            {{ end }}
+            <div class="col-md-11 mx-auto align-self-end">
+              <img loading="lazy"
+                src="{{ .featured_image }}"
+                alt="{{ .title }}" class="mt-4">
+            </div>
           </div>
         </div>
-      </div>
+    {{ end }}
+  {{ end }}
 
 
       <!-- Payroll Section -->

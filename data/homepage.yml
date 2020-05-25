@@ -2,6 +2,30 @@
 banner:
   title : "Remote Teams made simple."
 
+# client logo slider
+product:
+  enable : true
+  title: "RemoteTeam.com is the Remote OS that makes operating your remote team seamless."
+  description: "Automated Payrolls, Time Off, HR Tools, and Compliance Made Simple for Remote Teams"
+  featured_image: "https://res.cloudinary.com/hebu10lmu/image/upload/q_auto,f_auto,w_1015,c_scale/v1579546388/www/main_general_ppakmj.jpg"
+  item:
+    - logo : "Automate Payrolls for your remote team"
+      title: "Payrolls"
+      URL : "#payrolls"
+
+    - logo : "Easily manage time-off"
+      title: "Time Off"
+      URL : "#time-off"
+    
+    - logo : "Make your remote team feel closer to each other"
+      title: "HR Tools"
+      URL : "#hr-tools"
+    
+    - logo : "Tax Compliance for a Global Workforce"
+      title: "Compliance"
+      URL : "#compliance"
+
+
 # hr_tools
 hr_tools:
   enable : true
