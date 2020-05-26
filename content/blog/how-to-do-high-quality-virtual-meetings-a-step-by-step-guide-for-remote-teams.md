@@ -13,7 +13,7 @@ description: Whether you’re working remotely out of the blue or you’ve been 
 
 Whether you’re working remotely out of the blue or you’ve been a remote team for many years, an important asset of your team is virtual meetings. And now that many teams are forced to work from home as a result of the Corona Virus, virtual meetings have become more important than ever.
 
-From collaborating on projects to listening to your team members’ personal experiences, a lot of things happen over virtual meetings. How you plan and do yours could make a break for your distributed team. A <a href="https://snacknation.com/blog/effective-virtual-meetings/" target="_blank" rel="noopener noreferrer">high-quality virtual meeting</a> is one that brings the highest value to the entire team and also makes every participant happy.
+From collaborating on projects to listening to your team members’ personal experiences, a lot of things happen over virtual meetings. How you plan and do yours could make a break for your distributed team. A <a href="https://snacknation.com/blog/effective-virtual-meetings/" target="_blank">high-quality virtual meeting</a> is one that brings the highest value to the entire team and also makes every participant happy.
 
 The question is, how do you achieve this high quality in your virtual meetings? While you may see it to be simple as just opening zoom or your favorite video meeting tool and starting, it actually takes more effort than this.
 
