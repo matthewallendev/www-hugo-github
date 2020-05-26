@@ -41,7 +41,7 @@ Chanty is an AI-powered tool that is available on mobile and desktop.
  	<li>Telegram</li>
 </ul>
 <h2>Toos for virtual meetings - video and audio calls</h2>
-Chat isn’t going to get everything done in your team, and that’s when video conferencing comes in. whenever you need to get on a video call with your team, either one person or the entire team, here are the tools to get you going.
+Chat isn’t going to get everything done in your team, and that’s when <a href="https://snacknation.com/blog/best-conference-call-services/" target="_blank">video conferencing</a> come in. whenever you need to get on a video call with your team, either one person or the entire team, here are the tools to get you going.
 <h4>1. <a href="https://www.skype.com/en/" target="_blank" rel="noopener noreferrer">Skype</a></h4>
 For those looking for something to handle a small team video conference, Skype has you covered. Its free version is available on mobile, desktop or on the web for teams to do video calling, screen sharing, and video call recording among others.
 <h4>2. <a href="https://zoom.us/" target="_blank" rel="noopener noreferrer">Zoom</a></h4>
