@@ -30,7 +30,7 @@ To decrease the time spent on the road, people decide where they can live better
 
 ![](https://res.cloudinary.com/hebu10lmu/image/upload/v1574675716/content/what-is-a-remote-work/andrew-neel-cckf4TsHAuw-unsplash-1024x683_igoopz.jpg)
 
-Remote work helps people to have healthier mental and physical state. Remote workers ended up having more time for themselves by cutting down the commute time. Instead of going from home to work every morning, you just wake up and go to your living room. If you want, you may take your morning coffee from your kitchen. 
+<p><a href="https://snacknation.com/blog/companys-onboarding-program-can-delight-remote-workers/" target="_blank">Remote work</a> helps people to have a healthier mental and physical state. Remote workers ended up having more time for themselves by cutting down the commute time. Instead of going from home to work every morning, you just wake up and go to your living room. If you want, you may take your morning coffee from your kitchen. 
 
 In addition to these, sometimes offices may be quite noisy and you might be distracted couple of times a day. In the case of remote working, you will have the freedom to set the best environment to work for yourself.&nbsp;Find and establish your most efficient work environment! 
 
