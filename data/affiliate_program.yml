@@ -5,7 +5,9 @@ sections:
       title : "Let's make the world more remote together!"
       description : "We want to teach the world remote work is the future. There are still %99 
             companies are not remote, there is so much work to do together. Join our
-            program and change the world with us!"
+            program and change the world with us!
+            <br />
+            <a target='_blank' href='https://remoteteam.tapfiliate.com/'><strong>Login Your Affiliate Account</strong></a>"
       cta : false
       view: "TextImageCentered"
     
