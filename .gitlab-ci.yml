@@ -9,6 +9,9 @@ stages:
 
 
 buildStaging:
+  tags:
+    - node
+
   stage: build
   script:
     # Run hugo with a different baseURL to ensure links work in the staging site, and flag to include drafts and future posts
