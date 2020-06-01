@@ -201,10 +201,11 @@
             {{ range .content }}
                 <div class="col-md-6 col-xl-4 my-4 text-left feature-1">
                   <div class="media p-1">
-                    <div class="lead-6 line-height-1 text-dark w-70px">
-                     <img src="{{ .image }}"  loading="lazy"  alt="{{ .title }}"
-                      class="ml-2" />
-                    </div>
+                    {{ if .image }}
+                        <div class="lead-6 line-height-1 text-dark w-70px">
+                          <img src="{{ .image }}"  loading="lazy"  alt="{{ .title }}" class="ml-2" />
+                        </div>
+                    {{ end }}
                     <div class="media-body">
                       <h3 class="lead-2">{{ .title }}</h3>
                       <p class="text-muted">
