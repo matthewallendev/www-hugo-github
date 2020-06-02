@@ -21,7 +21,7 @@
   function getURLforOptimizedWidth(path) {
     var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
 
-    var cloudinaryRoot = "https://res.cloudinary.com/hzynudzjs/video/upload";
+    var cloudinaryRoot = "https://image-cdn.remoteteam.io/hzynudzjs/video/upload";
 
     var browserSize = window.innerWidth;
     
@@ -40,7 +40,7 @@
     }
     var fullUrl =
       cloudinaryRoot +
-      "/q_auto,vc_auto,w_" +
+      "/q_auto,w_" +
       videoWidthForDisplay +
       "/dpr_" +
       dpr +
