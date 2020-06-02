@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+  {{ partial "page-headline.html" . }}
+
+  <section class="section bg-gray overflow-hidden align-items-center py-8">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1">
+          <h2 class="mb-6 h3">
+            TransferWise
+          </h2>
+          <p>
+            TransferWise supports international payment options to 59 countries with over 6 million active members.
+            TransferWise is easy to use, fast, secure and transparent on each step of your payments. Start setting an
+            international borderless account, automate your payrolls every month with TransferWise for your remote team
+            now.
+          </p>
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2">
+          <!-- <img src=" money-transfer.png"  loading="lazy"  alt="Pay your remote employees for
+          work-related expenditure" > -->
+
+          <div class="d-flex align-items-center h-100 p-6">
+            <img src="
+              https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580834667/www/tw_horizontal_blue_navy_rgb_mxkivv.svg"
+             loading="lazy"  alt="Pay your remote employees for work-related expenditure" >
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-gray overflow-hidden align-items-center py-8">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1">
+          <h2 class="mb-6 h3">
+            Payoneer
+            <br>
+            <small>Private Beta</small>
+          </h2>
+          <p>
+            Payoneer supports millions of businesses and professionals from more than 200 countries through cross-border
+            payments platform. Payoneer is fast, flexible, secure and offers low-cost solutions for your business with
+            more than 4 million members worldwide.
+          </p>
+
+          {{ partial "cta-button.html" . }}
+        </div>
+        <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2">
+          <div class="d-flex align-items-center h-100 p-6">
+            <img src="
+              https://res.cloudinary.com/hebu10lmu/image/upload/w_560,f_auto,q_auto/v1580834503/www/Payoneer_logo_k13tiq.svg"
+               loading="lazy"  alt="Pay your remote employees for work-related expenditure" >
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-gray overflow-hidden align-items-center py-8">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1">
+          <h2 class="mb-6 h3">
+            ACH
+            <br>
+            <small>Private Beta</small>
+          </h2>
+
+          <p>
+            Can’t use our TransferWise or Payoneer payment options? Don’t worry. ACH payment option allows you to pay
+            your employees directly using your US bank account. You can make payments to 220 countries from the United
+            States with one click, allowing you to pay your remote team instantly regardless of their country.
+          </p>
+          {{ partial "cta-button.html" . }}
+        </div>
+
+        <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2">
+          <!-- <img src=" money-feedback.png"  loading="lazy"  alt="Pay your remote employees for
+          work-related expenditure" > -->
+          <div class="d-flex align-items-center h-100 p-6">
+            <img src="
+              https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,w_560/v1580834507/www/ACH_h27vok.png"
+             loading="lazy"  alt="Pay your remote employees for work-related expenditure" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-gray overflow-hidden align-items-center py-8">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-6 align-self-center text-center text-md-left order-md-2 order-sm-1 order-xs-1">
+          <h2 class="mb-6 h3">
+            Manual Payment Tracking
+          </h2>
+          <p>
+            Organize and keep track of all the payments that occurred for your business. Record payments that happened
+            outside the RemoteTeam, add the currency in which the payment was made, and view all outside payments in one
+            dashboard. Keep your business payments altogether for better decision making on how much you spend.
+          </p>
+
+          {{ partial "cta-button.html" . }}
+        </div>
+        <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-1 order-sm-2 order-xs-2">
+          <!-- <img src=" money-feedback.png"  loading="lazy"  alt="Pay your remote employees for
+          work-related expenditure" > -->
+          <div class="d-flex align-items-center justify-content-center h-100 p-6">
+            <span class="icon-manual-payment icon-image"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{{ end }}
