@@ -1,0 +1,435 @@
+{{ define "main" }}
+
+  {{ partial "page-headline.html" . }}
+
+  <section class="section bg-gray">
+    <div class="container">
+      <div class="row gap-y text-center">
+        <div class="col-12">
+          <ul class="nav nav-tabs-outline nav-separated" role="tablist">
+            <li class="nav-item">
+              <a class="custom-tab active show" data-toggle="tab" href="#all-apps">All Apps</a>
+            </li>
+            <li class="nav-item">
+              <a class="custom-tab" data-toggle="tab" href="#time-tracking">Time Tracking</a>
+            </li>
+            <li class="nav-item">
+              <a class="custom-tab" data-toggle="tab" href="#payment">Payment</a>
+            </li>
+            <li class="nav-item">
+              <a class="custom-tab" data-toggle="tab" href="#payroll">Payroll</a>
+            </li>
+            <li class="nav-item">
+              <a class="custom-tab" data-toggle="tab" href="#management">Management</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <div class="tab-content p-4">
+            <div class="tab-pane fade active show" id="all-apps">
+              <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580394123/www/Group_jjletb.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Transferwise</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Integrate TransferWise API, two-way sync your team members, automate your payrolls now.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=transferwise" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829811/www/app%20%C4%B1cons/Frame_6_yv7pmf.png"
+                      loading="lazy"  alt="Documents Logo" />
+                    <span class="fw-700 app-name mb-0">Time Off</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create customized time-off policies, assign policies to specific employees, calculate payrolls with dedicated times.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=time-off" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829801/www/app%20%C4%B1cons/Frame_4_urnqfn.png"
+                      loading="lazy"  alt="Time-off Logo" />
+                    <span class="fw-700 app-name mb-0">Documents</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Make acknowledgements, upload or request a document or get a sign from an employee. Create a document filling template.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=documents" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829802/www/app%20%C4%B1cons/Frame_7_vdgrjh.png"
+                      loading="lazy"  alt="Team App Logo" />
+                    <span class="fw-700 app-name mb-0">Team App</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create teams & departments faster with team app. Assign who is responsible for reporting to who.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=team-app" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829802/www/app%20%C4%B1cons/Frame_7_vdgrjh.png"
+                      loading="lazy"  alt="Check-In App Logo" />
+                    <span class="fw-700 app-name mb-0">Check-In App</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Get notified about check-in and check-out times of your employees. Focus on team productivity.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=check-in-app" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_12_bmvqfq.png"
+                      loading="lazy"  alt="Additional Earnings Logo" />
+                    <span class="fw-700 app-name mb-0">Additional Earnings</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Apply additional earning to employees compensations occurred for your business.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=additional-earnings" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829811/www/app%20%C4%B1cons/Frame_11_jmmpex.png"
+                      loading="lazy"  alt="Additional Deductions Logo" />
+                      <span class="fw-700 app-name mb-0">Additional Deductions</span>
+                      <div class="hr"></div>
+                    <small class="font-size-14">Apply monthly deductions to employees compensations.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=additional-deductions" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829807/www/app%20%C4%B1cons/Frame_8_sdlch8.png"
+                      loading="lazy"  alt="Reimbursements Logo" />
+                    <span class="fw-700 app-name mb-0">Reimbursements</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Employees can request reimbursements. After an admin approves reimbursement amount, it could be added to compensation.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=reimbursements" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829807/www/app%20%C4%B1cons/Frame_9_kh69rg.png"
+                      loading="lazy"  alt="Private Notes Logo" />
+                    <span class="fw-700 app-name mb-0">Private Notes</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Add private notes to employees only can be seen by admins.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=private-notes" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_3_qyhqxv.png"
+                      loading="lazy"  alt="Inventories Logo" />
+                    <span class="fw-700 app-name mb-0">Inventories</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create customized fields and track all inventories of your company.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=inventories" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829806/www/app%20%C4%B1cons/Frame_10_kzh6pv.png"
+                      loading="lazy"  alt="Granted Accounts Logo" />
+                    <span class="fw-700 app-name mb-0">Granted Accounts</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Track which accounts associated with employee.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=granted-accounts" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_13_ef6cml.png"
+                      loading="lazy"  alt="Manual Payment Logo" />
+                    <span class="fw-700 app-name mb-0">Manual Payment</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Add all payments occurred outside your RemoteTeam. Add your bank account, track your business expenditures.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=manual-payment" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829805/www/app%20%C4%B1cons/Frame_5_hzyf1l.png"
+                      loading="lazy"  alt="Time-off Logo" />
+                    <span class="fw-700 app-name mb-0">Tax Compliance</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Streamline W-8BEN, W-8BEN-E, W9, 1099 Misc process with digital tax form collection, validation and payouts.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=tax-compliance" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580392344/www/icon_400x400_1_dtbcnw.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Desktime</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Connect Desktime API, use two way-sync to add team members, focus on team performance.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=desktime" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580392345/www/pngfind.com-tracking-icon-png-3504373_1_gs9cyy.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Toggl</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Connect Toggl API, add team member instantly with two-way sync, start measuring productivity.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=toggl" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="time-tracking">
+              <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829802/www/app%20%C4%B1cons/Frame_7_vdgrjh.png"
+                      loading="lazy"  alt="Check-In App Logo" />
+                    <span class="fw-700 app-name mb-0">Check-In App</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Get notified about check-in and check-out times of your employees. Focus on team productivity.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=check-in-app" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580392344/www/icon_400x400_1_dtbcnw.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Desktime</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Connect Desktime API, use two way-sync to add team members, focus on team performance.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=desktime" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580392345/www/pngfind.com-tracking-icon-png-3504373_1_gs9cyy.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Toggl</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Connect Toggl API, add team member instantly with two-way sync, start measuring productivity.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=toggl" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="payment">
+              <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_13_ef6cml.png"
+                      loading="lazy"  alt="Manual Payment Logo" />
+                    <span class="fw-700 app-name mb-0">Manual Payment</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Add all payments occurred outside your RemoteTeam. Add your bank account, track your business expenditures.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=manual-payment" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580394123/www/Group_jjletb.png"
+                      loading="lazy"  alt="Desktime Logo" />
+                    <span class="fw-700 app-name mb-0">Transferwise</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Integrate TransferWise API, two-way sync your team members, automate your payrolls now.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=transferwise" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="payroll">
+              <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_12_bmvqfq.png"
+                      loading="lazy"  alt="Additional Earnings Logo" />
+                    <span class="fw-700 app-name mb-0">Additional Earnings</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Apply additional earning to employees compensations occurred for your business.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=additional-earnings" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829811/www/app%20%C4%B1cons/Frame_11_jmmpex.png"
+                      loading="lazy"  alt="Additional Deductions Logo" />
+                      <span class="fw-700 app-name mb-0">Additional Deductions</span>
+                      <div class="hr"></div>
+                    <small class="font-size-14">Apply monthly deductions to employees compensations.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=additional-deductions" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829807/www/app%20%C4%B1cons/Frame_8_sdlch8.png"
+                      loading="lazy"  alt="Reimbursements Logo" />
+                    <span class="fw-700 app-name mb-0">Reimbursements</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Employees will able to request reimbursements. After admin approve
+                      reimbursement amount could be add to compensation.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=reimbursements" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829811/www/app%20%C4%B1cons/Frame_6_yv7pmf.png"
+                      loading="lazy"  alt="Time-off Logo" />
+                    <span class="fw-700 app-name mb-0">Time Off</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create customized time-off policies, assign policies to specific employees, calculate payrolls with dedicated times.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=time-off" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="management">
+              <div class="row no-gutters">
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829801/www/app%20%C4%B1cons/Frame_4_urnqfn.png"
+                      loading="lazy"  alt="Documents Logo" />
+                    <span class="fw-700 app-name mb-0">Documents</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Make acknowledgements, upload or request a document or get a sign from an employee. Create a document filling template.</small>
+                      <a href="http://dashboard.remoteteam.com/?redirect_app=documents" class="btn btn-primary btn-sm">
+                        Use Now
+                      </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829802/www/app%20%C4%B1cons/Frame_7_vdgrjh.png"
+                      loading="lazy"  alt="Team App Logo" />
+                    <span class="fw-700 app-name mb-0">Team App</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create teams & departments faster with team app. Assign who is responsible for reporting to who.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=team-app" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829807/www/app%20%C4%B1cons/Frame_9_kh69rg.png"
+                      loading="lazy"  alt="Private Notes Logo" />
+                    <span class="fw-700 app-name mb-0">Private Notes</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Add private notes to employees only can be seen by admins.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=private-notes" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829810/www/app%20%C4%B1cons/Frame_3_qyhqxv.png"
+                      loading="lazy"  alt="Inventories Logo" />
+                    <span class="fw-700 app-name mb-0">Inventories</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Create customized fields and track all inventories of your company.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=inventories" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-3">
+                  <div class="app-card border" href="#">
+                    <img src="
+                      https://res.cloudinary.com/hebu10lmu/image/upload/c_scale,f_auto,q_auto,h_140/v1580829806/www/app%20%C4%B1cons/Frame_10_kzh6pv.png"
+                      loading="lazy"  alt="Granted Accounts Logo" />
+                    <span class="fw-700 app-name mb-0">Granted Accounts</span>
+                    <div class="hr"></div>
+                    <small class="font-size-14">Track which accounts associated with employee.</small>
+                    <a href="http://dashboard.remoteteam.com/?redirect_app=granted-accounts" class="btn btn-primary btn-sm">
+                      Use Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+{{ end }}

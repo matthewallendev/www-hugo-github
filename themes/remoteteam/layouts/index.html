@@ -10,33 +10,81 @@
 
     <!-- Feature Section -->
 
-    {{ if .Site.Data.homepage.product.enable }}
-    {{ with .Site.Data.homepage.product }}
-      <section class="section white-background" id="features">
-        <div class="container">
-          <header class="text-center">
-            <h2>{{ .title }}</h2>
-            <hr>
-            <p class="lead-p">{{ .description }}</p>
-          </header>
-          <div class="row gap-y text-center">
-            {{ range .item }}
-                <div class="col-md-6 col-xl-3 feature-4">
-                  <h3><a href="{{ .URL }}">{{ .title }}</a></h3>
-                  <p class="text-muted">
-                    {{ .description }}
-                  </p>
+
+
+    <section class="bg-gray">
+      <div class="container">
+        <div class="row ">
+          <div
+            class="col-md-6 align-self-center text-center text-md-left order-md-1 order-sm-1 order-xs-1"
+          >
+            <header>
+              <h2>Operating a remote team is really hard</h2>
+              <div class="row gap-y">
+
+            
+                <div class="col-12 col-md-6 col-xl-6 my-4">
+                  <div class="media p-1">
+                    <div class="media-body">
+                      <p class="text-muted">
+                        %99 of employees want to work remotely
+                      </p>
+                    </div>
+                  </div>
                 </div>
-            {{ end }}
-            <div class="col-md-11 mx-auto align-self-end">
-              <img loading="lazy"
-                src="{{ .featured_image }}"
-                alt="{{ .title }}" class="mt-4">
-            </div>
+              
+                <div class="col-12 col-md-6 col-xl-6 my-4">
+                  <div class="media p-1">
+                    <div class="media-body">
+                      <p class="text-muted">
+                        Monthly Team Performance Reporting
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              
+            
+          </div>
+            </header>
+          </div>
+
+          <div class="col-md-6 mx-auto text-center mt-2 p-2 px-sm-2 mt-md-0 order-md-2 order-sm-2 order-xs-2 m-2">
+            <img src="/assets/img/remote_flow_1.png" alt="">
           </div>
         </div>
-    {{ end }}
-  {{ end }}
+      </div>
+    </section>
+
+    
+
+
+    <!-- {{ if .Site.Data.homepage.product.enable }}
+    {{ with .Site.Data.homepage.product }}
+        <section class="section white-background" id="features">
+          <div class="container">
+            <header class="text-center">
+              <h2>{{ .title }}</h2>
+              <hr>
+              <p class="lead-p">{{ .description }}</p>
+            </header>
+            <div class="row gap-y text-center">
+              {{ range .item }}
+                  <div class="col-md-6 col-xl-3 feature-4">
+                    <h3><a href="{{ .URL }}">{{ .title }}</a></h3>
+                    <p class="text-muted">
+                      {{ .description }}
+                    </p>
+                  </div>
+              {{ end }}
+              <div class="col-md-11 mx-auto align-self-end">
+                <img loading="lazy"
+                  src="{{ .featured_image }}"
+                  alt="{{ .title }}" class="mt-4">
+              </div>
+            </div>
+          </div>
+      {{ end }}
+    {{ end }} -->
 
 
       <!-- Payroll Section -->
