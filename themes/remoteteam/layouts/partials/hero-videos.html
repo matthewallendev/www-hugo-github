@@ -1,6 +1,4 @@
-<div
-  class="hero-video-section"
-  style="
+<div class="hero-video-section" style="
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,12 +9,24 @@
     z-index: -1111;
     background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/q_auto/v1588459798/world/v2/Scene_1_s9h7qw.png);
     background-size: cover;
-  "
-></div>
+  "></div>
 
 <script>
   document.body.style.cssText =
     "background-color: rgb(207,230,232); background-image: radial-gradient(circle, rgba(207,230,232,1) 0%, rgba(227,231,232,1) 32%, rgba(205,232,231,1) 48%, rgba(226,232,232,1) 52%, rgba(167,209,208,1) 95%); background-image: url(https://res.cloudinary.com/hzynudzjs/video/upload/f_auto,q_auto/v1588459798/world/v2/Scene_1_s9h7qw.png); background-size: cover;";
+
+  var videoCanPlay = true;
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > window.innerHeight) {
+      videoCanPlay = false;
+    } else {
+      videoCanPlay = true;
+
+      if (nextVideo) {
+        nextVideo.play();
+      }
+    }
+  })
 
   function getURLforOptimizedWidth(path) {
     var isChrome = !!window.chrome && (!!window.chrome.webstore || !!window.chrome.runtime);
@@ -24,19 +34,19 @@
     var cloudinaryRoot = "https://image-cdn.remoteteam.io/hzynudzjs/video/upload";
 
     var browserSize = window.innerWidth;
-    
+
     var dpr = 1;
-    if(window.devicePixelRatio && window.devicePixelRatio > 1 ){
+    if (window.devicePixelRatio && window.devicePixelRatio > 1) {
       dpr = 2;
     };
 
     var videoWidthForDisplay = 640;
-    if(browserSize && browserSize > 960){
-        videoWidthForDisplay = 1280;
-    } else if(browserSize && browserSize > 640){
-        videoWidthForDisplay = 960;
-    }else if(browserSize && browserSize > 320){
-        videoWidthForDisplay = 640;
+    if (browserSize && browserSize > 960) {
+      videoWidthForDisplay = 1280;
+    } else if (browserSize && browserSize > 640) {
+      videoWidthForDisplay = 960;
+    } else if (browserSize && browserSize > 320) {
+      videoWidthForDisplay = 640;
     }
     var fullUrl =
       cloudinaryRoot +
@@ -46,7 +56,7 @@
       dpr +
       ".0" +
       path + (isChrome ? ".webm" : ".mp4");
-    
+
     return fullUrl;
   }
 
@@ -115,7 +125,7 @@
   document.addEventListener("DOMContentLoaded", function () {
     initVideoElement(videoObjects[0]);
     initVideoElement(videoObjects[1]);
-  
+
     videoObjects[0].autoplay = false;
     videoObjects[0].muted = true;
     videoObjects[0].src = videoSourceList[nextActiveVideo];
@@ -152,7 +162,10 @@
     video.onended = function (e) {
       this.style.display = 'none';
       nextVideo.style.display = 'block';
-      nextVideo.play();
+
+      if (videoCanPlay && nextVideo) {
+        nextVideo.play();
+      }
     };
   }
 </script>
