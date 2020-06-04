@@ -16,7 +16,7 @@ buildStaging:
   script:
     # Run hugo with a different baseURL to ensure links work in the staging site, and flag to include drafts and future posts
     # - hugo --minify --baseURL http://$AWS_S3_Staging_Bucket.s3-website.$AWS_DEFAULT_REGION.amazonaws.com/ --buildDrafts --buildFuture
-    - hugo --minify --baseURL https://remoteteam.com --buildDrafts --buildFuture
+    - hugo --minify --baseURL https://www.remoteteam.com --buildDrafts --buildFuture
   
   artifacts:
     paths:
