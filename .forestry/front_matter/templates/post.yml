@@ -23,3 +23,10 @@ fields:
 - type: file
   name: image
   label: image
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types: []
+  config:
+    min: 
+    max: 
