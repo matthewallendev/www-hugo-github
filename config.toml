@@ -2,7 +2,8 @@
 baseURL = "https://www.remoteteam.com"
 languageCode = "en-us"
 summaryLength = "10"
-theme = "remoteteam"
+theme = "sawmill"
+#theme = "remoteteam"
 title = "Remote Team | Remote Team is an HR platform for “Remote First” teams. Our fully-integrated platform automates payroll, payments and HR tasks."
 description = "Remote Team is an HR platform for “Remote First” teams. Our fully-integrated platform automates payroll, payments and HR tasks."
 
